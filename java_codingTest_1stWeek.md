@@ -18,6 +18,16 @@
 | problem 8. | [https://school.programmers.co.kr/learn/courses/30/lessons/178871](https://school.programmers.co.kr/learn/courses/30/lessons/178871) |
 | problem 9. | [https://school.programmers.co.kr/learn/courses/30/lessons/176963](https://school.programmers.co.kr/learn/courses/30/lessons/176963) |
 | problem 10. | [https://school.programmers.co.kr/learn/courses/30/lessons/172928](https://school.programmers.co.kr/learn/courses/30/lessons/172928) |
+| problem 11. | [https://school.programmers.co.kr/learn/courses/30/lessons/161990](https://school.programmers.co.kr/learn/courses/30/lessons/161990) |
+| problem 12. | [https://school.programmers.co.kr/learn/courses/30/lessons/161989](https://school.programmers.co.kr/learn/courses/30/lessons/161989) |
+| problem 13. | [https://school.programmers.co.kr/learn/courses/30/lessons/160586](https://school.programmers.co.kr/learn/courses/30/lessons/160586) |
+| problem 14. | [https://school.programmers.co.kr/learn/courses/30/lessons/159994](https://school.programmers.co.kr/learn/courses/30/lessons/159994) |
+| problem 15. | [https://school.programmers.co.kr/learn/courses/30/lessons/155652](https://school.programmers.co.kr/learn/courses/30/lessons/155652) |
+| problem 16. | [https://school.programmers.co.kr/learn/courses/30/lessons/150370](https://school.programmers.co.kr/learn/courses/30/lessons/150370) |
+| problem 17. | [https://school.programmers.co.kr/learn/courses/30/lessons/147355](https://school.programmers.co.kr/learn/courses/30/lessons/147355) |
+| problem 18. | [https://school.programmers.co.kr/learn/courses/30/lessons/142086](https://school.programmers.co.kr/learn/courses/30/lessons/142086) |
+| problem 19. | [https://school.programmers.co.kr/learn/courses/30/lessons/140108](https://school.programmers.co.kr/learn/courses/30/lessons/140108) |
+| problem 20. | [https://school.programmers.co.kr/learn/courses/30/lessons/138477](https://school.programmers.co.kr/learn/courses/30/lessons/138477) |
 
 ## 문제 해설
 
@@ -30,39 +40,83 @@ problem 1 :
 
 <br/> 
 
-problem 2 : 
+Problem 1: 
 <br />
 <br />
 <br />
-problem 3 : 
+Problem 2: 
 <br />
 <br />
 <br />
-problem 4 :
+Problem 3: 
 <br />
 <br />
 <br />
-problem 5 :
+Problem 4: 
 <br />
 <br />
 <br />
-problem 6 : 
+Problem 5: 
 <br />
 <br />
 <br />
-problem 7 : 
+Problem 6: 
 <br />
 <br />
 <br />
-problem 8 : 
+Problem 7: 
 <br />
 <br />
 <br />
-problem 9 :
+Problem 8: 
 <br />
 <br />
 <br />
-problem 10 :
+Problem 9: 
+<br />
+<br />
+<br />
+Problem 10: 
+<br />
+<br />
+<br />
+Problem 11: 
+<br />
+<br />
+<br />
+Problem 12: 
+<br />
+<br />
+<br />
+Problem 13: 
+<br />
+<br />
+<br />
+Problem 14: 
+<br />
+<br />
+<br />
+Problem 15: 
+<br />
+<br />
+<br />
+Problem 16: 
+<br />
+<br />
+<br />
+Problem 17: 
+<br />
+<br />
+<br />
+Problem 18: 
+<br />
+<br />
+<br />
+Problem 19: 
+<br />
+<br />
+<br />
+Problem 20: 
 <br />
 <br />
 <br />
