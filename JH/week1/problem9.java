@@ -3,7 +3,7 @@ package week1;
 // import java.util.Arrays;
 import java.util.HashMap;
 
-public class prolem9 {
+public class problem9 {
 
 
     class Solution {
