@@ -46,13 +46,11 @@ class Solution{
         // System.out.println(park[2][2].equals("-1"));
         return answer;
     }
+
 }
 
-int max1(int a, int b){
-    return (a>b)? a : b; 
-}
 
-class problem3 {
+public class problem3 {
     public static void main(String[] args) {
         
     }
