@@ -1,8 +1,7 @@
 package week1;
 
-import java.io.StringReader;
+
 import java.util.ArrayDeque;
-import java.util.Arrays;
 import java.util.Deque;
  
 
@@ -124,3 +123,4 @@ public class problem16 {
 
     }
 }
+
