@@ -3,7 +3,7 @@ package week1;
 public class problem11 {
     class Solution {
         public int[] solution(String[] wallpaper) {
-             int y_min = wallpaper.length;
+            int y_min = wallpaper.length;
             int y_max = 0;
             int x_min = wallpaper[0].length();
             int x_max = 0;
