@@ -1,4 +1,4 @@
-# Java_coding_factory : First Week
+# Java_coding_factory : Second Week
 
 ---
 
@@ -30,7 +30,7 @@
 
 ## 문제 해설
 
-problem 1 :   
+problem 20:   
 
 - 문제 이해 → 풀이 방향 : 구현, 연산 3개를 구현하는 부분이 까다로울 수도 있을 거 같다.
 - 사용한 자료구조 & 시간복잡도 : O(N)
@@ -39,83 +39,83 @@ problem 1 :
 
 <br/> 
 
-Problem 1: 
+Problem 21: 
 <br />
 <br />
 <br />
-Problem 2: 
+Problem 22: 
 <br />
 <br />
 <br />
-Problem 3: 
+Problem 23: 
 <br />
 <br />
 <br />
-Problem 4: 
+Problem 24: 
 <br />
 <br />
 <br />
-Problem 5: 
+Problem 25: 
 <br />
 <br />
 <br />
-Problem 6: 
+Problem 26: 
 <br />
 <br />
 <br />
-Problem 7: 
+Problem 27: 
 <br />
 <br />
 <br />
-Problem 8: 
+Problem 28: 
 <br />
 <br />
 <br />
-Problem 9: 
+Problem 29: 
 <br />
 <br />
 <br />
-Problem 10: 
+Problem 30: 
 <br />
 <br />
 <br />
-Problem 11: 
+Problem 31: 
 <br />
 <br />
 <br />
-Problem 12: 
+Problem 32: 
 <br />
 <br />
 <br />
-Problem 13: 
+Problem 33: 
 <br />
 <br />
 <br />
-Problem 14: 
+Problem 34: 
 <br />
 <br />
 <br />
-Problem 15: 
+Problem 35: 
 <br />
 <br />
 <br />
-Problem 16: 
+Problem 36: 
 <br />
 <br />
 <br />
-Problem 17: 
+Problem 37: 
 <br />
 <br />
 <br />
-Problem 18: 
+Problem 38: 
 <br />
 <br />
 <br />
-Problem 19: 
+Problem 39: 
 <br />
 <br />
 <br />
-Problem 20: 
+Problem 40: 
 <br />
 <br />
 <br />
