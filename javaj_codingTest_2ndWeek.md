@@ -2,8 +2,7 @@
 
 ---
 
-## Solving Programmers level 1 Problems (1) : 1 - 10
-
+## Solving Programmers level 1 Problems (2) : 21 - 40
 ## Problems and Links
 
 | 문제  | URL |
