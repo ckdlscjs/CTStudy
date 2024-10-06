@@ -30,12 +30,17 @@ Problem 21: </br>
 -O(N*logN) </br>
 -number를 기준으로 1까지 약수를 구한다, std::sqrt 제곱근을 이용해 약수를 찾는시간을 줄이고 answer에더한다
 
+Problem 22: </br>
+-O(N) </br>
+-내림차순으로 소팅, i*m-1인덱스(가장작은값)으로 m개중 가장 작은값을 기준으로 *m하여 더한다
 
-Problem 22: 
-
-Problem 23: 
+Problem 23:  </br>
+-O(N*M) </br>
+-재귀로구현, food의길이 * 원소의갯수
 
 Problem 24: 
+-O(8*N(N)) </br>
+-스택으로구현, top이 1일때 체크하여 1321이면 스택에서제거, 아닐시 다시push
 
 Problem 25: 
 
