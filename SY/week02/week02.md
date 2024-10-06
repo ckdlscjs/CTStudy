@@ -26,8 +26,6 @@
 
 ## 문제 해설
 
-problem 20:   
-
 Problem 21: 
 
 Problem 22: 
