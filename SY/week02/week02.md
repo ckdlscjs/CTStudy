@@ -38,7 +38,7 @@ Problem 23:  </br>
 -O(N*M) </br>
 -재귀로구현, food의길이 * 원소의갯수
 
-Problem 24: 
+Problem 24: </br>
 -O(8*N(N)) </br>
 -스택으로구현, top이 1일때 체크하여 1321이면 스택에서제거, 아닐시 다시push
 
