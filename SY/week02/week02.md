@@ -26,7 +26,10 @@
 
 ## 문제 해설
 
-Problem 21: 
+Problem 21: </br>
+-O(N*logN)
+-number를 기준으로 1까지 약수를 구한다, std::sqrt 제곱근을 이용해 약수를 찾는시간을 줄이고 answer에더한다
+
 
 Problem 22: 
 
