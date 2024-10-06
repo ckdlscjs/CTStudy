@@ -1,12 +1,10 @@
 package week1;
 
-// import java.util.Arrays;
 import java.util.HashMap;
 
 public class problem9 {
-
-
-    class Solution {
+    
+    static class Solution {
         public int[] solution(String[] name, int[] yearning, String[][] photo) {
             HashMap<String, Integer> map = new HashMap<>();
             
@@ -28,11 +26,11 @@ public class problem9 {
             }
             return answer;
         }
-    }   
-
-    public static void main(String[] args) {
+    }
     
-        // System.out.println(Arrays.toString(s.solution(park, routes)));
+    public static void main(String[] args) {
+        HashMap<String, Integer> M = new HashMap<>();
+        System.out.println(M.getOrDefault("ss", 0) > 0);
 
     }
 }

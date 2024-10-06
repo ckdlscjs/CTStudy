@@ -1,5 +1,4 @@
-package week1;
-
+// package week1;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -8,7 +7,7 @@ import java.util.Deque;
 public class problem16 {
     
     static class Solution {
-        
+            
         public String convertTimeToInt(String Time){
             String[] TT = Time.split("\\.");
             String ret = "";
@@ -62,14 +61,14 @@ public class problem16 {
             // 윤년 
             int[] month = new int[12];
 
-            int [] prevSumMonth = new int[month.length];
+//             int [] prevSumMonth = new int[month.length];
                 
-            month[0] = 28;
-            prevSumMonth[0] = month[0];
-            for(int i = 1;i<month.length;i++){
-                month[i] = 28;
-                prevSumMonth[i] = prevSumMonth[i-1] + month[i];
-            }
+//             month[0] = 28;
+//             prevSumMonth[0] = month[0];
+//             for(int i = 1;i<month.length;i++){
+//                 month[i] = 28;
+//                 prevSumMonth[i] = prevSumMonth[i-1] + month[i];
+//             }
             
             // 일수로 바꾸기 
             
@@ -115,6 +114,7 @@ public class problem16 {
             return answer;
         }
     }
+    
     public static void main(String[] args) {
         String[] terms = {"Z 3", "D 5"};
         String[] privacies = {"2019.01.01 D", "2019.11.15 Z", "2019.08.02 D", "2019.07.01 D", "2018.12.28 Z"};
