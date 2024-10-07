@@ -12,14 +12,9 @@ public class problem20 {
             PriorityQueue<Integer> pq = new PriorityQueue<>();
             for(int i = 0;i<score.length;i++){
                 
-                if(pq.size()<k){
-                    pq.add(score[i]);
-                }else{
-                    if(pq.peek() < score[i]){
-                        pq.add(score[i]);    
-                        pq.poll();
-                    }
-                    
+                pq.add(score[i]);
+                if(pq.size()>k){
+                    pq.poll();
                 }
                 
                 if(pq.size()>k){
