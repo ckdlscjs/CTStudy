@@ -76,13 +76,21 @@ Problem 32: </br>
 -O(N) </br>
 -컨테이너의 원소를 양측을기준으로 큰값을 왼쪽에, 작은값을 우측에 두고 이를 기반으로 큰값중제일큰값, 작은값중 제일큰값을 갱신해 곱하면 가능한최대(최소)를 계산가능
 
-Problem 33: 
+Problem 33: </br>
+-O(N) </br>
+-모든합인 45에서 있는수만을 감산
 
-Problem 34: 
+Problem 34: </br>
+-O(N) </br>
+-반복문으로 1부터 더해나가고 최종출력값이 0보다 크다면 계산값, 작으면 추가금액이필요없으므로 0
 
-Problem 35: 
+Problem 35: </br>
+-O(N), find연산 unordered_map의경우 충돌없으면O(1)이므로N </br>
+-미리 컨테이너에 zero~nine까지 문자열 입력해놓고 find로 찾아서 temp값을 비교해가면서 있을경우 answer에 가산, 임시문자열clear
 
-Problem 36: 
+Problem 36: </br>
+-O(N*sqrtN), right-left(N) </br>
+-약수를 제곱근을 이용해 갯수를 찾고 set(hash or tree)를 이용해 중복제거해가면서 삽입, 갯수 계수하여 가/감
 
 Problem 37: 
 
