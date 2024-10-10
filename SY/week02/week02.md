@@ -92,11 +92,16 @@ Problem 36: </br>
 -O(N*sqrtN), right-left(N) </br>
 -약수를 제곱근을 이용해 갯수를 찾고 set(hash or tree)를 이용해 중복제거해가면서 삽입, 갯수 계수하여 가/감
 
-Problem 37: 
+Problem 37: </br>
+-O(N+M) </br>
+-비트마스킹(45개이상이므로 long long int)을 이용해 로또번호를 체크해주고 체크,0체크 카운팅해주어 계산
 
-Problem 38: 
+Problem 38: </br>
+-O(N)
 
-Problem 39: 
+Problem 39: </br>
+-O(N + 7단계반복문) </br>
+-1~2단계 까지 O(N)으로 이터레이터로 순회하면서 문자열변경, 3~6단계까지 조건체크후변경, 7단계 마지막문자반복
 
-Problem 40: 
-
+Problem 40: </br>
+-O(N)
