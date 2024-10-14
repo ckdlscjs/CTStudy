@@ -1,31 +1,54 @@
-//https://school.programmers.co.kr/learn/courses/30/lessons/64061
+//https://school.programmers.co.kr/learn/courses/30/lessons/67256
 #include <bits/stdc++.h>
 using namespace std;
-
-int solution(vector<vector<int>> board, vector<int> moves) 
+std::unordered_map<int, std::pair<int, int>> btns;
+string solution(vector<int> numbers, string hand) 
 {
-    int answer = 0;
-    std::queue<int> q[35];
-    std::stack<int> st_result;
-    for(int i = 0; i < board.size(); i++)
-        for(int j = 0; j < board[0].size(); j++)
-            if(board[i][j])
-                q[j].push(board[i][j]);
-    
-    for(int i = 0; i < moves.size(); i++)
+    btns[10] = {3, 0};
+    btns[0] = {3, 1};
+    btns[11] = {3, 2};
+    int idx = 1;
+    for(int i = 0; i < 3; i++)
+        for(int j = 0; j < 3; j++)
+            btns[idx++] = {i, j};
+            
+    std::pair<int, int> l = btns[10], r = btns[11];
+    string answer = "";
+    for(const auto& iter : numbers)
     {
-        if(q[moves[i]-1].empty())
-            continue;
-        if(st_result.size() && st_result.top() == q[moves[i]-1].front())
+        if(iter == 1 || iter == 4 || iter == 7)
         {
-            st_result.pop();
-            answer += 2;
+            l = btns[iter];
+            answer += 'L';
+        }
+        else if(iter == 3 || iter == 6 || iter == 9)
+        {
+            r = btns[iter];
+            answer += 'R';
         }
         else
         {
-            st_result.push(q[moves[i]-1].front());
+            int dist_l = std::abs(btns[iter].first - l.first) + std::abs(btns[iter].second - l.second);
+            int dist_r = std::abs(btns[iter].first - r.first) + std::abs(btns[iter].second - r.second);
+            if(dist_l == dist_r)
+            {
+                //std::cout <<iter<<"->"<< dist_l <<":"<<dist_r <<'\n';
+                answer += (hand[0] - 'a' + 'A');
+                if(hand[0] - 'a' + 'A' == 'L') l = btns[iter];
+                else r = btns[iter];
+            }
+            else if(dist_l < dist_r)
+            {
+                answer += 'L';
+                l = btns[iter];
+            }
+            else
+            {
+                answer += 'R';
+                r = btns[iter];
+            }
         }
-        q[moves[i]-1].pop();
     }
+    
     return answer;
 }

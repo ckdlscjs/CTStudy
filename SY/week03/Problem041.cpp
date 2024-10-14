@@ -1,11 +1,21 @@
 //https://school.programmers.co.kr/learn/courses/30/lessons/68935
 #include <bits/stdc++.h>
 using namespace std;
-vector<int> solution(vector<int> numbers) 
+
+int solution(int n) 
 {
-    std::set<int> chks;
-    for(int i = 0; i < numbers.size(); i++)
-        for(int j = i+1; j < numbers.size(); j++)
-            chks.insert(numbers[i] + numbers[j]);
-    return std::vector<int>(chks.begin(), chks.end());
+    int answer = 0;
+    std::string str;
+    while(n)
+    {
+        str += n % 3;
+        n /= 3;
+    }
+    int three = 1;
+    for(auto iter = str.rbegin(); iter != str.rend(); iter++)
+    {
+        answer += *iter * three;
+        three *= 3;
+    }
+    return answer;
 }
