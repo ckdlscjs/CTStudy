@@ -3,7 +3,7 @@
 
 ---
 
-## Solving Programmers level 1 Problems (2) : 21 - 40
+## Solving Programmers level 1 Problems (3) : 41 - 60
 ## Problems and Links
 
 | 문제  | URL |
