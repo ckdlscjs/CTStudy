@@ -8,26 +8,26 @@
 
 | 문제  | URL |
 | --- | --- |
-| problem 41. | [https://school.programmers.co.kr/learn/courses/30/lessons/136798](https://school.programmers.co.kr/learn/courses/30/lessons/136798) |
-| problem 42. | [https://school.programmers.co.kr/learn/courses/30/lessons/135808](https://school.programmers.co.kr/learn/courses/30/lessons/135808) |
-| problem 43. | [https://school.programmers.co.kr/learn/courses/30/lessons/134240](https://school.programmers.co.kr/learn/courses/30/lessons/134240) |
-| problem 44. | [https://school.programmers.co.kr/learn/courses/30/lessons/133502](https://school.programmers.co.kr/learn/courses/30/lessons/133502) |
-| problem 45. | [https://school.programmers.co.kr/learn/courses/30/lessons/133499](https://school.programmers.co.kr/learn/courses/30/lessons/133499) |
-| problem 46. | [https://school.programmers.co.kr/learn/courses/30/lessons/132267](https://school.programmers.co.kr/learn/courses/30/lessons/132267) |
-| problem 47. | [https://school.programmers.co.kr/learn/courses/30/lessons/131705](https://school.programmers.co.kr/learn/courses/30/lessons/131705) |
-| problem 48. | [https://school.programmers.co.kr/learn/courses/30/lessons/131128](https://school.programmers.co.kr/learn/courses/30/lessons/131128) |
-| problem 49. | [https://school.programmers.co.kr/learn/courses/30/lessons/118666](https://school.programmers.co.kr/learn/courses/30/lessons/118666) |
-| problem 50. | [https://school.programmers.co.kr/learn/courses/30/lessons/92334](https://school.programmers.co.kr/learn/courses/30/lessons/92334) |
-| problem 51. | [https://school.programmers.co.kr/learn/courses/30/lessons/87389](https://school.programmers.co.kr/learn/courses/30/lessons/87389) |
-| problem 52. | [https://school.programmers.co.kr/learn/courses/30/lessons/86491](https://school.programmers.co.kr/learn/courses/30/lessons/86491) |
-| problem 53. | [https://school.programmers.co.kr/learn/courses/30/lessons/86051](https://school.programmers.co.kr/learn/courses/30/lessons/86051) |
-| problem 54. | [https://school.programmers.co.kr/learn/courses/30/lessons/82612](https://school.programmers.co.kr/learn/courses/30/lessons/82612) |
-| problem 55. | [https://school.programmers.co.kr/learn/courses/30/lessons/81301](https://school.programmers.co.kr/learn/courses/30/lessons/81301) |
-| problem 56. | [https://school.programmers.co.kr/learn/courses/30/lessons/77884](https://school.programmers.co.kr/learn/courses/30/lessons/77884) |
-| problem 57. | [https://school.programmers.co.kr/learn/courses/30/lessons/77484](https://school.programmers.co.kr/learn/courses/30/lessons/77484) |
-| problem 58. | [https://school.programmers.co.kr/learn/courses/30/lessons/76501](https://school.programmers.co.kr/learn/courses/30/lessons/76501) |
-| problem 59. | [https://school.programmers.co.kr/learn/courses/30/lessons/72410](https://school.programmers.co.kr/learn/courses/30/lessons/72410) |
-| problem 60. | [https://school.programmers.co.kr/learn/courses/30/lessons/70128](https://school.programmers.co.kr/learn/courses/30/lessons/70128) |
+| problem 41. | [https://school.programmers.co.kr/learn/courses/30/lessons/68935](https://school.programmers.co.kr/learn/courses/30/lessons/68935) |
+| problem 42. | [https://school.programmers.co.kr/learn/courses/30/lessons/68644](https://school.programmers.co.kr/learn/courses/30/lessons/68644) |
+| problem 43. | [https://school.programmers.co.kr/learn/courses/30/lessons/67256](https://school.programmers.co.kr/learn/courses/30/lessons/67256) |
+| problem 44. | [https://school.programmers.co.kr/learn/courses/30/lessons/64061](https://school.programmers.co.kr/learn/courses/30/lessons/64061) |
+| problem 45. | [https://school.programmers.co.kr/learn/courses/30/lessons/42889](https://school.programmers.co.kr/learn/courses/30/lessons/42889) |
+| problem 46. | [https://school.programmers.co.kr/learn/courses/30/lessons/42862](https://school.programmers.co.kr/learn/courses/30/lessons/42862) |
+| problem 47. | [https://school.programmers.co.kr/learn/courses/30/lessons/42840](https://school.programmers.co.kr/learn/courses/30/lessons/42840) |
+| problem 48. | [https://school.programmers.co.kr/learn/courses/30/lessons/42748](https://school.programmers.co.kr/learn/courses/30/lessons/42748) |
+| problem 49. | [https://school.programmers.co.kr/learn/courses/30/lessons/42576](https://school.programmers.co.kr/learn/courses/30/lessons/42576) |
+| problem 50. | [https://school.programmers.co.kr/learn/courses/30/lessons/17682](https://school.programmers.co.kr/learn/courses/30/lessons/17682) |
+| problem 51. | [https://school.programmers.co.kr/learn/courses/30/lessons/17681](https://school.programmers.co.kr/learn/courses/30/lessons/17681) |
+| problem 52. | [https://school.programmers.co.kr/learn/courses/30/lessons/12982](https://school.programmers.co.kr/learn/courses/30/lessons/12982) |
+| problem 53. | [https://school.programmers.co.kr/learn/courses/30/lessons/12977](https://school.programmers.co.kr/learn/courses/30/lessons/12977) |
+| problem 54. | [https://school.programmers.co.kr/learn/courses/30/lessons/12969](https://school.programmers.co.kr/learn/courses/30/lessons/12969) |
+| problem 55. | [https://school.programmers.co.kr/learn/courses/30/lessons/12954](https://school.programmers.co.kr/learn/courses/30/lessons/12954) |
+| problem 56. | [https://school.programmers.co.kr/learn/courses/30/lessons/12950](https://school.programmers.co.kr/learn/courses/30/lessons/12950) |
+| problem 57. | [https://school.programmers.co.kr/learn/courses/30/lessons/12948](https://school.programmers.co.kr/learn/courses/30/lessons/12948) |
+| problem 58. | [https://school.programmers.co.kr/learn/courses/30/lessons/12947](https://school.programmers.co.kr/learn/courses/30/lessons/12947) |
+| problem 59. | [https://school.programmers.co.kr/learn/courses/30/lessons/12944](https://school.programmers.co.kr/learn/courses/30/lessons/12944) |
+| problem 60. | [https://school.programmers.co.kr/learn/courses/30/lessons/12943](https://school.programmers.co.kr/learn/courses/30/lessons/12943) |
 
 ## 문제 해설
 
