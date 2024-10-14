@@ -26,70 +26,89 @@ Problem 23: 푸드 파이트 대회
 <br /> 자료구조 && 알고리즘 : 수학, Dequeue
 <br /> 시간복잡도 : O(|food| * log_2(max(food)))
 
-Problem 24: 
+Problem 24: 햄버거 만들기 
+<br /> 빵 야채 고기 빵 순으로 나오면 햄버거가 되므로 지워줘야 한다. 
+       빵 빵 야채 고기 빵 야차 고기 빵이 나온 경우도 전부 지워줘야 한다.
+       Stack은 idx 접근이 안되기 때문에 ArrayList를 이용해서 idx접근을 하고,
+       Stack과 유사하게 사용했다.
+<br /> 사용한 자료구조 && 알고리즘 : ArrayList, Stack 
+<br /> 시간복잡도 O(2*n) where n = |ingredient|
+
+Problem 25: 옹알이 (2)
 <br />
 <br />
 <br />
-Problem 25: 
-<br />
-<br />
-<br />
+
 Problem 26: 
 <br />
 <br />
 <br />
+
 Problem 27: 
 <br />
 <br />
 <br />
+
 Problem 28: 
 <br />
 <br />
 <br />
+
 Problem 29: 
 <br />
 <br />
 <br />
+
 Problem 30: 
 <br />
 <br />
 <br />
+
 Problem 31: 
 <br />
 <br />
 <br />
+
 Problem 32: 
 <br />
 <br />
 <br />
+
 Problem 33: 
 <br />
 <br />
 <br />
+
 Problem 34: 
 <br />
 <br />
 <br />
+
 Problem 35: 
 <br />
 <br />
 <br />
+
 Problem 36: 
 <br />
 <br />
 <br />
+
 Problem 37: 
 <br />
 <br />
 <br />
+
 Problem 38: 
 <br />
 <br />
 <br />
+
 Problem 39: 
 <br />
 <br />
 <br />
+
 Problem 40: 
 <br />
 <br />
