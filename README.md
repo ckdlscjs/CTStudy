@@ -1,121 +1,122 @@
+
 # Java_coding_factory : Second Week
 
 ---
 
-## Solving Programmers level 1 Problems (2) : 21 - 40
+## Solving Programmers level 1 Problems (3) : 41 - 60
 ## Problems and Links
 
 | 문제  | URL |
 | --- | --- |
-| problem 21. | [https://school.programmers.co.kr/learn/courses/30/lessons/136798](https://school.programmers.co.kr/learn/courses/30/lessons/136798) |
-| problem 22. | [https://school.programmers.co.kr/learn/courses/30/lessons/135808](https://school.programmers.co.kr/learn/courses/30/lessons/135808) |
-| problem 23. | [https://school.programmers.co.kr/learn/courses/30/lessons/134240](https://school.programmers.co.kr/learn/courses/30/lessons/134240) |
-| problem 24. | [https://school.programmers.co.kr/learn/courses/30/lessons/133502](https://school.programmers.co.kr/learn/courses/30/lessons/133502) |
-| problem 25. | [https://school.programmers.co.kr/learn/courses/30/lessons/133499](https://school.programmers.co.kr/learn/courses/30/lessons/133499) |
-| problem 26. | [https://school.programmers.co.kr/learn/courses/30/lessons/132267](https://school.programmers.co.kr/learn/courses/30/lessons/132267) |
-| problem 27. | [https://school.programmers.co.kr/learn/courses/30/lessons/131705](https://school.programmers.co.kr/learn/courses/30/lessons/131705) |
-| problem 28. | [https://school.programmers.co.kr/learn/courses/30/lessons/131128](https://school.programmers.co.kr/learn/courses/30/lessons/131128) |
-| problem 29. | [https://school.programmers.co.kr/learn/courses/30/lessons/118666](https://school.programmers.co.kr/learn/courses/30/lessons/118666) |
-| problem 30. | [https://school.programmers.co.kr/learn/courses/30/lessons/92334](https://school.programmers.co.kr/learn/courses/30/lessons/92334) |
-| problem 31. | [https://school.programmers.co.kr/learn/courses/30/lessons/87389](https://school.programmers.co.kr/learn/courses/30/lessons/87389) |
-| problem 32. | [https://school.programmers.co.kr/learn/courses/30/lessons/86491](https://school.programmers.co.kr/learn/courses/30/lessons/86491) |
-| problem 33. | [https://school.programmers.co.kr/learn/courses/30/lessons/86051](https://school.programmers.co.kr/learn/courses/30/lessons/86051) |
-| problem 34. | [https://school.programmers.co.kr/learn/courses/30/lessons/82612](https://school.programmers.co.kr/learn/courses/30/lessons/82612) |
-| problem 35. | [https://school.programmers.co.kr/learn/courses/30/lessons/81301](https://school.programmers.co.kr/learn/courses/30/lessons/81301) |
-| problem 36. | [https://school.programmers.co.kr/learn/courses/30/lessons/77884](https://school.programmers.co.kr/learn/courses/30/lessons/77884) |
-| problem 37. | [https://school.programmers.co.kr/learn/courses/30/lessons/77484](https://school.programmers.co.kr/learn/courses/30/lessons/77484) |
-| problem 38. | [https://school.programmers.co.kr/learn/courses/30/lessons/76501](https://school.programmers.co.kr/learn/courses/30/lessons/76501) |
-| problem 39. | [https://school.programmers.co.kr/learn/courses/30/lessons/72410](https://school.programmers.co.kr/learn/courses/30/lessons/72410) |
-| problem 40. | [https://school.programmers.co.kr/learn/courses/30/lessons/70128](https://school.programmers.co.kr/learn/courses/30/lessons/70128) |
+| problem 41. | [https://school.programmers.co.kr/learn/courses/30/lessons/68935](https://school.programmers.co.kr/learn/courses/30/lessons/68935) |
+| problem 42. | [https://school.programmers.co.kr/learn/courses/30/lessons/68644](https://school.programmers.co.kr/learn/courses/30/lessons/68644) |
+| problem 43. | [https://school.programmers.co.kr/learn/courses/30/lessons/67256](https://school.programmers.co.kr/learn/courses/30/lessons/67256) |
+| problem 44. | [https://school.programmers.co.kr/learn/courses/30/lessons/64061](https://school.programmers.co.kr/learn/courses/30/lessons/64061) |
+| problem 45. | [https://school.programmers.co.kr/learn/courses/30/lessons/42889](https://school.programmers.co.kr/learn/courses/30/lessons/42889) |
+| problem 46. | [https://school.programmers.co.kr/learn/courses/30/lessons/42862](https://school.programmers.co.kr/learn/courses/30/lessons/42862) |
+| problem 47. | [https://school.programmers.co.kr/learn/courses/30/lessons/42840](https://school.programmers.co.kr/learn/courses/30/lessons/42840) |
+| problem 48. | [https://school.programmers.co.kr/learn/courses/30/lessons/42748](https://school.programmers.co.kr/learn/courses/30/lessons/42748) |
+| problem 49. | [https://school.programmers.co.kr/learn/courses/30/lessons/42576](https://school.programmers.co.kr/learn/courses/30/lessons/42576) |
+| problem 50. | [https://school.programmers.co.kr/learn/courses/30/lessons/17682](https://school.programmers.co.kr/learn/courses/30/lessons/17682) |
+| problem 51. | [https://school.programmers.co.kr/learn/courses/30/lessons/17681](https://school.programmers.co.kr/learn/courses/30/lessons/17681) |
+| problem 52. | [https://school.programmers.co.kr/learn/courses/30/lessons/12982](https://school.programmers.co.kr/learn/courses/30/lessons/12982) |
+| problem 53. | [https://school.programmers.co.kr/learn/courses/30/lessons/12977](https://school.programmers.co.kr/learn/courses/30/lessons/12977) |
+| problem 54. | [https://school.programmers.co.kr/learn/courses/30/lessons/12969](https://school.programmers.co.kr/learn/courses/30/lessons/12969) |
+| problem 55. | [https://school.programmers.co.kr/learn/courses/30/lessons/12954](https://school.programmers.co.kr/learn/courses/30/lessons/12954) |
+| problem 56. | [https://school.programmers.co.kr/learn/courses/30/lessons/12950](https://school.programmers.co.kr/learn/courses/30/lessons/12950) |
+| problem 57. | [https://school.programmers.co.kr/learn/courses/30/lessons/12948](https://school.programmers.co.kr/learn/courses/30/lessons/12948) |
+| problem 58. | [https://school.programmers.co.kr/learn/courses/30/lessons/12947](https://school.programmers.co.kr/learn/courses/30/lessons/12947) |
+| problem 59. | [https://school.programmers.co.kr/learn/courses/30/lessons/12944](https://school.programmers.co.kr/learn/courses/30/lessons/12944) |
+| problem 60. | [https://school.programmers.co.kr/learn/courses/30/lessons/12943](https://school.programmers.co.kr/learn/courses/30/lessons/12943) |
 
 ## 문제 해설
 
-problem 20:   
+problem 40:   
 
-- 문제 이해 → 풀이 방향 :  
+- 문제 이해 → 풀이 방향 : 구현, 연산 3개를 구현하는 부분이 까다로울 수도 있을 거 같다.
 - 사용한 자료구조 & 시간복잡도 : O(N)
-- (option 참고 문제 & 참고 링크 등등) :   
-- 까다로웠던 점 & 논의하고 싶은 부분 :  
+- (option 참고 문제 & 참고 링크 등등) :  유사한? 문제 백준 :  https://www.acmicpc.net/problem/1942
+- 까다로웠던 점 & 논의하고 싶은 부분 : 자바 특성상 임의의 자료형을 정의를 하는 순간 길이가 엄청나게 길어진다. 그게 좀 재밌으면서도 어려웠다. 
 
 <br/> 
 
-Problem 21: 
+Problem 41: 
 <br />
 <br />
 <br />
-Problem 22: 
+Problem 42: 
 <br />
 <br />
 <br />
-Problem 23: 
+Problem 43: 
 <br />
 <br />
 <br />
-Problem 24: 
+Problem 44: 
 <br />
 <br />
 <br />
-Problem 25: 
+Problem 45: 
 <br />
 <br />
 <br />
-Problem 26: 
+Problem 46: 
 <br />
 <br />
 <br />
-Problem 27: 
+Problem 47: 
 <br />
 <br />
 <br />
-Problem 28: 
+Problem 48: 
 <br />
 <br />
 <br />
-Problem 29: 
+Problem 49: 
 <br />
 <br />
 <br />
-Problem 30: 
+Problem 50: 
 <br />
 <br />
 <br />
-Problem 31: 
+Problem 51: 
 <br />
 <br />
 <br />
-Problem 32: 
+Problem 52: 
 <br />
 <br />
 <br />
-Problem 33: 
+Problem 53: 
 <br />
 <br />
 <br />
-Problem 34: 
+Problem 54: 
 <br />
 <br />
 <br />
-Problem 35: 
+Problem 55: 
 <br />
 <br />
 <br />
-Problem 36: 
+Problem 56: 
 <br />
 <br />
 <br />
-Problem 37: 
+Problem 57: 
 <br />
 <br />
 <br />
-Problem 38: 
+Problem 58: 
 <br />
 <br />
 <br />
-Problem 39: 
+Problem 59: 
 <br />
 <br />
 <br />
-Problem 40: 
+Problem 60: 
 <br />
 <br />
 <br />
