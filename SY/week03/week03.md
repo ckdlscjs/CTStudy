@@ -73,22 +73,21 @@ Problem 52: </br>
 - O(N) </br>
 - 낮은수부터 체크하여 예산이 0보다 작을시 리턴, 반복탈출시 전체사이즈
 
-Problem 53: 
-<br />
-<br />
-<br />
-Problem 54: 
-<br />
-<br />
-<br />
-Problem 55: 
-<br />
-<br />
-<br />
-Problem 56: 
-<br />
-<br />
-<br />
+Problem 53: </br>
+- O(3,000 (log (log (3,000))) * n^3) </br>
+- 에라토스테네스의체로 미리 소수를 구하고 조합으로 합을구한다(중복x)
+
+Problem 54: </br>
+- O(N*M)
+
+Problem 55: </br>
+- O(N) </br>
+- x*i꼴로 vector에입력
+
+Problem 56: </br>
+- O(n^2) </br>
+- 행렬의합
+
 Problem 57: 
 <br />
 <br />
