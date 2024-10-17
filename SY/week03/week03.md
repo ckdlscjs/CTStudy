@@ -57,38 +57,37 @@ Problem 48: </br>
 - O(M * NlogN) </br>
 - M번의 Commands만큼실행, 배열 잘라낸후(1), 정렬(NlogN), answer에삽입
 
-Problem 49: 
-<br />
-<br />
-<br />
-Problem 50: 
-<br />
-<br />
-<br />
-Problem 51: 
-<br />
-<br />
-<br />
-Problem 52: 
-<br />
-<br />
-<br />
-Problem 53: 
-<br />
-<br />
-<br />
-Problem 54: 
-<br />
-<br />
-<br />
-Problem 55: 
-<br />
-<br />
-<br />
-Problem 56: 
-<br />
-<br />
-<br />
+Problem 49: </br>
+- O(N+M) </br>
+- map으로 체크하여 리턴
+
+Problem 50: </br>
+- O(N) </br>
+- 문자->숫자로 바뀔때 인덱스를 증감시키면서 조건체크, 첫시도에는 체크가 불가하므로 idx를 -1부터시작시킴 이후 제곱(pow), 인덱스를 이용해풀이
+
+Problem 51: </br>
+- O(N^2) </br>
+- 비트마스킹을 이용해 해당비트가 켜져있는지 체크후 문자열에 기록, 출력
+
+Problem 52: </br>
+- O(N) </br>
+- 낮은수부터 체크하여 예산이 0보다 작을시 리턴, 반복탈출시 전체사이즈
+
+Problem 53: </br>
+- O(3,000 (log (log (3,000))) * n^3) </br>
+- 에라토스테네스의체로 미리 소수를 구하고 조합으로 합을구한다(중복x)
+
+Problem 54: </br>
+- O(N*M)
+
+Problem 55: </br>
+- O(N) </br>
+- x*i꼴로 vector에입력
+
+Problem 56: </br>
+- O(n^2) </br>
+- 행렬의합
+
 Problem 57: 
 <br />
 <br />
