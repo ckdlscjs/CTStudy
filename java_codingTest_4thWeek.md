@@ -9,43 +9,24 @@
 | 문제  | URL |
 | --- | --- |
 | problem 61. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
-
 | problem 62. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
-
 | problem 63. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
-
 | problem 64. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
-
 | problem 65. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
-
 | problem 66. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
-
 | problem 67. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
-
 | problem 68. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
-
 | problem 69. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
-
 | problem 70. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
-
 | problem 71. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
-
 | problem 72. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
-
 | problem 73. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
-
 | problem 74. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
-
 | problem 75. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
-
 | problem 76. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
-
 | problem 77. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
-
 | problem 78. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
-
 | problem 79. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
-
 | problem 80. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
 
 
