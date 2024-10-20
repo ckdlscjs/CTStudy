@@ -30,94 +30,52 @@
 | problem 80. | https://school.programmers.co.kr/learn/courses/30/lessons/ | (https://school.programmers.co.kr/learn/courses/30/lessons/) |
 
 
+아래는 요청하신 대로 문제 번호를 61번부터 80번까지로 변경한 것입니다:
+
 ## 문제 해설
+problem 60:
 
-problem 40:   
+문제 이해 → 풀이 방향 : 구현, 연산 3개를 구현하는 부분이 까다로울 수도 있을 거 같다.
+사용한 자료구조 & 시간복잡도 : O(N)
+(option 참고 문제 & 참고 링크 등등) : 유사한? 문제 백준 : https://www.acmicpc.net/problem/1942
+까다로웠던 점 & 논의하고 싶은 부분 : 자바 특성상 임의의 자료형을 정의를 하는 순간 길이가 엄청나게 길어진다. 그게 좀 재밌으면서도 어려웠다.
+<br/>
+Problem 61: <br /> <br /> <br />
 
-- 문제 이해 → 풀이 방향 : 구현, 연산 3개를 구현하는 부분이 까다로울 수도 있을 거 같다.
-- 사용한 자료구조 & 시간복잡도 : O(N)
-- (option 참고 문제 & 참고 링크 등등) :  유사한? 문제 백준 :  https://www.acmicpc.net/problem/1942
-- 까다로웠던 점 & 논의하고 싶은 부분 : 자바 특성상 임의의 자료형을 정의를 하는 순간 길이가 엄청나게 길어진다. 그게 좀 재밌으면서도 어려웠다. 
+Problem 62: <br /> <br /> <br />
 
-<br/> 
+Problem 63: <br /> <br /> <br />
 
-Problem 41: 
-<br />
-<br />
-<br />
-Problem 42: 
-<br />
-<br />
-<br />
-Problem 43: 
-<br />
-<br />
-<br />
-Problem 44: 
-<br />
-<br />
-<br />
-Problem 45: 
-<br />
-<br />
-<br />
-Problem 46: 
-<br />
-<br />
-<br />
-Problem 47: 
-<br />
-<br />
-<br />
-Problem 48: 
-<br />
-<br />
-<br />
-Problem 49: 
-<br />
-<br />
-<br />
-Problem 50: 
-<br />
-<br />
-<br />
-Problem 51: 
-<br />
-<br />
-<br />
-Problem 52: 
-<br />
-<br />
-<br />
-Problem 53: 
-<br />
-<br />
-<br />
-Problem 54: 
-<br />
-<br />
-<br />
-Problem 55: 
-<br />
-<br />
-<br />
-Problem 56: 
-<br />
-<br />
-<br />
-Problem 57: 
-<br />
-<br />
-<br />
-Problem 58: 
-<br />
-<br />
-<br />
-Problem 59: 
-<br />
-<br />
-<br />
-Problem 60: 
-<br />
-<br />
-<br />
+Problem 64: <br /> <br /> <br />
+
+Problem 65: <br /> <br /> <br />
+
+Problem 66: <br /> <br /> <br />
+
+Problem 67: <br /> <br /> <br />
+
+Problem 68: <br /> <br /> <br />
+
+Problem 69: <br /> <br /> <br />
+
+Problem 70: <br /> <br /> <br />
+
+Problem 71: <br /> <br /> <br />
+
+Problem 72: <br /> <br /> <br />
+
+Problem 73: <br /> <br /> <br />
+
+Problem 74: <br /> <br /> <br />
+
+Problem 75: <br /> <br /> <br />
+
+Problem 76: <br /> <br /> <br />
+
+Problem 77: <br /> <br /> <br />
+
+Problem 78: <br /> <br /> <br />
+
+Problem 79: <br /> <br /> <br />
+
+Problem 80: <br /> <br /> <br />
