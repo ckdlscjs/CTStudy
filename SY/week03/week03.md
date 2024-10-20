@@ -85,22 +85,21 @@ Problem 55: </br>
 - x*i꼴로 vector에입력
 
 Problem 56: </br>
-- O(n^2) </br>
+- O(N^2) </br>
 - 행렬의합
 
-Problem 57: 
-<br />
-<br />
-<br />
-Problem 58: 
-<br />
-<br />
-<br />
-Problem 59: 
-<br />
-<br />
-<br />
-Problem 60: 
-<br />
-<br />
-<br />
+Problem 57: </br>
+- O(N) </br>
+- n-4까지 *로 변경
+
+Problem 58: </br>
+- O(1) </br>
+- 모듈러연산반복
+  
+Problem 59: <br>
+- O(N) </br>
+- 전부더하여 avg
+
+Problem 60: </br>
+- O(500) </br>
+- 최대500번, 자료형이 int로 감당이 안될수있어 long long int 이용
