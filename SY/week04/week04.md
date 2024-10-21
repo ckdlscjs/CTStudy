@@ -4,7 +4,7 @@
 | 문제  | URL |
 | --- | --- |
 | problem 61. | https://school.programmers.co.kr/learn/courses/30/lessons/12940 | (https://school.programmers.co.kr/learn/courses/30/lessons/12940) |
-| problem 62. | https://school.programmers.co.kr/learn/courses/30/lessons12937/ | (https://school.programmers.co.kr/learn/courses/30/lessons/12937) |
+| problem 62. | https://school.programmers.co.kr/learn/courses/30/lessons/12937 | (https://school.programmers.co.kr/learn/courses/30/lessons/12937) |
 | problem 63. | https://school.programmers.co.kr/learn/courses/30/lessons/12935 | (https://school.programmers.co.kr/learn/courses/30/lessons/12935) |
 | problem 64. | https://school.programmers.co.kr/learn/courses/30/lessons/12934 | (https://school.programmers.co.kr/learn/courses/30/lessons/12934) |
 | problem 65. | https://school.programmers.co.kr/learn/courses/30/lessons/12933 | (https://school.programmers.co.kr/learn/courses/30/lessons/12933) |
