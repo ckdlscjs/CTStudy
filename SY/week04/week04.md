@@ -42,13 +42,19 @@ Problem 64: <br />
 - O(1) <br />
 - 제곱근을 구하고 정수형으로 바꾼값을 다시 제곱했을때 원래값과 같다면 +1후 제곱, 아니면 -1
 
-Problem 65: <br /> <br /> <br />
+Problem 65: <br />
+- O(NlogN) <br />
+- 숫자->문자열변환, 정렬(NlogN), 문자열->숫자변환 <br />
 
-Problem 66: <br /> <br /> <br />
+Problem 66: <br />
+- O(11), 최대11자리 <br />
 
-Problem 67: <br /> <br /> <br />
+Problem 67: <br /> 
+- O(9), 최대9자리 <br />
 
-Problem 68: <br /> <br /> <br />
+Problem 68: <br /> 
+- O(N)<br />
+- 공백일때 idx계산초기화<br />
 
 Problem 69: <br /> <br /> <br />
 
