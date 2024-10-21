@@ -30,11 +30,11 @@
 Problem 61: <br /> 
 - O(log(n or m)) <br />
 - 유클리드호제법 <br /> 
-
-Problem 62: <br /> <br /> <br />
-
-Problem 63: <br /> <br /> <br />
-
+Problem 62: <br /> 
+- O(1) <br />
+Problem 63: <br /> 
+- O(N) <br />
+- 배열에서 최소값의 이터레이터를 찾고 이를 erase, 배열이 없다면 -1추가 <br />
 Problem 64: <br /> <br /> <br />
 
 Problem 65: <br /> <br /> <br />
