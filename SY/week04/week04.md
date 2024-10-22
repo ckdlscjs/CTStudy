@@ -56,13 +56,20 @@ Problem 68: <br />
 - O(N)<br />
 - 공백일때 idx계산초기화<br />
 
-Problem 69: <br /> <br /> <br />
+Problem 69: <br />
+- O(sqrt(N) * 2) <br />
+- 제곱근까지 하여 해시를이용해 중복없이 약수를구하고 sum한다<br />
 
-Problem 70: <br /> <br /> <br />
+Problem 70: <br /> 
+- O(N)<br />
+- 알파벳에서 시작 대소문자를 빼고 N을더한다, 모듈러연산이후 다시더한다<br />
 
-Problem 71: <br /> <br /> <br />
+Problem 71: <br /> 
+- O(N)<br />
+- s[0]이 문자일경우만 인덱스 조정후 리턴값에더한다, 음수일때만 마지막에 -1, stoi등으로 한번에해결가능하나 길이가 길경우 stoll이나 stoi로 해결이 안되므로 구현<br />
 
-Problem 72: <br /> <br /> <br />
+Problem 72: <br /> 
+- O(N)<br />
 
 Problem 73: <br /> <br /> <br />
 
