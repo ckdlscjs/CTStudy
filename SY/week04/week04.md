@@ -71,13 +71,19 @@ Problem 71: <br />
 Problem 72: <br /> 
 - O(N)<br />
 
-Problem 73: <br /> <br /> <br />
+Problem 73: <br /> 
+- O(NloglogN) <br />
 
-Problem 74: <br /> <br /> <br />
+Problem 74: <br /> 
+- O(N) <br />
+- 원소가 Kim이면 리턴 <br />
 
-Problem 75: <br /> <br /> <br />
+Problem 75: <br /> 
+- O(N) <br />
+- 4,6이 둘다아니면, 숫자가아니면 <br />
 
-Problem 76: <br /> <br /> <br />
+Problem 76: <br /> 
+- O(NlogN) <br />
 
 Problem 77: <br /> <br /> <br />
 
