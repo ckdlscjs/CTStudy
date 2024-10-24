@@ -85,10 +85,16 @@ Problem 75: <br />
 Problem 76: <br /> 
 - O(NlogN) <br />
 
-Problem 77: <br /> <br /> <br />
+Problem 77: <br /> 
+- O(N) <br />
 
-Problem 78: <br /> <br /> <br />
+Problem 78: <br /> 
+- O(NlogN) <br />
 
-Problem 79: <br /> <br /> <br />
+Problem 79: <br /> 
+- O(1)<br />
+- 등차수열의 합공식, n*(2*시작항 - (n-1) * 공차) / 2 이용, 혹은 공차가 1이니 n*(시작항+끝항) / 2로 해결가능(<br />
 
-Problem 80: <br /> <br /> <br />
+Problem 80: <br /> 
+- O(N) <br />
+- 순회하면서 모듈러로 나눈뒤 나머지가0인값들만 set에집어넣음(자동정렬), 이후 ans초기화, empty면 -1추가<br />
