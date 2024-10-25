@@ -7,17 +7,12 @@
 ## Solving Programmers level 1 Problems (4) : 81 - 84
 ## Problems and Links
 
-| 문제  | URL |
+| 문제 | URL |
 | --- | --- |
-| problem 81. | https://school.programmers.co.kr/learn/courses/30/lessons/12906 | 
-(https://school.programmers.co.kr/learn/courses/30/lessons/12906 ) |
-| problem 82. | https://school.programmers.co.kr/learn/courses/30/lessons/12903
-| (https://school.programmers.co.kr/learn/courses/30/lessons/12903) |
-| problem 83. | https://school.programmers.co.kr/learn/courses/30/lessons/12901 | (https://school.programmers.co.kr/learn/courses/30/lessons/12901) |
-| problem 84. | https://school.programmers.co.kr/learn/courses/30/lessons/1845
-| (https://school.programmers.co.kr/learn/courses/30/lessons/1845) |
-| problem 84. | https://school.programmers.co.kr/learn/courses/30/lessons/1845
-| (https://school.programmers.co.kr/learn/courses/30/lessons/1845) |
+| problem 81 | [https://school.programmers.co.kr/learn/courses/30/lessons/12906](https://school.programmers.co.kr/learn/courses/30/lessons/12906) |
+| problem 82 | [https://school.programmers.co.kr/learn/courses/30/lessons/12903](https://school.programmers.co.kr/learn/courses/30/lessons/12903) |
+| problem 83 | [https://school.programmers.co.kr/learn/courses/30/lessons/12901](https://school.programmers.co.kr/learn/courses/30/lessons/12901) |
+| problem 84 | [https://school.programmers.co.kr/learn/courses/30/lessons/1845](https://school.programmers.co.kr/learn/courses/30/lessons/1845) |
 
 
 
