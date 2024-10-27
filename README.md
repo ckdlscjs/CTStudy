@@ -31,10 +31,9 @@
 | problem 100 | [https://www.acmicpc.net/problem/2562](https://www.acmicpc.net/problem/2562) |
 
 
- 
 
-
-## 문제 해설
+## 배운 것 정리 
+-- 
 <br/>
 
 
@@ -45,6 +44,9 @@
 시간복잡도는 어떻게 되는지 
 <br/>
 
+
+## 문제 해설
+-- 
 problem 번호: 예제
 
 문제 이해 → 풀이 방향 : 구현, 연산 3개를 구현하는 부분이 까다로울 수도 있을 거 같다.
