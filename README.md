@@ -14,7 +14,7 @@
 | problem 83 | [https://school.programmers.co.kr/learn/courses/30/lessons/12901](https://school.programmers.co.kr/learn/courses/30/lessons/12901) |
 | problem 84 | [https://school.programmers.co.kr/learn/courses/30/lessons/1845](https://school.programmers.co.kr/learn/courses/30/lessons/1845) |
 | problem 85 | [https://www.acmicpc.net/problem/10871](https://www.acmicpc.net/problem/10871) |
-| problem 86 | [https://www.acmicpc.net/problem/2309](https://www.acmicpc.net/problem/2309)] 
+| problem 86 | [https://www.acmicpc.net/problem/2309](https://www.acmicpc.net/problem/2309)   | 
 | problem 87 | [https://www.acmicpc.net/problem/10093](https://www.acmicpc.net/problem/10093) |
 | problem 88 | [https://www.acmicpc.net/problem/1267](https://www.acmicpc.net/problem/1267) |
 | problem 89 | [https://www.acmicpc.net/problem/10804](https://www.acmicpc.net/problem/10804) |
