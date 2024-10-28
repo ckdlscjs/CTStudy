@@ -13,6 +13,28 @@
 | problem 82 | [https://school.programmers.co.kr/learn/courses/30/lessons/12903](https://school.programmers.co.kr/learn/courses/30/lessons/12903) |
 | problem 83 | [https://school.programmers.co.kr/learn/courses/30/lessons/12901](https://school.programmers.co.kr/learn/courses/30/lessons/12901) |
 | problem 84 | [https://school.programmers.co.kr/learn/courses/30/lessons/1845](https://school.programmers.co.kr/learn/courses/30/lessons/1845) |
+| problem 85 | [https://www.acmicpc.net/problem/10871](https://www.acmicpc.net/problem/10871) |
+| problem 86 | [[[https://www.acmicpc.net/problem/2309](https://www.acmicpc.net/problem/2309)] 
+| problem 87 | [https://www.acmicpc.net/problem/10093](https://www.acmicpc.net/problem/10093) |
+| problem 88 | [https://www.acmicpc.net/problem/1267](https://www.acmicpc.net/problem/1267) |
+| problem 89 | [https://www.acmicpc.net/problem/10804](https://www.acmicpc.net/problem/10804) |
+| problem 90 | [https://www.acmicpc.net/problem/15552](https://www.acmicpc.net/problem/15552) |
+| problem 91 | [https://www.acmicpc.net/problem/2438](https://www.acmicpc.net/problem/2438) |
+| problem 92 | [https://www.acmicpc.net/problem/2439](https://www.acmicpc.net/problem/2439) |
+| problem 93 | [https://www.acmicpc.net/problem/2440](https://www.acmicpc.net/problem/2440) |
+| problem 94 | [https://www.acmicpc.net/problem/2441](https://www.acmicpc.net/problem/2441) |
+| problem 95 | [https://www.acmicpc.net/problem/2442](https://www.acmicpc.net/problem/2442) |
+| problem 96 | [https://www.acmicpc.net/problem/2443](https://www.acmicpc.net/problem/2443) |
+| problem 97 | [https://www.acmicpc.net/problem/2444](https://www.acmicpc.net/problem/2444) |
+| problem 98 | [https://www.acmicpc.net/problem/2445](https://www.acmicpc.net/problem/2445) |
+| problem 99 | [https://www.acmicpc.net/problem/2446](https://www.acmicpc.net/problem/2446) |
+| problem 100 | [https://www.acmicpc.net/problem/2562](https://www.acmicpc.net/problem/2562) |
+
+
+
+
+
+4o
 
 
 
