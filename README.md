@@ -4,7 +4,7 @@
 
 ---
 
-## Solving Programmers level 1 Problems (4) : 81 - 90
+## Solving Programmers level 1 Problems (4) : 81 - 100
 ## Problems and Links
 
 | 문제 | URL |
