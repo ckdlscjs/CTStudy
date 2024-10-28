@@ -39,7 +39,9 @@
 
 
 ## 문제 해설
-Problem 81: <br> <br> <br>
+Problem 81: 같은 숫자는 싫어 <br> 
+- O(N) <br>
+- 탐색후 다른것들을 리턴컨테이너에 넣던지 unique등의 중복제거함수를 통해서 제거<br>
 
 Problem 82: <br> <br> <br>
 
