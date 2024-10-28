@@ -43,11 +43,17 @@ Problem 81: 같은 숫자는 싫어 <br>
 - O(N) <br>
 - 탐색후 다른것들을 리턴컨테이너에 넣던지 unique등의 중복제거함수를 통해서 제거<br>
 
-Problem 82: <br> <br> <br>
+Problem 82: 가운데 글자 가져오기 <br> 
+- O(1) <br>
+- 문자열의 길이가 짝수이면 (n/2) - 1 , (n/2) 홀수이면 (n/2) <br>
 
-Problem 83: <br> <br> <br>
+Problem 83: 2016년 <br> 
+- O(1) <br>
+- weeks, month 대한 배열을 미리 준비해 계산과 모듈러 연산통해서 요일을 정함, 1일부터 시작이므로 -1<br>
 
-Problem 84: <br> <br> <br>
+Problem 84: 폰켓몬<br> 
+- O(N) <br>
+- 중복제거를위해 set을 사용하고 set의사이즈가 입력값의 절반보다 크다면 최대 N/2개, 작다면 중복없는 갯수만큼 뽑을 수 있음<br>
 
 Problem 85: <br> <br> <br>
 
