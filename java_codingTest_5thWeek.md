@@ -4,7 +4,7 @@
 
 ---
 
-## Solving Programmers level 1 Problems (4) : 81 - 90
+## Solving Programmers level 1 Problems (4) : 81 - 100
 ## Problems and Links
 
 | 문제 | URL |
@@ -14,7 +14,7 @@
 | problem 83 | [https://school.programmers.co.kr/learn/courses/30/lessons/12901](https://school.programmers.co.kr/learn/courses/30/lessons/12901) |
 | problem 84 | [https://school.programmers.co.kr/learn/courses/30/lessons/1845](https://school.programmers.co.kr/learn/courses/30/lessons/1845) |
 | problem 85 | [https://www.acmicpc.net/problem/10871](https://www.acmicpc.net/problem/10871) |
-| problem 86 | [[[https://www.acmicpc.net/problem/2309](https://www.acmicpc.net/problem/2309)] 
+| problem 86 | [https://www.acmicpc.net/problem/2309](https://www.acmicpc.net/problem/2309)   | 
 | problem 87 | [https://www.acmicpc.net/problem/10093](https://www.acmicpc.net/problem/10093) |
 | problem 88 | [https://www.acmicpc.net/problem/1267](https://www.acmicpc.net/problem/1267) |
 | problem 89 | [https://www.acmicpc.net/problem/10804](https://www.acmicpc.net/problem/10804) |
@@ -32,14 +32,19 @@
 
 
 
+## 배운 것 정리 
+  
 
+무엇을 배웠고 <br/>
 
-4o
+어떤 ADT를 가졌는고, <br/>
 
+시간복잡도는 어떻게 되는지 
+<br/>
 
 
 ## 문제 해설
-problem 번호: 예제
+ problem 번호: 예제
 
 문제 이해 → 풀이 방향 : 구현, 연산 3개를 구현하는 부분이 까다로울 수도 있을 거 같다.
 사용한 자료구조 & 시간복잡도 : O(N)
@@ -48,15 +53,45 @@ problem 번호: 예제
 <br/>
 <br/>
 
-Problem 81: <br /> <br /> <br />
+Problem 81: <br> <br> <br>
 
-Problem 82: <br /> <br /> <br />
+Problem 82: <br> <br> <br>
 
-Problem 83: <br /> <br /> <br />
+Problem 83: <br> <br> <br>
 
-Problem 84: <br /> <br /> <br />
+Problem 84: <br> <br> <br>
 
-Problem 84: <br /> <br /> <br />
+Problem 85: <br> <br> <br>
 
-... 준비 중 85번부터는 백준 문제로 채울 겁니다. 
+Problem 86: <br> <br> <br>
 
+Problem 87: <br> <br> <br>
+
+Problem 88: <br> <br> <br>
+
+Problem 89: <br> <br> <br>
+
+Problem 90: <br> <br> <br>
+
+Problem 91: <br> <br> <br>
+
+Problem 92: <br> <br> <br>
+
+Problem 93: <br> <br> <br>
+
+Problem 94: <br> <br> <br>
+
+Problem 95: <br> <br> <br>
+
+Problem 96: <br> <br> <br>
+
+Problem 97: <br> <br> <br>
+
+Problem 98: <br> <br> <br>
+
+Problem 99: <br> <br> <br>
+
+Problem 100: <br> <br> <br>
+
+
+ 
