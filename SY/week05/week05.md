@@ -29,8 +29,8 @@
 
 ## 배운 것 정리 
   
-https://blog.naver.com/syl610/223636828803
-https://blog.naver.com/syl610/223636848255
+https://blog.naver.com/syl610/223636828803 <br>
+https://blog.naver.com/syl610/223636848255 <br>
 
 
 ## 문제 해설
