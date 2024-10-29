@@ -50,37 +50,58 @@ Problem 84: 폰켓몬<br>
 - O(N) <br>
 - 중복제거를위해 set을 사용하고 set의사이즈가 입력값의 절반보다 크다면 최대 N/2개, 작다면 중복없는 갯수만큼 뽑을 수 있음<br>
 
-Problem 85: <br> <br> <br>
+Problem 85: X보다 작은 수<br> 
+- O(N) <br>
 
-Problem 86: <br> <br> <br>
+Problem 86: 일곱 난쟁이<br> 
+- O(N^2)<br>
+- 백트래킹으로 조합을 찾아 출력한다<br>
 
-Problem 87: <br> <br> <br>
+Problem 87: 숫자<br> 
+- O(N) <br>
+- A~B 까지 출력한다, 작은것부터 큰것까지, 같은경우는 0개<br>
 
-Problem 88: <br> <br> <br>
+Problem 88: 핸드폰 요금<br> 
+- O(N) <br>
+- 1~59까지 이므로 요금제로 나누어 + 1을 몫을 더해 계산<br>
 
-Problem 89: <br> <br> <br>
+Problem 89: 카드 역배치<br> 
+- O(N^2)<br>
+- 범위를 reverse<br>
 
-Problem 90: <br> <br> <br>
+Problem 90: 빠른 A+B<br> 
+- O(N) <br>
 
-Problem 91: <br> <br> <br>
+Problem 91: 별찍기1<br> 
+- O(N^2) <br>
 
-Problem 92: <br> <br> <br>
+Problem 92: 별찍기2<br>
+- O(N^2) <br>
 
-Problem 93: <br> <br> <br>
+Problem 93: 별찍기3<br> 
+- O(N^2) <br>
 
-Problem 94: <br> <br> <br>
+Problem 94: 별찍기4<br> 
+- O(N^2) <br>
 
-Problem 95: <br> <br> <br>
+Problem 95: 별찍기5<br>
+- O(N^2) <br>
 
-Problem 96: <br> <br> <br>
+Problem 96: 별찍기6<br>
+- O(N^2) <br>
 
-Problem 97: <br> <br> <br>
+Problem 97: 별찍기7<br>
+- O(N^2) <br>
 
-Problem 98: <br> <br> <br>
+Problem 98: 별찍기8<br>
+- O(N^2) <br>
 
-Problem 99: <br> <br> <br>
+Problem 99: 별찍기9<br>
+- O(N^2) <br>
 
-Problem 100: <br> <br> <br>
+Problem 100: 최댓값<br> 
+- O(N) <br>
+- 최댓값비교저장 <br>
 
 
  
