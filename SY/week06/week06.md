@@ -36,23 +36,36 @@
 
 ## 문제 해설 
 
-Problem 101: <br> <br> <br>
+Problem 101: 알파벳 개수<br> 
+- O(N)<br>
 
-Problem 102: <br> <br> <br>
+Problem 102: 숫자의 개수<br> 
+- O(logN)<br>
 
-Problem 103: <br> <br> <br>
+Problem 103: 방 번호<br> 
+- O(logN)<br>
+- 6과 9의 더한 갯수를 /2로 올림하여 갯수를 센다 그외는 세트당1개 이므로 그냥 갯수를 센다<br>
 
-Problem 104: <br> <br> <br>
+Problem 104: 두 수의 합<br> 
+- O(N + NlogN)<br>
+- 정렬한뒤 양끝을 투포인터를 이용하여 순서쌍의 갯수를 센다<br>
 
-Problem 105: <br> <br> <br>
+Problem 105: 개수 세기<br> 
+- O(N) <br>
 
-Problem 106: <br> <br> <br>
+Problem 106: 방 배정<br> 
+- O(S*Y)<br>
+- 2차원배열을 이용해 방갯수를 센다, 나눗셈후 올림으로 몫만을 취함<br>
 
-Problem 107: <br> <br> <br>
+Problem 107: Strfry<br> 
+- O(2N+26)<br>
+- 알파벳의 갯수를 센후 양측이 같은지 비교한다 다르면 Impossible<br>
 
-Problem 108: <br> <br> <br>
+Problem 108: 애너그램 만들기<br> 
+- O(2N+26)<br>
+- 알파벳을 계수후 양측의 차가 제거갯수이므로 이를 가산한다<br>
 
-Problem 109: <br> <br> <br>
+Problem 109: 에디터<br> <br> <br>
 
 Problem 110: <br> <br> <br>
 
