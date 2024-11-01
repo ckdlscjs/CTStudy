@@ -65,11 +65,17 @@ Problem 108: 애너그램 만들기<br>
 - O(2N+26)<br>
 - 알파벳을 계수후 양측의 차가 제거갯수이므로 이를 가산한다<br>
 
-Problem 109: 에디터<br> <br> <br>
+Problem 109: 에디터<br> 
+- O(N) <br>
+- std::list를 이용하여 연결리스트를 사용한 시뮬레이션으로 문제를 해결<br> 
 
-Problem 110: <br> <br> <br>
+Problem 110: 키로거<br> 
+- O(N) <br>
+- std::list를 이용하여 연결리스트를 사용한 시뮬레이션으로 문제를 해결<br>
 
-Problem 111: <br> <br> <br>
+Problem 111: 요세푸스 문제<br> 
+- O(N*K)<br>
+- std::list를 활용하여 연결리스트에서 해당하는 값을 삭제하여 결과배열에 집어넣는다 해당과정시 이터레이터가 lists의 end를 지정할때의 예외처리필요성에 주의<br>
 
 Problem 112: <br> <br> <br>
 
