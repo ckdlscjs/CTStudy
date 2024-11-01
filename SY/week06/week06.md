@@ -32,8 +32,8 @@
 
 ## 배운 것 정리 
   
-https://blog.naver.com/syl610/223643204965 배열
-https://blog.naver.com/syl610/223643222912 연결리스트
+https://blog.naver.com/syl610/223643204965 배열 <br>
+https://blog.naver.com/syl610/223643222912 연결리스트 <br>
 
 ## 문제 해설 
 
