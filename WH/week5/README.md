@@ -53,69 +53,69 @@
 <br/>
 <br/>
 
-Problem 81: <br> <br> <br>
+Problem 81:
 스택으로 풀수 있지만 스택으로 풀 때 pop할때 마다 스택 사이즈가 달라지므로 이를 유념하여 원소를 pop해야한다.
 시간복잡도 O(N)
 <br>
-Problem 82: <br> <br> <br>
+Problem 82:
 StringBuilder를 사용하여 문자열 객체 생성에 소요되는 시간 감소 시간 복잡도 O(1) (?)
 <br>
-Problem 83: <br> <br> <br>
+Problem 83:
 <br>
-Problem 84: <br> <br> <br>
+Problem 84:
 Set 을 이용한 풀이 
 시간복잡도 O(N)
 <br>
-Problem 85: <br> <br> <br>
+Problem 85:
 StringTokenizer로 파싱해도 되고
 Sting의 split()메서드를 사용해서 파싱하여도 된다.
 시간복잡도 O(N)
 <br>
-Problem 86: <br> <br> <br>
+Problem 86:
 총 9개의 원소를 돌면되기때문에 이중for문을 돌아도 72가지 밖에 되지 않아 이중for문을 사용하였다.
 시간복잡도 O(9) * O(8) 이면 O(1)이라고 해도 관계없나?
 <br>
-Problem 87: <br> <br> <br>
+Problem 87:
 long타입 사용. 
 <br>
-Problem 88: <br> <br> <br>
+Problem 88:
 단순 계산 구현 문제 
 <br>
-Problem 89: <br> <br> <br>
+Problem 89:
 삽입삭제가 많아 list를 이용한 풀이를 하였다. 
 배열을 선언한뒤 임시저장소 temp변수를 사용해서 배열을 이용한 풀이도 괜찮을 것 같다. -> 배열 활용 풀이 다시 해보기 
 <br>
-Problem 90: <br> <br> <br>
+Problem 90:
 BufferedWriter write메서드를 사용할 경우 기본 String을 인자로 받기 때문에 정수 출력시 개행문자를 붙여주거나 String.valueOf()메서드를 사용하여야한다. 
 <br>
-Problem 91: <br> <br> <br>
+Problem 91:
 별찍기 -> 그냥하면된다.
 <br>
-Problem 92: <br> <br> <br>
+Problem 92:
 별찍기 -> 그냥하면된다.
 <br>
-Problem 93: <br> <br> <br>
+Problem 93:
 별찍기 -> 그냥하면된다.
 <br>
-Problem 94: <br> <br> <br>
+Problem 94:
 별찍기 -> 그냥하면된다.
 <br>
-Problem 95: <br> <br> <br>
+Problem 95:
 별찍기 -> 그냥하면된다.
 <br>
-Problem 96: <br> <br> <br>
+Problem 96: 
 별찍기 -> 그냥하면된다.
 <br>
-Problem 97: <br> <br> <br>
+Problem 97: 
 별찍기 -> 그냥하면된다.
 <br>
-Problem 98: <br> <br> <br>
+Problem 98: 
 별찍기 -> 그냥하면된다.
 <br>
-Problem 99: <br> <br> <br>
+Problem 99: 
 별찍기 -> 그냥하면된다.
 <br>
-Problem 100: <br> <br> <br>
+Problem 100: 
 별찍기 -> 그냥하면된다.
 <br>
  
