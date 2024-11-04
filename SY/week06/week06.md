@@ -78,11 +78,15 @@ Problem 111: 요세푸스 문제<br>
 - O(N*K)<br>
 - std::list를 활용하여 연결리스트에서 해당하는 값을 삭제하여 결과배열에 집어넣는다 해당과정시 이터레이터가 lists의 end를 지정할때의 예외처리필요성에 주의<br>
 
-Problem 112: <br> <br> <br>
+Problem 112: 스택<br> 
+- O(N) <br>
+- 구조체 구현하여 기능구현<br>
 
-Problem 113: <br> <br> <br>
+Problem 113: 제로<br> 
+- O(N) <br>
 
-Problem 114: <br> <br> <br>
+Problem 114: 스택수열<br> 
+- <br> <br>
 
 Problem 115: <br> <br> <br>
 
