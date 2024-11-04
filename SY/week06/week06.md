@@ -86,7 +86,8 @@ Problem 113: 제로<br>
 - O(N) <br>
 
 Problem 114: 스택수열<br> 
-- <br> <br>
+- O(2N) <br>
+- 숫자를 1부터 시작해 val에 도달할때까지 스택에push, 이후 스택의 top과 val이 일치시 pop시키면서 push일때+, 아닐때-를 ans컨테이너에 추가, top과val이 같지않으면 불가능한조건<br>
 
 Problem 115: 탑<br> 
 - O(2N) <br>
