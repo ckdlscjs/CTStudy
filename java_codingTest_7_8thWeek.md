@@ -1,11 +1,11 @@
 
 
 
-# Java_coding_factory : 7th Week
+# Java_coding_factory : 7 - 8 th Week
 
 ---
 
-## Solving Programmers level 1 Problems with BaekJoon (7) : 101 - 126
+## Solving Programmers level 1 Problems with BaekJoon (7-8) : 127 - 173
 ## Problems and Links
 
 | 문제 번호 | 문제 제목             | 자료구조/알고리즘 | 정답 비율 | URL |
