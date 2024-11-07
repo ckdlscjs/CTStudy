@@ -5,7 +5,7 @@
 
 ---
 
-## Solving Programmers level 1 Problems with BaekJoon (7-8) : 127 - 173
+## Solving Programmers level 1 Problems with BaekJoon (7-8) : 127 - 174
 ## Problems and Links
 
 | 문제 번호 | 문제 제목             | 자료구조/알고리즘 | 정답 비율 | URL |
@@ -52,11 +52,12 @@
 | 166      | 자두나무             | DP              | 38.516%   | [2240](https://www.acmicpc.net/problem/2240) |
 | 167      | 빙산                 | BFS/DFS         | 26.497%   | [2573](https://www.acmicpc.net/problem/2573) |
 | 168      | 피보나치 수 2         | DP              | 41.146%   | [2748](https://www.acmicpc.net/problem/2748) |
-| 169      | 정수 삼각형           | DP              | 59.820%   | [1932](https://www.acmicpc.net/problem/1932) |
-| 170      | 적록색약             | BFS/DFS         | 56.771%   | [10026](https://www.acmicpc.net/problem/10026) |
-| 171      | 가장 긴 증가하는 부분 수열 | DP         | 38.240%   | [11053](https://www.acmicpc.net/problem/11053) |
-| 172      | 단지번호붙이기        | BFS/DFS         | 42.993%   | [2667](https://www.acmicpc.net/problem/2667) |
-| 173      | 그림        | BFS/DFS         | 42.931%   | [2667](https://www.acmicpc.net/problem/1926) |
+| 169      | 벽 부수고 이동하기        | BFS/DFS         | 23.603%   | [2206](https://www.acmicpc.net/problem/2206) |
+| 170      | 정수 삼각형           | DP              | 59.820%   | [1932](https://www.acmicpc.net/problem/1932) |
+| 171      | 적록색약             | BFS/DFS         | 56.771%   | [10026](https://www.acmicpc.net/problem/10026) |
+| 172      | 가장 긴 증가하는 부분 수열 | DP         | 38.240%   | [11053](https://www.acmicpc.net/problem/11053) |
+| 173      | 단지번호붙이기        | BFS/DFS         | 42.993%   | [2667](https://www.acmicpc.net/problem/2667) |
+| 174      | 그림        | BFS/DFS         | 42.931%   | [2667](https://www.acmicpc.net/problem/1926) |
 
 ## 배운 것 정리 
   
