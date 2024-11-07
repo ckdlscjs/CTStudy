@@ -34,6 +34,9 @@
   
 https://blog.naver.com/syl610/223643204965 배열 <br>
 https://blog.naver.com/syl610/223643222912 연결리스트 <br>
+https://blog.naver.com/syl610/223650516968 스택 <br>
+https://blog.naver.com/syl610/223650520922 큐<br>
+https://blog.naver.com/syl610/223650528712 덱<br>
 
 ## 문제 해설 
 
