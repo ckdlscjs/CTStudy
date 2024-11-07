@@ -5,7 +5,7 @@
 
 ---
 
-## Solving Programmers level 1 Problems with BaekJoon (7-8) : 127 - 174
+## Solving BaekJoon : DFS/BFS, DP, STACK Problems : 127 - 174
 ## Problems and Links
 
 | 문제 번호 | 문제 제목             | 자료구조/알고리즘 | 정답 비율 | URL |
