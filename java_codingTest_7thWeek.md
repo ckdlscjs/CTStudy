@@ -1,41 +1,62 @@
 
 
 
-# Java_coding_factory : 6th Week
+# Java_coding_factory : 7th Week
 
 ---
 
-## Solving Programmers level 1 Problems with BaekJoon (6) : 101 - 126
+## Solving Programmers level 1 Problems with BaekJoon (7) : 101 - 126
 ## Problems and Links
 
-| 문제 | 문제 제목 | 문제 유형 | 정보 | 맞힌 사람 | 제출 | 정답 비율 | URL |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| problem 101 | 알파벳 개수 | 배열 | | 31397 | 58124 | 68.306% | [문제](https://www.acmicpc.net/problem/10808) |
-| problem 102 | 숫자의 개수 | 배열 | | 100667 | 202800 | 60.344% | [문제](https://www.acmicpc.net/problem/2577) |
-| problem 103 | 방 번호 | 배열 | | 25508 | 74169 | 44.339% | [문제](https://www.acmicpc.net/problem/1475) |
-| problem 104 | 두 수의 합 | 배열 | 다국어 | 17530 | 67014 | 34.385% | [문제](https://www.acmicpc.net/problem/3273) |
-| problem 105 | 개수 세기 | 배열 | | 78732 | 153356 | 61.906% | [문제](https://www.acmicpc.net/problem/10807) |
-| problem 106 | 방 배정 | 배열 | 서브태스크 | 10321 | 21531 | 59.780% | [문제](https://www.acmicpc.net/problem/13300) |
-| problem 107 | Strfry | 배열 | 다국어 | 5141 | 15529 | 41.141% | [문제](https://www.acmicpc.net/problem/11328) |
-| problem 108 | 애너그램 만들기 | 배열 | | 8457 | 17360 | 59.049% | [문제](https://www.acmicpc.net/problem/1919) |
-| problem 109 | 에디터 | 연결 리스트 | 다국어 | 25322 | 133318 | 26.857% | [문제](https://www.acmicpc.net/problem/1406) |
-| problem 110 | 키로거 | 연결 리스트 | 다국어 | 13080 | 64550 | 27.823% | [문제](https://www.acmicpc.net/problem/5397) |
-| problem 111 | 요세푸스 문제 | 연결 리스트 | | 43356 | 122863 | 49.058% | [문제](https://www.acmicpc.net/problem/1158) |
-| problem 112 | 스택 | 스택 | | 74759 | 278220 | 37.929% | [문제](https://www.acmicpc.net/problem/10828) |
-| problem 113 | 제로 | 스택 | 다국어 | 58504 | 105851 | 68.313% | [문제](https://www.acmicpc.net/problem/10773) |
-| problem 114 | 스택 수열 | 스택 | | 47963 | 174173 | 38.465% | [문제](https://www.acmicpc.net/problem/1874) |
-| problem 115 | 탑 | 스택 | | 19626 | 83523 | 33.196% | [문제](https://www.acmicpc.net/problem/2493) |
-| problem 116 | 옥상 정원 꾸미기 | 스택 | 다국어 | 6298 | 22297 | 35.494% | [문제](https://www.acmicpc.net/problem/6198) |
-| problem 117 | 오큰수 | 스택 | | 24308 | 95072 | 34.732% | [문제](https://www.acmicpc.net/problem/17298) |
-| problem 118 | 오아시스 재결합 | 스택 | 다국어 | 5799 | 28256 | 27.352% | [문제](https://www.acmicpc.net/problem/3015) |
-| problem 119 | 히스토그램에서 가장 큰 직사각형 | 스택 | 다국어 | 10831 | 59359 | 27.366% | [문제](https://www.acmicpc.net/problem/6549) |
-| problem 120 | 큐 | 큐 | | 52253 | 140444 | 49.161% | [문제](https://www.acmicpc.net/problem/10845) |
-| problem 121 | 큐 2 | 큐 | | 29468 | 111605 | 32.763% | [문제](https://www.acmicpc.net/problem/18258) |
-| problem 122 | 카드2 | 큐 | | 55502 | 137180 | 50.929% | [문제](https://www.acmicpc.net/problem/2164) |
-| problem 123 | 덱 | 덱 | | 42756 | 91502 | 56.166% | [문제](https://www.acmicpc.net/problem/10866) |
-| problem 124 | 회전하는 큐 | 덱 | | 24081 | 49010 | 61.792% | [문제](https://www.acmicpc.net/problem/1021) |
-| problem 125 | AC | 덱 | 다국어 | 26528 | 163998 | 20.383% | [문제](https://www.acmicpc.net/problem/5430) |
-| problem 126 | 최솟값 찾기 | 덱 | | 8989 | 43657 | 30.892% | [문제](https://www.acmicpc.net/problem/11003) |
+| 문제 번호 | 문제 제목             | 자료구조/알고리즘 | 정답 비율 | URL |
+| -------- | ------------------- | ---------------- | --------- | --- |
+| 127      | 균형잡힌 세상         | 스택             | 32.828%   | [4949](https://www.acmicpc.net/problem/4949) |
+| 128      | 좋은 단어             | 스택             | 56.566%   | [3986](https://www.acmicpc.net/problem/3986) |
+| 129      | 괄호                 | 스택             | 46.325%   | [9012](https://www.acmicpc.net/problem/9012) |
+| 130      | 쇠막대기              | 스택             | 65.191%   | [10799](https://www.acmicpc.net/problem/10799) |
+| 131      | 괄호의 값             | 스택             | 31.180%   | [2504](https://www.acmicpc.net/problem/2504) |
+| 132      | 1로 만들기           | DP              | 33.240%   | [1463](https://www.acmicpc.net/problem/1463) |
+| 133      | 유기농 배추          | BFS/DFS         | 38.749%   | [1012](https://www.acmicpc.net/problem/1012) |
+| 134      | 1, 2, 3 더하기        | DP              | 64.761%   | [9095](https://www.acmicpc.net/problem/9095) |
+| 135      | 미로 탐색             | BFS/DFS         | 44.798%   | [2178](https://www.acmicpc.net/problem/2178) |
+| 136      | 피보나치 함수         | DP              | 33.732%   | [1003](https://www.acmicpc.net/problem/1003) |
+| 137      | 숨바꼭질             | BFS/DFS         | 26.135%   | [1697](https://www.acmicpc.net/problem/1697) |
+| 138      | 2×n 타일링          | DP              | 36.834%   | [11726](https://www.acmicpc.net/problem/11726) |
+| 139      | 토마토               | BFS/DFS         | 37.285%   | [7576](https://www.acmicpc.net/problem/7576) |
+| 140      | 계단 오르기           | DP              | 34.247%   | [2579](https://www.acmicpc.net/problem/2579) |
+| 141      | 영역 구하기           | BFS/DFS         | 57.915%   | [2583](https://www.acmicpc.net/problem/2583) |
+| 142      | 정수 삼각형           | DP              | 59.820%   | [1932](https://www.acmicpc.net/problem/1932) |
+| 143      | 나이트의 이동        | BFS/DFS         | 52.486%   | [7562](https://www.acmicpc.net/problem/7562) |
+| 144      | 연속합               | DP              | 37.250%   | [1912](https://www.acmicpc.net/problem/1912) |
+| 145      | 안전 영역            | BFS/DFS         | 34.773%   | [2468](https://www.acmicpc.net/problem/2468) |
+| 146      | 구간 합 구하기 4       | DP              | 38.442%   | [11659](https://www.acmicpc.net/problem/11659) |
+| 147      | 상범 빌딩            | BFS/DFS         | 39.033%   | [6593](https://www.acmicpc.net/problem/6593) |
+| 148      | RGB거리             | DP              | 56.171%   | [1149](https://www.acmicpc.net/problem/1149) |
+| 149      | 불                   | BFS/DFS         | 25.265%   | [5427](https://www.acmicpc.net/problem/5427) |
+| 150      | 1로 만들기 2         | DP              | 46.867%   | [12852](https://www.acmicpc.net/problem/12852) |
+| 151      | 다리 만들기           | BFS/DFS         | 34.870%   | [2146](https://www.acmicpc.net/problem/2146) |
+| 152      | 쉬운 계단 수          | DP              | 30.956%   | [10844](https://www.acmicpc.net/problem/10844) |
+| 153      | 텀 프로젝트          | BFS/DFS         | 24.152%   | [9466](https://www.acmicpc.net/problem/9466) |
+| 154      | 2×n 타일링 2        | DP              | 58.418%   | [11727](https://www.acmicpc.net/problem/11727) |
+| 155      | 토마토               | BFS/DFS         | 42.740%   | [7569](https://www.acmicpc.net/problem/7569) |
+| 156      | 가장 큰 증가하는 부분 수열 | DP         | 44.273%   | [11055](https://www.acmicpc.net/problem/11055) |
+| 157      | 불!                  | BFS/DFS         | 20.756%   | [4179](https://www.acmicpc.net/problem/4179) |
+| 158      | 이친수               | DP              | 41.649%   | [2193](https://www.acmicpc.net/problem/2193) |
+| 159      | 숨바꼭질 3           | BFS/DFS         | 24.042%   | [13549](https://www.acmicpc.net/problem/13549) |
+| 160      | 파도반 수열           | DP              | 43.531%   | [9461](https://www.acmicpc.net/problem/9461) |
+| 161      | 숨바꼭질 4           | BFS/DFS         | 31.010%   | [13913](https://www.acmicpc.net/problem/13913) |
+| 162      | 퇴사                 | DP              | 50.548%   | [14501](https://www.acmicpc.net/problem/14501) |
+| 163      | 스타트링크           | BFS/DFS         | 33.931%   | [5014](https://www.acmicpc.net/problem/5014) |
+| 164      | 말이 되고픈 원숭이     | BFS/DFS         | 21.493%   | [1600](https://www.acmicpc.net/problem/1600) |
+| 165      | 퇴사 2               | DP              | 39.300%   | [15486](https://www.acmicpc.net/problem/15486) |
+| 166      | 자두나무             | DP              | 38.516%   | [2240](https://www.acmicpc.net/problem/2240) |
+| 167      | 빙산                 | BFS/DFS         | 26.497%   | [2573](https://www.acmicpc.net/problem/2573) |
+| 168      | 피보나치 수 2         | DP              | 41.146%   | [2748](https://www.acmicpc.net/problem/2748) |
+| 169      | 정수 삼각형           | DP              | 59.820%   | [1932](https://www.acmicpc.net/problem/1932) |
+| 170      | 적록색약             | BFS/DFS         | 56.771%   | [10026](https://www.acmicpc.net/problem/10026) |
+| 171      | 가장 긴 증가하는 부분 수열 | DP         | 38.240%   | [11053](https://www.acmicpc.net/problem/11053) |
+| 172      | 단지번호붙이기        | BFS/DFS         | 42.993%   | [2667](https://www.acmicpc.net/problem/2667) |
+| 173      | 그림        | BFS/DFS         | 42.931%   | [2667](https://www.acmicpc.net/problem/1926) |
 
 ## 배운 것 정리 
   
