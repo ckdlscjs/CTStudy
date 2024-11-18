@@ -58,9 +58,13 @@
 
 
 ## 문제 해설 
-Problem 127: <br><br><br>
+Problem 127: 균형잡힌 세상 <br>
+-O(N*M)<br>
+-문자열이 끊기지 않을때 까지 받아가면서 스택으로 top의 양쪽괄호가 닫히는가를 비교한다<br>
 
-Problem 128: <br><br><br>
+Problem 128: 좋은 단어<br>
+-O(N*M)<br>
+-스택의top과 비교<br>
 
 Problem 129: <br><br><br>
 
