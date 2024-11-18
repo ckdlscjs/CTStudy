@@ -78,13 +78,21 @@ Problem 131: 괄호의 값<br>
 -O(3N)<br>
 -왼쪽괄호일때는 스택에푸시, 우측괄호일때 조건에따라 top의값과 비교하면서 맞물린다면 숫자를 다시 스택에 집어넣는식으로 숫자를 계수하면서 증감시킨다, 다른풀이로는 분배법칙을 이용해 풀 수 있다<br>
 
-Problem 132: <br><br><br>
+Problem 132: 1로 만들기<br>
+-O(N)<br>
+-상향식 dp, i를 기준으로 i%2, i%3일때의 값을 기준으로 계산한다<br>
 
-Problem 133: <br><br><br>
+Problem 133: 유기농 배추<br>
+-O(T*N*M)<br>
+-DFS로 갯수를체크한다<br>
 
-Problem 134: <br><br><br>
+Problem 134: 1, 2, 3더하기<br>
+-O(N)<br>
+-끝이 1의갯수, 2의갯수, 3의갯수를 기반으로 점화식을 구성한다<br>
 
-Problem 135: <br><br><br>
+Problem 135: 미로 탐색<br>
+-O(N^2)<br>
+-BFS<br>
 
 Problem 136: <br><br><br>
 
