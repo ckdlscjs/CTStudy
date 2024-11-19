@@ -59,15 +59,15 @@
 
 ## 문제 해설 
 Problem 127: 균형잡힌 세상 <br>
--O(N*M)<br>
+-O(NM)<br>
 -문자열이 끊기지 않을때 까지 받아가면서 스택으로 top의 양쪽괄호가 닫히는가를 비교한다<br>
 
 Problem 128: 좋은 단어<br>
--O(N*M)<br>
+-O(NM)<br>
 -스택의top과 비교<br>
 
 Problem 129: 괄호<br>
--O(N*M)<br>
+-O(NM)<br>
 -스택의 top과 비교<br>
 
 Problem 130: 쇠막대기<br>
@@ -83,7 +83,7 @@ Problem 132: 1로 만들기<br>
 -상향식 dp, i를 기준으로 i%2, i%3일때의 값을 기준으로 계산한다<br>
 
 Problem 133: 유기농 배추<br>
--O(T*N*M)<br>
+-O(TNM)<br>
 -DFS로 갯수를체크한다<br>
 
 Problem 134: 1, 2, 3더하기<br>
@@ -94,25 +94,45 @@ Problem 135: 미로 탐색<br>
 -O(N^2)<br>
 -BFS<br>
 
-Problem 136: <br><br><br>
+Problem 136: 피보나치 함수<br>
+-O(N)<br>
+-메모이제이션으로 중복값을 추가계산하지 않으면서 pair를 리턴하면서 값을 계수하면서 콜스택 상위함수로 계승시킨다<br>
 
-Problem 137: <br><br><br>
+Problem 137: 숨바꼭질<br>
+-O(N)<br>
+-BFS로풀이, 최단거리를 기록하면서 계산<br>
 
-Problem 138: <br><br><br>
+Problem 138: 2*N타일링<br>
+-O(N)<br>
+-상향식 DP로 쌓아올린다, 피보나치와 동일한 점화식, 타일의 우측 끝이 1, 2냐에 따라 갯수를 합산시킨다<br>
 
-Problem 139: <br><br><br>
+Problem 139: 토마토<br>
+-O(NM)<br>
+-현재 토마토의 갯수를 bfs에 집어넣고 4방향으로 전파시키며 최단거리로 탐색한다, 남은게 있다면 불가능<br>
 
-Problem 140: <br><br><br>
+Problem 140: 계단 오르기<br>
+-O(N)<br>
+-상향식DP,첫계단 오른것과 두번째계단까지 오른것을 초기값으로 잡고 3번째 계단부터 점화식으로 찾는다, 연속된 3계단은 불가하므로 -2계단전에서 최대값 혹은 -3계단전에서최대값 + 이전계단 + 현재계단 으로 최대값을 갱신 <br>
 
-Problem 141: <br><br><br>
+Problem 141: 영역 구하기<br>
+-O(NM)<br>
+-DFS로 색칠되지 않은 영역을 탐색, 합산을 계수해 리턴값을 오름차순으로 출력<br>
 
-Problem 142: <br><br><br>
+Problem 142: 정수 삼각형<br>
+-O(N^2)<br>
+-현재인덱스를 기준으로 좌상단, 상단 값을 비교해 max값을 더해나간다, 0을 초기화해놓고 1부터지정하면 수고를 덜수있다, max를리턴<br>
 
-Problem 143: <br><br><br>
+Problem 143: 나이트의 이동<br>
+-O(TNM)<br>
+-BFS로 최단거리를 찾는다, 말의이동경로를 미리 기입해둔다<br>
 
-Problem 144: <br><br><br>
+Problem 144: 연속합<br>
+-O(N)<br>
+-현재 인덱스 기준으로 최대값을 갱신해 나간다, 이전값들의 합이 현재인덱스 단일개체보다 적다면 최대값이 바뀌게된다, 최대값을 갱신해나가며 출력<br>
 
-Problem 145: <br><br><br>
+Problem 145: 안전영역<br>
+-O(HNM)<br>
+-dfs로 높이에다른 갯수를 상황에 맞게 계수하면서 조건을 비교해 체크한다<br>
 
 Problem 146: <br><br><br>
 
