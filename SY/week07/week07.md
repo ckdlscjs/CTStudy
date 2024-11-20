@@ -134,25 +134,45 @@ Problem 145: 안전영역<br>
 -O(HNM)<br>
 -dfs로 높이에다른 갯수를 상황에 맞게 계수하면서 조건을 비교해 체크한다<br>
 
-Problem 146: <br><br><br>
+Problem 146: 구간 합 구하기 4<br>
+-O(2N)<br>
+-누적합을 이용해 특정 구간의 합을 출력한다<br>
 
-Problem 147: <br><br><br>
+Problem 147: 상범 빌딩<br>
+-O(T2LR)<br>
+-높이까지 활용 위해 dy,dx,dz를 통해 bfs한다<br>
 
-Problem 148: <br><br><br>
+Problem 148: RGB거리<br>
+-O(N)<br>
+-상향식dp, 이전값들과 같지 않은 idx의 값만을 min으로 더해나간다<br>
 
-Problem 149: <br><br><br>
+Problem 149: 불<br>
+-O(T2HW)<br>
+-위치를 기반으로 BFS, 탈출가능->최단거리를 이용<br>
 
-Problem 150: <br><br><br>
+Problem 150: 1로 만들기2<br>
+-O(2N)<br>
+-상향식dp, 독립적이므로 조건에부합하는식으로 DP를 채우고 해당 수에 맞게끔 채워진 점화식을 역순 가감하는 차례로 트랙킹한다<br>
 
-Problem 151: <br><br><br>
+Problem 151: 다리 만들기<br>
+-O(3N^2)<br>
+-BFS를 이용한다, 동시에 BFS를 영역마다 다르게 전개하면서 영역중첩이 생길경우에 양측거리를 계산하면 중복BFS계산을 줄일 수 있다<br>
 
-Problem 152: <br><br><br>
+Problem 152: 쉬운 계단 수<br>
+-O(N)<br>
+-상향식DP, 조건에 맞는 첫 계단수를 미리 기록후끝값에 대한 dp누적처리, 0과9만 특수조건이며 이외는 j-1, j+1을 이전 단계에서 승계해 가져와 더한다<br>
 
-Problem 153: <br><br><br>
+Problem 153: 텀 프로젝트<br>
+-O(T3N)<br>
+-DFS를 이용해 탐색, 탐색중에 이미방문한 정점이라면 싸이클이 성립하는지 여부를 찾는다, 싸이클이 존재할경우에만 한 팀이므로 이를 기록할 별도체크 배열을 이용해 싸이클여부를 체크하여 싸이클탐색의 중복순회을 막는다<br>
 
-Problem 154: <br><br><br>
+Problem 154: 2xN타일링 2<br>
+-O(N)<br>
+-상향식DP, 초기값을 구성후 점화식의 과정에서 2로 끝나는 경우가 두개이므로 2곱하여 점화식구성 F(N) = F(N-1) + 2*F(N-2) 의 구성이된다<br>
 
-Problem 155: <br><br><br>
+Problem 155: 토마토<br>
+-O(2HNM)<br>
+-dy,dx,dz를 이용한 bfs<br>
 
 Problem 156: <br><br><br>
 
