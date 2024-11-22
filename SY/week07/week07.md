@@ -56,7 +56,7 @@
   
 https://blog.naver.com/syl610/223669695539 BFS <br>
 https://blog.naver.com/syl610/223669700401 DFS <br>
-https://blog.naver.com/syl610/223669700401 DP(진행중, 바킹독강의는 추후에 짧게 요약예정) <br>
+https://blog.naver.com/syl610/223658836933 DP(진행중, 바킹독강의는 추후에 짧게 요약예정) <br>
 
 ## 문제 해설 
 Problem 127: 균형잡힌 세상 <br>
