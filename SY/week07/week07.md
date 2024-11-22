@@ -54,7 +54,9 @@
 
 ## 배운 것 정리 
   
-
+https://blog.naver.com/syl610/223669695539 BFS
+https://blog.naver.com/syl610/223669700401 DFS
+https://blog.naver.com/syl610/223669700401 DP(진행중, 바킹독강의는 추후에 짧게 요약예정)
 
 
 ## 문제 해설 
