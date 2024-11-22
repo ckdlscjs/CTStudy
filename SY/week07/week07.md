@@ -54,8 +54,9 @@
 
 ## 배운 것 정리 
   
-
-
+https://blog.naver.com/syl610/223669695539 BFS <br>
+https://blog.naver.com/syl610/223669700401 DFS <br>
+https://blog.naver.com/syl610/223658836933 DP(진행중, 바킹독강의는 추후에 짧게 요약예정) <br>
 
 ## 문제 해설 
 Problem 127: 균형잡힌 세상 <br>
@@ -174,43 +175,81 @@ Problem 155: 토마토<br>
 -O(2HNM)<br>
 -dy,dx,dz를 이용한 bfs<br>
 
-Problem 156: <br><br><br>
+Problem 156: 가장 큰 증가하는 부분수열<br>
+-N^2<br>
+-DP로 lis를 구성<br>
 
-Problem 157: <br><br><br>
+Problem 157: 불!<br>
+-2RC<br>
+-플레이어의 현재위치, 불의 현재위치 를 BFS에넣고 탐색시키면서 가능한 다음 위치를 임시컨테이너에집어넣고 같은 한턴을 순서대로 반복하면서 BFS, 한턴이끝나면 임시배열에있던값을 다시집어넣음<br>
 
-Problem 158: <br><br><br>
+Problem 158: 이친수<br>
+-N<br>
+-상향식DP, 초기값을 지정후 11인경우엔 이전값이 무조건 0이어야 하므로 이를 제외한식으로 dp[i][0] += dp[i-1][0] + dp[i-1][1], dp[i][1] += dp[i][0]<br>
 
-Problem 159: <br><br><br>
+Problem 159: 숨바꼭질 3<br>
+-N<br>
+-bfs로 조건에 부합하는 식으로 N까지 역순으로 찾는다, 순간이동의경우는 이동시간이 추가되지않으므로 이동거리를 큰값으로fill해준후 작은값들로만 bfs<br>
 
-Problem 160: <br><br><br>
+Problem 160: 파도반 수열<br>
+-TN<br>
+-내가 찾은 점화식 규칙은 dp[i] = dp[i-2] + dp[i-3] 이었으나 다른 풀이등에선 dp[i-1] + dp[i-5]로 구성되어있음 해당 정도만체크<br>
 
-Problem 161: <br><br><br>
+Problem 161: 숨바꼭질 4<br>
+-N<br>
+-bfs로 최단의 이동거리를 찾는다, 이때 최단이동경로순서를 pair로 위치를 기록하면서 bfs로 이동하면 역순으로 이동경로를출력한다<br>
 
-Problem 162: <br><br><br>
+Problem 162: 퇴사<br>
+-N<br>
+-하향식, 혹은 상향식DP, i날짜에 i-1날짜에 대한 최대상담요금값을 기록해가며 찾는다, 상담이불가능한날엔 이전값에서 최대값이므로 dp[i] = max(dp[i-1], dp[i])이된다, 상담가능시 dp[i+t] = max(dp[i+t], dp[i] + p)<br>
 
-Problem 163: <br><br><br>
+Problem 163: 스타트 링크<br>
+-N<br>
+-조건에 부합하게 최단거리를 찾는 bfs<br>
 
-Problem 164: <br><br><br>
+Problem 164: 말이 되고픈 원숭이<br>
+-KWH<br>
+-말의 이동을 사용하는 별도의 K축을 두어 말의 이동시 해당 3차원배열로 이동해 4방향 BFS를 추가로 더기록한다, 이동자체는 4방향dir과 8방향dir을 이용<br>
 
-Problem 165: <br><br><br>
+Problem 165: 퇴사2<br>
+-N<br>
+-퇴사1과동일, 범위만 최대 1'500'000<br>
 
-Problem 166: <br><br><br>
+Problem 166: 자두나무<br>
+-TW<br>
+-기존위치를 기준으로 한번 이동할때마다 w가 증가하기에 해당위치에따른 max값을 3차원배열dp를이용한다 dp[시간][이동횟수][위치] 로 최대값들을기록<br>
 
-Problem 167: <br><br><br>
+Problem 167: 빙산<br>
+-NM * (max)(10000 * 10) <br>
+-빙산을 입력시 기록해두고 bfs, 현재녹는 빙산만큼씩만 수행하면서 녹는양을 기록하고 기록한값을 한번에 일괄처리해야 추가로안녹으니 이를처리, 이후 bfs시키며 split할때 조건부합시 리턴 <br>
 
-Problem 168: <br><br><br>
+Problem 168: 피보나치 수 2<br>
+-logN<br>
+-여러방법이 있으나 이전에 푼 다른문제에서 사용한 행렬곱을 이용한 피보나치수를 이용해 logN에구현<br>
 
-Problem 169: <br><br><br>
+Problem 169: 벽 부수고 이동하기<br>
+-3NM<br>
+-양측에서 bfs로 벽위치를기록, 최대값을 양측의 합으로 찾는다<br>
 
-Problem 170: <br><br><br>
+Problem 170: 정수 삼각형<br>
+-N^2<br>
+-현재값은 이전값, 현재값중 최대  dp[1][j] += std::max(dp[0][j-1], dp[0][j]), 파스칼의삼각형과동일<br>
 
-Problem 171: <br><br><br>
+Problem 171: 적록색약<br>
+-3N^2<br>
+-그냥카운트, 색 바꾸고카운트<br>
 
-Problem 172: <br><br><br>
+Problem 172: 가장 긴 증가하는 부분수열<br>
+-N^2 or NlogN<br>
+-DP의경우 현재i를 기준으로 j ~ i 까지 최장길이를 선형계산하여기록, NlogN은 이분탐색<br>
 
-Problem 173: <br><br><br>
+Problem 173: 단지 번호 붙히기<br>
+-N^2<br>
+-DFS를 이용하여 탐색 및 계수, PQ로 오름차순으로출력<br>
 
-Problem 174: <br><br><br>
+Problem 174: 그림<br>
+-N^2<br>
+-DFS카운트와 계수후 최대넓이반환<br>
 
 
 
