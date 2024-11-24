@@ -1,149 +1,297 @@
-# Java_codingTest_5thWeek
+# Java_codingTest_6thWeek
 
-# Java_coding_factory : Fifth Week
+# Java_coding_factory : 6th Week
 
 ---
 
-## Solving Programmers level 1 Problems with BaekJoon (5) : 81 - 100
+## Solving Programmers level 1 Problems with BaekJoon (6) : 101 - 126
 
 ## Problems and Links
 
-| 문제 | URL |
-| --- | --- |
-| problem 81 | [https://school.programmers.co.kr/learn/courses/30/lessons/12906](https://school.programmers.co.kr/learn/courses/30/lessons/12906) |
-| problem 82 | [https://school.programmers.co.kr/learn/courses/30/lessons/12903](https://school.programmers.co.kr/learn/courses/30/lessons/12903) |
-| problem 83 | [https://school.programmers.co.kr/learn/courses/30/lessons/12901](https://school.programmers.co.kr/learn/courses/30/lessons/12901) |
-| problem 84 | [https://school.programmers.co.kr/learn/courses/30/lessons/1845](https://school.programmers.co.kr/learn/courses/30/lessons/1845) |
-| problem 85 | [https://www.acmicpc.net/problem/10871](https://www.acmicpc.net/problem/10871) |
-| problem 86 | [https://www.acmicpc.net/problem/2309](https://www.acmicpc.net/problem/2309) |
-| problem 87 | [https://www.acmicpc.net/problem/10093](https://www.acmicpc.net/problem/10093) |
-| problem 88 | [https://www.acmicpc.net/problem/1267](https://www.acmicpc.net/problem/1267) |
-| problem 89 | [https://www.acmicpc.net/problem/10804](https://www.acmicpc.net/problem/10804) |
-| problem 90 | [https://www.acmicpc.net/problem/15552](https://www.acmicpc.net/problem/15552) |
-| problem 91 | [https://www.acmicpc.net/problem/2438](https://www.acmicpc.net/problem/2438) |
-| problem 92 | [https://www.acmicpc.net/problem/2439](https://www.acmicpc.net/problem/2439) |
-| problem 93 | [https://www.acmicpc.net/problem/2440](https://www.acmicpc.net/problem/2440) |
-| problem 94 | [https://www.acmicpc.net/problem/2441](https://www.acmicpc.net/problem/2441) |
-| problem 95 | [https://www.acmicpc.net/problem/2442](https://www.acmicpc.net/problem/2442) |
-| problem 96 | [https://www.acmicpc.net/problem/2443](https://www.acmicpc.net/problem/2443) |
-| problem 97 | [https://www.acmicpc.net/problem/2444](https://www.acmicpc.net/problem/2444) |
-| problem 98 | [https://www.acmicpc.net/problem/2445](https://www.acmicpc.net/problem/2445) |
-| problem 99 | [https://www.acmicpc.net/problem/2446](https://www.acmicpc.net/problem/2446) |
-| problem 100 | [https://www.acmicpc.net/problem/2562](https://www.acmicpc.net/problem/2562) |
+| 문제 | 문제 제목 | 문제 유형 | 정보 | 맞힌 사람 | 제출 | 정답 비율 | URL |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| problem 101 | 알파벳 개수 | 배열 |  | 31397 | 58124 | 68.306% | [문제](https://www.acmicpc.net/problem/10808) |
+| problem 102 | 숫자의 개수 | 배열 |  | 100667 | 202800 | 60.344% | [문제](https://www.acmicpc.net/problem/2577) |
+| problem 103 | 방 번호 | 배열 |  | 25508 | 74169 | 44.339% | [문제](https://www.acmicpc.net/problem/1475) |
+| problem 104 | 두 수의 합 | 배열 | 다국어 | 17530 | 67014 | 34.385% | [문제](https://www.acmicpc.net/problem/3273) |
+| problem 105 | 개수 세기 | 배열 |  | 78732 | 153356 | 61.906% | [문제](https://www.acmicpc.net/problem/10807) |
+| problem 106 | 방 배정 | 배열 | 서브태스크 | 10321 | 21531 | 59.780% | [문제](https://www.acmicpc.net/problem/13300) |
+| problem 107 | Strfry | 배열 | 다국어 | 5141 | 15529 | 41.141% | [문제](https://www.acmicpc.net/problem/11328) |
+| problem 108 | 애너그램 만들기 | 배열 |  | 8457 | 17360 | 59.049% | [문제](https://www.acmicpc.net/problem/1919) |
+| problem 109 | 에디터 | 연결 리스트 | 다국어 | 25322 | 133318 | 26.857% | [문제](https://www.acmicpc.net/problem/1406) |
+| problem 110 | 키로거 | 연결 리스트 | 다국어 | 13080 | 64550 | 27.823% | [문제](https://www.acmicpc.net/problem/5397) |
+| problem 111 | 요세푸스 문제 | 연결 리스트 |  | 43356 | 122863 | 49.058% | [문제](https://www.acmicpc.net/problem/1158) |
+| problem 112 | 스택 | 스택 |  | 74759 | 278220 | 37.929% | [문제](https://www.acmicpc.net/problem/10828) |
+| problem 113 | 제로 | 스택 | 다국어 | 58504 | 105851 | 68.313% | [문제](https://www.acmicpc.net/problem/10773) |
+| problem 114 | 스택 수열 | 스택 |  | 47963 | 174173 | 38.465% | [문제](https://www.acmicpc.net/problem/1874) |
+| problem 115 | 탑 | 스택 |  | 19626 | 83523 | 33.196% | [문제](https://www.acmicpc.net/problem/2493) |
+| problem 116 | 옥상 정원 꾸미기 | 스택 | 다국어 | 6298 | 22297 | 35.494% | [문제](https://www.acmicpc.net/problem/6198) |
+| problem 117 | 오큰수 | 스택 |  | 24308 | 95072 | 34.732% | [문제](https://www.acmicpc.net/problem/17298) |
+| problem 118 | 오아시스 재결합 | 스택 | 다국어 | 5799 | 28256 | 27.352% | [문제](https://www.acmicpc.net/problem/3015) |
+| problem 119 | 히스토그램에서 가장 큰 직사각형 | 스택 | 다국어 | 10831 | 59359 | 27.366% | [문제](https://www.acmicpc.net/problem/6549) |
+| problem 120 | 큐 | 큐 |  | 52253 | 140444 | 49.161% | [문제](https://www.acmicpc.net/problem/10845) |
+| problem 121 | 큐 2 | 큐 |  | 29468 | 111605 | 32.763% | [문제](https://www.acmicpc.net/problem/18258) |
+| problem 122 | 카드2 | 큐 |  | 55502 | 137180 | 50.929% | [문제](https://www.acmicpc.net/problem/2164) |
+| problem 123 | 덱 | 덱 |  | 42756 | 91502 | 56.166% | [문제](https://www.acmicpc.net/problem/10866) |
+| problem 124 | 회전하는 큐 | 덱 |  | 24081 | 49010 | 61.792% | [문제](https://www.acmicpc.net/problem/1021) |
+| problem 125 | AC | 덱 | 다국어 | 26528 | 163998 | 20.383% | [문제](https://www.acmicpc.net/problem/5430) |
+| problem 126 | 최솟값 찾기 | 덱 |  | 8989 | 43657 | 30.892% | [문제](https://www.acmicpc.net/problem/11003) |
 
 ## 배운 것 정리
 
-Brute-Force 
+기본적으로 : 배열, 
+
+- Counting Sort
+    - 장점
+    - 단점
+
+- LinkedList
+
+- 
 
 ## 문제 해설
 
-problem 번호: 예제
+Problem 101: 알파벳 개수 
 
-문제 이해 → 풀이 방향 : 구현, 연산 3개를 구현하는 부분이 까다로울 수도 있을 거 같다.
-사용한 자료구조 & 시간복잡도 : O(N)
-(option 참고 문제 & 참고 링크 등등) : 유사한? 문제 백준 : [https://www.acmicpc.net/problem/1942](https://www.acmicpc.net/problem/1942)
-까다로웠던 점 & 논의하고 싶은 부분 : 자바 특성상 임의의 자료형을 정의를 하는 순간 길이가 엄청나게 길어진다. 그게 좀 재밌으면서도 어려웠다.
-<br>
-<br>
+문제 이해 : 
 
-Problem 81:  같은 숫자는 싫어 
+문제 풀이 : 알파벳 배열을 만들어서 알파벳의 카운트를 저장해주고, 리턴했다. (Counting Sort)
 
-문제 이해 및 해설 : 같은 숫자는 싫어는 연속해서 같은 숫자가 나오는 경우 ex) 1 1 1 2 3 3 0 4 4 같이 나온다면, output이 1 2 3 0 4 같이 나와야 한다. 문제는 위 로직에 대한 처리를 하기 위해 stack을 이용해서 stack의 top이 다음 숫자와 똑같으면 push를 안하고 넘어가면서 구현할 수 있었다. 
+시간 복잡도 : O(N+26)
 
-시간복잡도 : O(N)
+Problem 102: 숫자의 개수 
 
-<br> <br> <br>
+문제 풀이 : 알파벳 배열을 만들어서 알파벳의 카운트를 저장해주고, 리턴했다. (Counting Sort)
 
-Problem 82: 가운데 글자 가져오기 
+시간 복잡도 : O(10+10)
 
-문제 이해 및 해설 : 문자열 자료가 주어졌을 때 가운데를 리턴하면 되는데 짝수 길이면 중간에 0-index 기준으로 (n//2)-1, n//2에 해당되는 두 문자열을 출력하면 된다.  
+Problem 103: 방 번호 
 
-시간복잡도 : O(N/2) = O(N) 
+문제 풀이 : 마찬가지로 이 문제 역시 Counting sort를 이용해서 푸는 문제였다. 주어진 숫자를 0이 될 때까지 10으로 나눈 나머지를 카운팅 소트를 해준다. 그렇게 저장한 값들을 이용하여, 6번과 9번은 혼용할 수 있으니 두개를 합쳐서 ret에 할당했다. 이 값이 짝수가 나오면 그냥 2로 나누어주었고, 홀수라면 버려야 하는데, 여기서 문제는 함부로 버리면 안된다. 예를 들어서, 6: 1, 9 : 2인 경우에는 최소 2 세트 이상이 필요하기 때문이다. 그래서 ret가 홀수일 땐 ret = (ret/2) + 1; 해주었고, 9, 6을 제외한 나머지 값에 대해서는 ret과 비교해서 Max값을 찾아주었다. 
 
-<br> <br> <br>
+시간 복잡도 : O(N)
 
-Problem 83: 
+Problem 104: 두 수의 합 
 
-문제 이해 및 해설 : 2016년에 대한 요일을 출력하면 된다. 누적합을 이용해서 현재월까지의 누적 일수를 계산하고 7%로 나눠서  요일 배열에 넣고 리턴한다. 요일 배열은 1월 1일이 FRI 이므로 이를 감안해서 FRI, SAT, SUN, … , THU로 쓴다. FRI를 1월 1일이므로 첫날이기 때문에 0일로 계산했다. (1월 2일은 1일로 계산했습니다.) 이를 위해 전체 일수에서 -1을 했다.  
+문제 풀이 : 수열의 사이즈 N이 주어지고, 서로 다른 자연수로 구성된 사이즈 N인 수열이 주어진다. 그리고 타깃 자연수 t가 주어진다. $t = a_i + a_j \  (i\not=j, \ \forall 1\leq i,j\leq N)$를 만족하는 튜플의 개수를 구해야 한다. 문제는 N의 사이즈다. $1\leq N \leq 10^5$ 이므로 $O(N^2)$ 알고리즘 돌릴 수 없다. 따라서 이 경우 못해도 $O(N\log(N))$ 알고리즘을 구현해야 한다. 주어진 조건을 다시 살펴보자. “서로 다른”과 “자연수”를 보고 이분탐색(binary search)를 떠올렸다. 일단 정렬을 하는데 $O(N\log(N))$  이후 자연수 하나에 쿼리 하나이므로 $O(Nlog(N))$ 이다. 따라서 예상 최악의 시간복잡도는 $O(2N\log(N))$라고 생각했고, 무난히 통과할 수 있었다. 
 
-시간복잡도 : O(1)
+— 물론, Two pointer를 이용해서 $O(N)$ 안에 문제를 해결할 수도 있다. 아래는  c++ code다.
 
-<br> <br> <br>
+```cpp
+// c++ 
+#include <alogrithm>
+int solution(vector<int> nums, int target){
+	sort(nums.begin(), nums.end());
+	int i = 0; 
+	int j = nums.size()-1;
+	int ret = 0;
+	while(i<j){
+		int tmp = nums[i] + nums[j];
+		if(tmp == target){
+			 ret++;
+			 i++;
+			 j--;
+		}
+		else if(tmp < target){
+			i++;
+		}else{
+			j--;
+	}
+	return ret;
+}
+```
 
-Problem 84: 폰켓몬 
+Problem 105: 개수 세기 
 
-문제 이해 및 해설 : 포켓몬의 종류에 대한 리스트가 주어진다. 주어진 리스트를 counting sort해서 종류가 최대 N/2를 고를 수 있으면 return N/2를 반환하고, 그렇지 않으면 가능한 최대 종류를 반환한다. 
+문제 풀이 : 이 문제도 카운팅 소트를 이용해서 문제를 해결하면 된다. 카운팅 소트를 쓰는 경우는 이 문제처럼 최댓값의 제한이 작거나, 나오는 숫자의 가짓수가 작을 때 카운팅소트를 이용하면 된다. 
 
-시간복잡도 : O(200000)
+시간 복잡도 : O(N)
 
-<br> <br> <br>
+```java
+// Counting Sort Print
+static int Solution(int[] nums){
+	int N = nums.length;
+	int[] cnts = int[N+1];
+	for(int i = 0;i<N;i++){
+		cnts[nums[i]]++;
+	}
+	
+	StringBuilder sb = new StringBuilder();
+	for(int i = 0;i<=N;i++){
+		while(cnts[i]-->0){
+			sb.append(i + " ");
+		}
+	}
+	System.out.println(sb);
+}
+```
 
-Problem 85: **X보다 작은 수**
+Problem 106: 방 배정 
 
-문제 이해 및 해설 : 정수 배열과 X값이 주어진다. 주어진 정수 배열 중에서 X값보다 작은 것들을 저장해서 반환한다. 
+문제 풀이 : 앞서 언급한 방 번호의 문제를 좀 더 일반적으로 확장한 문제다. 방 배정의 조건은 정리해보면 세개다. 
 
-시간복잡도 : O(N) 
+- 같은 학년끼리 배정
+- 같은 성별끼리 배정
+- 한방에 최대 K명.
 
-<br> <br> <br>
+전체 학년을 배열로 선언한 다음에 각 학년 별로 남,녀의 수를 세야 하므로 int[][] students = new int[6][2]; 로 선언해서 저장해준 뒤에 K로 나눈 몫과 나머지를 계산하여 방의 개수를 계산할 수 있었다. 
 
-Problem 86: 일곱난쟁이 
+시간 복잡도 : O(N + 12)
 
-문제 이해 및 해설 : 난쟁이는 9명이 주어진다. 7 난쟁이의 키의 합이 100이 되는 경우를 찾아야 한다. 단순한 브루트포스 구현을 하고 싶지 않아서 백트래킹으로 구현했다. 
+Problem 107: Strfry 
 
-시간복잡도 : O$(2^9)$
+문제 풀이 : 역시 계수 정렬(카운팅 소트)로 풀었습니다. 문제는 문자열 a와 b가 주어집니다. 주어진 알파벳 a를 카운팅 소트한 배열을 A라고 한다면, b를 카운팅 소트하면서는 더하기가 아니라 빼기를 해야 합니다. 만약에 음수가 나오는 경우에는 false를 리턴하고 “Impossible”을 출력, 그러한 경우가 존재하지 않는 경우는 true를 리턴해서 “Possible”를 출력해줍니다. 
 
-<br> <br> <br>
+시간 복잡도 : O(N * 26 * 2) 
 
-Problem 87: 숫자
+Problem 108: 애너그램 만들기 
 
-문제 이해 및 해설 : 두 양의 정수가 주어졌을 때, a와 b사이에 있는 모든 정수의 개수를 반환하고, 전부 나열하라.  주어진 배열의 범위는 다음과 같다 [a+1, b). 배열의 길이는 b - a - 1가 되는데 b - a -1 ≤ 0이 되는 경우는 주어진 두 수 사이의 숫자가 존재하지 않는다. 또한, a>b가 나올 수도 있기 때문에 swap을 해줘야 한다. 이것만 주의하고 구현하면 된다. 
+문제 풀이 : 애너그램 만들기는 위의 Strfry이 케이스 1의 구조에서 얼마나 차이가 생기는지를 Math.abs를 이용해서 다 더해서 리턴하면 된다. 
 
-시간복잡도 : $O(N^2)$
+시간 복잡도 : O(|A| + |B| + 26) - 주어진 문자열 A, B
 
-<br> <br> <br>
+Problem 109: 에디터 
 
-Problem 88: 핸드폰 요금제 
+문제 풀이 : DLL(Doubly LinkedList)를 이용해서 현재 커서 왼쪽에 있는 값을 지우거나, 추가하거나, 커서를 왼쪽으로 이동하거나, 오른쪽으로 이동하는 연산을 구현해서 풀었습니다.
 
-문제 이해 및 해설 : 영식, 민식의 요금제는 각각 30초당 10원, 60초당 15원이다. N개만큼 통화량이 주어졌을 때 각각의 요금제로 계산하면, 누구의 요금제가 더 싼지 출력해야 하는 문제다. 
+자바의 경우 STL LinkedList의 remove가 최악의 경우 O(N)이므로 TLE가 납니다. 
 
-- 주의할 점은 만약 29초 또는 그보다 적은 요금제를 쓴다면 → 몫이 없더라도 요금이 추가되어야 한다.
+시간 복잡도 : O(N)
 
-시간복잡도 : O(N)
+Problem 110: 키로거 
 
-<br> <br> <br>
+문제 풀이 : 에디터와 마찬가지의 문제다. 이 문제를 풀 때는 deque를 이용해서 풀었다. 
 
-Problem 89: 카드역배치 
+[     왼 쪽       ] 현재 커서 [      오른쪽        ] 
 
-문제 이해 및 해설 : 카드 20장이 1부터 20까지 주어진다. 그 다음 10줄에 걸쳐 i번부터 j번에 위치한 카드를 reverse해야 한다. 
+< 가 나올 땐 오른쪽 deque을 poll_first를 해서 왼쪽의 deque에 addLast를 해줬습니다. 
 
-시간복잡도 : O(20*10) 
+> 가 나올 땐 오른쪽 deque을 poll_Last를 해서 오른쪽의 deque에 addFirst를 해줬습니다. 
 
-<br> <br> <br>
+- 가 나올 땐 왼쪽의 deque을 poll_last를 했습니다.
 
-Problem 90: 빠른 A + B
+이후 Left deque부터 right deque까지 결과를 문자열로 바꿔 리턴했습니다. 
 
-문제 이해 및 해설 :  
+시간 복잡도 : O(N)
 
-시간복잡도 : 
+Problem 111: 요세푸스 문제 
 
-<br> <br> <br>
+문제 풀이 : 이 문제는 N, K의 값이 작기 때문에 시간복잡도 O(NK)도 충분히 돌아간다. 원형큐를 구현해서 풀었다. 
 
-Problem 91: <br> <br> <br>
+시간 복잡도 : O(NK)
 
-Problem 92: <br> <br> <br>
+Problem 112: 스택 
 
-Problem 93: <br> <br> <br>
+문제 풀이 : 스택을 DLL를 이용해서 구현해서 풀었다. 
 
-Problem 94: <br> <br> <br>
+시간 복잡도 : O(N)
 
-Problem 95: <br> <br> <br>
+Problem 113: 제로 
 
-Problem 96: <br> <br> <br>
+문제 풀이 : 자연수 N이 주어진다. N만큼 인풋이 들어오는데 인풋의 숫자가 0이 아니면 스택에 push를 하고, 0이면 스택을 pop한다. 인풋이 끝나면 스택의 사이즈를 리턴한다. 
 
-Problem 97: <br> <br> <br>
+시간 복잡도 : O(N)
 
-Problem 98: <br> <br> <br>
+Problem 114: 스택 수열 
 
-Problem 99: <br> <br> <br>
+문제 풀이 : 입력은 첫 줄에 N, 이후 N개의 줄에 1부터 N 사이의 정수가 하나씩 주어집니다
 
-Problem 100: <br> <br> <br>
+- 1부터 N까지의 수를 스택에 오름차순으로 push하고 pop하여 주어진 수열을 만들 수 있는지 확인합니다.
+- 주어진 수열을 만들 수 있으면 push와 pop 연산을 순서대로 출력합니다.
+- 만들 수 없으면 "NO"를 출력합니다.
+
+시간 복잡도 : O(N)
+
+Problem 115: 탑 
+
+문제 풀이 : 탑에서 왼쪽으로 레이저를 발사한다. 레이저를 발사하는 탑보다 높이가 크거나 같은 탑은 그 레이저를 수신할 수 있다. 스택을 이용해서 왼쪽부터 탐색해서 모노톤 스택(여기선 단조증가 3 2 1 ←)을 만든다. 현재보다 값이 작은 것은 전부 pop을 해주고, pop을 해주면서 pop을 하는 인덱스에 현재 인덱스의 +1를 저장해준다. 그러고 나서 스택이 비었다면, 현재 탑 기준으로 왼쪽에는 현재의 레이저를 수신할 수 있는 탑이 없기 때문에, 0을 저장해주고, 그렇지 않다면 스택의 top+1을 저장해준다. 
+
+시간 복잡도 : O(N)
+
+Problem 116: 옥상 정원 꾸미기 
+
+문제 풀이 : 115번 문제와 매우 유사하지만, 한가지가 다르다. 계산하는 방식이 다르다. 이 문제를 115번 문제 스타일대로 바꾸면(옥상을 탑으로 명칭을 바꿔보자.) 레이저를 왼쪽이 아니라 오른쪽으로 레이저를 쏘는 것이다. 그리고 레이저를 수신하는 탑과 레이저를 보내는 탑 사이의 탑의 개수의 누적합을 구해야 한다. 즉, (레이저를 쏘는 탑, 레이저를 수신하는 탑) 이렇게 열린 구간의 범위를 전부 더해야 한다. 115번과 마찬가지로 단조증가 스택을 유지하면서 오른쪽으로 탐색하고, 현재의 높이가 스택의 top에 위치한 탑의 높이보다 작은 경우 결과값에 i - stack.top() - 1 을 계속 더해준다. 그리고, 포문이 끝나더라도 스택이 비지 않을 수도 있기 때문에 스택 바깥에 똑같은 연산을 한번 더 해주고 결과를 반환한다. 
+
+시간 복잡도 : O(N)
+
+Problem 117: 오큰수 
+
+문제 풀이 : 117번 문제 역시 115, 116번 문제와 똑같다. 단조증가 스택을 만들고, 현재값보다 작은 것들은 전부 pop을 해주는데 pop을 할 때 해당 위치의 현재 인덱스값을 기록해준다. 만약 탐색을 마치고도 스택에 남아있다면 전부 -1로 기록해준다. 
+
+시간 복잡도 : O(N)
+
+Problem 118: 오아시스 재결합 
+
+문제 풀이 : 118번 문제는 모노톤 스택이라는 기준에선 똑같지만, pop에서 처리방식이 다르다. 이 문제는 단순히 인덱스만 저장한 게 아니라 개수까지 함께 저장했다. 위와 비슷하게 스택의 top의 값보다 현재의 값이 더 클 경우에는 계속 pop을 하면서 스택의 item에 저장된 cnt를 결과 cnt에 계속 더해준다. 스택이 비어있지 않다면 결과값에 +1를 해준다. stack에 남은 원소가 있고, 그 원소의 값과 현재의 값이 같다면 해당 top의 cnt++를 해준다. 스택이 비었다면 현재의 값과 카운트 1이 기록된 객체를 스택에 넣어준다. 
+
+시간 복잡도 : O(N) 
+
+Problem 119: 히스토그램에서 가장 큰 직사각형 
+
+문제 풀이 : 이 문제는 위에 나왔던 모노톤 스택과는 다르게 단조증가가 아니라 단조감소 모노톤 스택을 유지해야 한다. 그 이유는 구하고자 하는 것이 넓이의 최솟값이기 때문에 스택의 top에 해당하는 값(=최댓값 중 최솟값)이 현재 값보다 크다면 pop을 해서 넓이를 구해야 한다. 식은 아래와 같다. 
+
+ 
+
+                   $w = \begin{cases} i - \text{st.top()} - 1 & \text{if st is not empty} \\i & \text{if st is empty}\end{cases}$
+
+                   $ret = \max(nums[st.top()]*width, ret) \ \$ 
+
+                    
+
+예외처리를 좀 더 깔끔하게 하기 위해서 숫자 배열을 한칸 더 늘려서 마지막에 0을 추가했다.
+
+시간 복잡도 : O(N)
+
+Problem 120: 큐 
+
+문제 풀이 : 전형적인 ADT 구현 문제다. DLL(Double-Linked-List)를 이용해서 큐를 구현해서 ADT를 구현했다. 
+
+시간 복잡도 : O(N)
+
+Problem 121: 큐 2
+
+문제 풀이 : 121번 문제는 120번 문제에서 명령의 수만 커진 문제다. 각 메소드마다 시간복잡도를 O(1)로 구현했으면 동일한 코드로 풀어도 통과가 된다. 
+
+시간 복잡도 : O(N)
+
+Problem 122: 카드 2 
+
+문제 풀이 : 문제의 지문을 deque로 이해를 해보자. 먼저 숫자 N이 주어진다. 숫자 하나가 남을 때까지 다음을 반복한다. 맨 앞의 숫자를 지운다. 그 다음에 나오는 맨앞의 숫자를 맨뒤로 보낸다. 마지막에 남는 숫자는? 를 deque를 이용해서 구현했다. 큐 두개를 이용해서 구현해도 상관없다. 
+
+시간 복잡도 : O(N) 
+
+Problem 123: 덱 
+
+문제 풀이 : 마찬가지로 DLL를 이용해서 deque를 구현했습니다. 
+
+시간 복잡도 : O(N)
+
+Problem 124: 회전하는 큐 
+
+문제 풀이 : 배열의 숫자는 1부터 N까지 존재한다. 주어진 왼쪽으로 회전할지, 오른쪽으로 회전할지 모른다. 회전의 최솟값을 찾아야 한다. 주어진 숫자를 기준으로 왼쪽으로 있는 원소 개수, 오른쪽의 기준으로 오른쪽에 있는 원소의 개수를 이용해서 비교할 수 있다. N값이 작기 때문에 왼쪽인지 오른쪽인지 계산하는 연산이 O(1)이 아니라 O(N)라도 충분히 통과할 수 있다. 
+
+시간 복잡도 : O(N^2) Or O(N)
+
+Problem 125: AC 
+
+문제 풀이 : R(erverse), D(delete)를 구현하면 된다. 단순하지만, 주의할 점이 몇가지 있다. 
+
+ - 첫번째는 인풋과 빈 배열일 때 조심해야 한다. 
+
+ - 두번째는 빈 deque일 때 error 출력하기 
+
+ - 세번째는 각 테스트케이스마다 큐 초기화하기.
+
+시간 복잡도 : 시간복잡도 O(N) 
+
+Problem 126: 최솟값 찾기 
+
+문제 풀이 : 모노톤 stack과 유사한 모노톤 deque를 이용해야 한다. front를 기준으로 단조증가 deque를 정의한다고 하자. 이 deque는 front값부터 단조증가값이며, deque 안의 elements의 인덱스는 현재 인덱스가 idx라고 할 때  max(0,idx-(L-1)) ≤ … ≤idx 에 해당하는 인덱스들이다. 
+
+그러므로 deque가 비어있지 않다면, deque의 뒤에 있는 element가 범위에 나가는지 아닌지 체크해서 나간다면 전부 pop_back 해준다.(이 역시 인덱스에 대해서 monotone decrease기 때문에 가능하다. 엄밀히 이 문제는 두개의 모노톤을 한번에 이용해야 하는 문제다.) 
+
+deque가 비어있다면 곧바로, 현재값을 front에 넣어주지만, 현재값보다 큰값을 가지고 있는 front들은 전부 pop_front를 해준다. 
+
+그 다음에 deque에 현재값을 넣어준다. 
+
+시간 복잡도 : O(N)
