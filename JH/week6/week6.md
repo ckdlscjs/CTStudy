@@ -296,8 +296,5 @@ deque가 비어있다면 곧바로, 현재값을 front에 넣어주지만, 현�
 그 다음에 deque에 현재값을 넣어준다. 
 
 시간 복잡도 : O(N)
-=======
-Problem 100: <br> <br> <br>
-
  
->>>>>>> Stashed changes
+ 
