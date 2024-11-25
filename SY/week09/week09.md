@@ -37,15 +37,25 @@
   
 
 ## 문제 해설 
-Problem 175: <br><br><br>
+Problem 175: N과M 1 <br>
+-O(P(N, M), N!/(N-M)!)<br>
+-재귀를 이용해 순열을 구현, 비트마스킹을 이용해서 체크하여 재귀함수호출<br>
 
-Problem 176: <br><br><br>
+Problem 176: N-Queen<br>
+-O(N^N)<br>
+-같은 행은 y를 기준으로 체크완료, 이후 해당 행에대한 대각선, 열 을 조건체크후 다음행으로 넘어가면서 말을 놓는다<br>
 
-Problem 177: <br><br><br>
+Problem 177: 부분 수열의 합<br>
+-O(2^N)<br>
+-idx를기준으로 n까지 쓴것, 안쓴것 구분하여 sum을 더해 sum==s를 체크한다<br>
 
-Problem 178: <br><br><br>
+Problem 178: N과M 2<br>
+-O(nCr, 2^N)<br>
+-조합을 구현, 비트마스킹구현/idx를이용한반복문/2^n식으로 3가지방법으로구현해봄<br>
 
-Problem 179: <br><br><br>
+Problem 179: N과M 3<br>
+-O(N^M)<br>
+-재귀로 구현<br>
 
 Problem 180: <br><br><br>
 
