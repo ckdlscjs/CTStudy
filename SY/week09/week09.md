@@ -57,29 +57,54 @@ Problem 179: N과M 3<br>
 -O(N^M)<br>
 -재귀로 구현<br>
 
-Problem 180: <br><br><br>
+Problem 180: N과M 4<br>
+-O(N^M)<br>
+-재귀로구현, 중복을 포함하므로 모든경우를완탐<br>
 
-Problem 181: <br><br><br>
+Problem 181: N과M 5<br>
+-O(N!/(N-M)!)<br>
+-순열, 입력기반<br>
 
-Problem 182: <br><br><br>
+Problem 182: N과M 6<br>
+-O(nCr, 2^N)<br>
+-조합, <br>
 
-Problem 183: <br><br><br>
+Problem 183: N과M 7<br>
+-O(N^M)<br>
+-중복포함재귀<br>
 
-Problem 184: <br><br><br>
+Problem 184: N과M 8<br>
+-O(N^M)<br>
+-중복포함재귀, 이전인덱스보다는 크게 출력되는 식이므로 i값을 idx로시작하여사용<br>
 
-Problem 185: <br><br><br>
+Problem 185: N과M 9<br>
+-O(N^M)<br>
+-중복을 제거한 수열을 표현, 이를위해 마지막 값을 기억하는 임시변수를 사용해 중복제거<br>
 
-Problem 186: <br><br><br>
+Problem 186: N과M 10<br>
+-O(N^M)<br>
+-중복을 제거한 수열, 조합<br>
 
-Problem 187: <br><br><br>
+Problem 187: N과M 11<br>
+-O(N!/(N-M)!)<br>
+-중복을 제거한수열, 순열<br>
 
-Problem 188: <br><br><br>
+Problem 188: N과M 12<br>
+-O(N^M)<br>
+-중복을 제거한수열, 중복<br>
 
-Problem 189: <br><br><br>
+Problem 189: 로또<br>
+-O(T*N^M)<br>
+-조합<br>
 
-Problem 190: <br><br><br>
+Problem 190: 암호만들기<br>
+-O(L^C)<br>
+-조건을 체크하면서 조합만들기, 모음, 자음의갯수를 세서 부합하지않으면백트래킹<br>
 
-Problem 191: <br><br><br>
+Problem 191: 소문난 칠공주<br>
+-O()<br>
+-조합을 구성하여 이를 기반으로 전부 이어져 있는가를 체크, 조건과 연결이 전부 부합되있으면 갯수증가, 비트마스킹을 통해 시간복잡도를 대폭 줄일 수 있음, bool배열을 이용한 비트마스킹 체크, 모든 방문경우의수를 체크하면서
+조건에 부합하는지 백트래킹<br>
 
 Problem 192: <br><br><br>
 
