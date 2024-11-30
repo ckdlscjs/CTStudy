@@ -34,7 +34,8 @@
 | 203    | 2448     | 별 찍기 - 11         | 재귀              | 43.031%   | [2448](https://www.acmicpc.net/problem/2448) |
 | 204    | 14956    | Philosopher’s Walk   | 재귀              | 43.705%   | [14956](https://www.acmicpc.net/problem/14956) |
 ## 배운 것 정리 
-  
+https://blog.naver.com/syl610/223678469800 재귀 <br>
+https://blog.naver.com/syl610/223678471153 백트래킹 <br>
 
 ## 문제 해설 
 Problem 175: N과M 1 <br>
