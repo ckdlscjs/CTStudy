@@ -1,51 +1,42 @@
 
 
 
-# Java_coding_factory : 9th Week
+# Java_coding_factory : 10th Week
 
 ---
 
-## Solving BaekJoon : Backtracking and recursion Problems : 175 - 204
+## Solving BaekJoon : Backtracking and recursion Problems : 205 - 224
 ## Problems and Links
 
-| 인덱스 | 문제 번호 | 문제 제목             | 자료구조/알고리즘   | 정답 비율 | URL                                      |
+| 인덱스 | 문제 번호 | 문제 제목             | 자료구조/알고리즘     | 정답 비율 | URL                                      |
 | ------ | -------- | ------------------- | ---------------- | --------- | --------------------------------------- |
-| 175    | 15649    | N과 M (1)           | 백트래킹          | 63.201%   | [15649](https://www.acmicpc.net/problem/15649) |
-| 176    | 9663     | N-Queen             | 백트래킹          | 46.687%   | [9663](https://www.acmicpc.net/problem/9663) |
-| 177    | 1182     | 부분수열의 합        | 백트래킹          | 43.351%   | [1182](https://www.acmicpc.net/problem/1182) |
-| 178    | 15650    | N과 M (2)           | 백트래킹          | 73.917%   | [15650](https://www.acmicpc.net/problem/15650) |
-| 179    | 15651    | N과 M (3)           | 백트래킹          | 66.883%   | [15651](https://www.acmicpc.net/problem/15651) |
-| 180    | 15652    | N과 M (4)           | 백트래킹          | 78.704%   | [15652](https://www.acmicpc.net/problem/15652) |
-| 181    | 15654    | N과 M (5)           | 백트래킹          | 72.461%   | [15654](https://www.acmicpc.net/problem/15654) |
-| 182    | 15655    | N과 M (6)           | 백트래킹          | 84.275%   | [15655](https://www.acmicpc.net/problem/15655) |
-| 183    | 15656    | N과 M (7)           | 백트래킹          | 78.636%   | [15656](https://www.acmicpc.net/problem/15656) |
-| 184    | 15657    | N과 M (8)           | 백트래킹          | 81.288%   | [15657](https://www.acmicpc.net/problem/15657) |
-| 185    | 15663    | N과 M (9)           | 백트래킹          | 49.224%   | [15663](https://www.acmicpc.net/problem/15663) |
-| 186    | 15664    | N과 M (10)          | 백트래킹          | 79.626%   | [15664](https://www.acmicpc.net/problem/15664) |
-| 187    | 15665    | N과 M (11)          | 백트래킹          | 76.410%   | [15665](https://www.acmicpc.net/problem/15665) |
-| 188    | 15666    | N과 M (12)          | 백트래킹          | 80.180%   | [15666](https://www.acmicpc.net/problem/15666) |
-| 189    | 6603     | 로또                | 백트래킹          | 55.728%   | [6603](https://www.acmicpc.net/problem/6603) |
-| 190    | 1759     | 암호 만들기          | 백트래킹          | 44.876%   | [1759](https://www.acmicpc.net/problem/1759) |
-| 191    | 1941     | 소문난 칠공주        | 백트래킹          | 51.990%   | [1941](https://www.acmicpc.net/problem/1941) |
-| 192    | 16987    | 계란으로 계란치기     | 백트래킹          | 50.907%   | [16987](https://www.acmicpc.net/problem/16987) |
-| 193    | 18809    | Gaaaaaaaaaarden      | 백트래킹          | 42.322%   | [18809](https://www.acmicpc.net/problem/18809) |
-| 194    | 1799     | 비숍                | 백트래킹          | 24.550%   | [1799](https://www.acmicpc.net/problem/1799) |
-| 195    | 1629     | 곱셈                | 재귀              | 27.498%   | [1629](https://www.acmicpc.net/problem/1629) |
-| 196    | 11729    | 하노이 탑 이동 순서   | 재귀              | 51.137%   | [11729](https://www.acmicpc.net/problem/11729) |
-| 197    | 1074     | Z                   | 재귀              | 42.044%   | [1074](https://www.acmicpc.net/problem/1074) |
-| 198    | 17478    | 재귀함수가 뭔가요?    | 재귀              | 39.170%   | [17478](https://www.acmicpc.net/problem/17478) |
-| 199    | 1780     | 종이의 개수          | 재귀              | 60.015%   | [1780](https://www.acmicpc.net/problem/1780) |
-| 200    | 2630     | 색종이 만들기         | 재귀              | 69.818%   | [2630](https://www.acmicpc.net/problem/2630) |
-| 201    | 1992     | 쿼드트리             | 재귀              | 62.317%   | [1992](https://www.acmicpc.net/problem/1992) |
-| 202    | 2447     | 별 찍기 - 10         | 재귀              | 55.993%   | [2447](https://www.acmicpc.net/problem/2447) |
-| 203    | 2448     | 별 찍기 - 11         | 재귀              | 43.031%   | [2448](https://www.acmicpc.net/problem/2448) |
-| 204    | 14956    | Philosopher’s Walk   | 재귀              | 43.705%   | [14956](https://www.acmicpc.net/problem/14956) |
+| 205    | 15683    | 감시                  | 시뮬레이션          | 45.197%   | [15683](https://www.acmicpc.net/problem/15683) |
+| 206    | 18808    | 스티커 붙이기         | 시뮬레이션          | 62.656%   | [18808](https://www.acmicpc.net/problem/18808) |
+| 207    | 12100    | 2048 (Easy)          | 시뮬레이션          | 26.829%   | [12100](https://www.acmicpc.net/problem/12100) |
+| 208    | 15686    | 치킨 배달             | 시뮬레이션          | 46.252%   | [15686](https://www.acmicpc.net/problem/15686) |
+| 209    | 11559    | Puyo Puyo           | 시뮬레이션          | 39.840%   | [11559](https://www.acmicpc.net/problem/11559) |
+| 210    | 14891    | 톱니바퀴              | 시뮬레이션          | 55.469%   | [14891](https://www.acmicpc.net/problem/14891) |
+| 211    | 14499    | 주사위 굴리기         | 시뮬레이션          | 45.390%   | [14499](https://www.acmicpc.net/problem/14499) |
+| 212    | 13335    | 트럭                  | 시뮬레이션          | 56.882%   | [13335](https://www.acmicpc.net/problem/13335) |
+| 213    | 16985    | Maaaaaaaaaze        | 시뮬레이션          | 55.821%   | [16985](https://www.acmicpc.net/problem/16985) |
+| 214    | 14503    | 로봇 청소기           | 시뮬레이션          | 53.920%   | [14503](https://www.acmicpc.net/problem/14503) |
+| 215    | 2750     | 수 정렬하기           | 정렬                | 58.190%   | [2750](https://www.acmicpc.net/problem/2750)   |
+| 216    | 2751     | 수 정렬하기 2         | 정렬                | 31.370%   | [2751](https://www.acmicpc.net/problem/2751)   |
+| 217    | 10989    | 수 정렬하기 3         | 정렬                | 23.846%   | [10989](https://www.acmicpc.net/problem/10989) |
+| 218    | 11931    | 수 정렬하기 4         | 정렬                | 54.733%   | [11931](https://www.acmicpc.net/problem/11931) |
+| 219    | 15688    | 수 정렬하기 5         | 정렬                | 49.512%   | [15688](https://www.acmicpc.net/problem/15688) |
+| 220    | 10814    | 나이순 정렬           | 정렬                | 43.897%   | [10814](https://www.acmicpc.net/problem/10814) |
+| 221    | 11650    | 좌표 정렬하기         | 정렬                | 48.500%   | [11650](https://www.acmicpc.net/problem/11650) |
+| 222    | 11651    | 좌표 정렬하기 2       | 정렬                | 66.950%   | [11651](https://www.acmicpc.net/problem/11651) |
+| 223    | 13460    | 구슬 탈출 2           | 시뮬레이션          | 28.311%   | [13460](https://www.acmicpc.net/problem/13460) |
+| 224    | 3190     | 뱀                   | 시뮬레이션          | 41.519%   | [3190](https://www.acmicpc.net/problem/3190)   |
+
 ## 배운 것 정리 
   
 
 무엇을 배웠고 <br/>
 
-어떤 ADT를 가졌는고, <br/>
+어떤 ADT를 가졌는지, <br/>
 
 시간복잡도는 어떻게 되는지 
 <br/>
@@ -60,65 +51,46 @@
   4. 까다로웠던 점 & 논의하고 싶은 부분 : 자바 특성상 임의의 자료형을 정의를 하는 순간 길이가 엄청나게 길어진다. 그게 좀 재밌으면서도 어려웠다.
 <br/>
 <br/>
-Problem 175: <br><br><br>
+Problem 205: <br><br><br>
 
-Problem 176: <br><br><br>
+Problem 206: <br><br><br>
 
-Problem 177: <br><br><br>
+Problem 207: <br><br><br>
 
-Problem 178: <br><br><br>
+Problem 208: <br><br><br>
 
-Problem 179: <br><br><br>
+Problem 209: <br><br><br>
 
-Problem 180: <br><br><br>
+Problem 210: <br><br><br>
 
-Problem 181: <br><br><br>
+Problem 211: <br><br><br>
 
-Problem 182: <br><br><br>
+Problem 212: <br><br><br>
 
-Problem 183: <br><br><br>
+Problem 213: <br><br><br>
 
-Problem 184: <br><br><br>
+Problem 214: <br><br><br>
 
-Problem 185: <br><br><br>
+Problem 215: <br><br><br>
 
-Problem 186: <br><br><br>
+Problem 216: <br><br><br>
 
-Problem 187: <br><br><br>
+Problem 217: <br><br><br>
 
-Problem 188: <br><br><br>
+Problem 218: <br><br><br>
 
-Problem 189: <br><br><br>
+Problem 219: <br><br><br>
 
-Problem 190: <br><br><br>
+Problem 220: <br><br><br>
 
-Problem 191: <br><br><br>
+Problem 221: <br><br><br>
 
-Problem 192: <br><br><br>
+Problem 222: <br><br><br>
 
-Problem 193: <br><br><br>
+Problem 223: <br><br><br>
 
-Problem 194: <br><br><br>
+Problem 224: <br><br><br>
 
-Problem 195: <br><br><br>
-
-Problem 196: <br><br><br>
-
-Problem 197: <br><br><br>
-
-Problem 198: <br><br><br>
-
-Problem 199: <br><br><br>
-
-Problem 200: <br><br><br>
-
-Problem 201: <br><br><br>
-
-Problem 202: <br><br><br>
-
-Problem 203: <br><br><br>
-
-Problem 204: <br><br><br>
 
 
 
