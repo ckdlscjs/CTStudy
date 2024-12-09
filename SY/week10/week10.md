@@ -25,7 +25,7 @@
 | 224    | 3190     | 뱀                   | 시뮬레이션          | 41.519%   | [3190](https://www.acmicpc.net/problem/3190)   |
 
 ## 배운 것 정리 
-  
+https://blog.naver.com/syl610/223687582500 정렬1,2 <br>
 
 ## 문제 해설 
 Problem 205: 감시<br>
