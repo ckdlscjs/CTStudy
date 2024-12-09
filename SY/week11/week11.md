@@ -1,4 +1,4 @@
-## Solving BaekJoon : Backtracking and recursion Problems : 225 - 244
+## Solving BaekJoon : Problems : 225 - 244
 ## Problems and Links
 
 | 인덱스 | 번호  | 문제 이름            | 맞은 사람 수 | 제출 수  | 맞은 확률 (%) | URL                                    |
