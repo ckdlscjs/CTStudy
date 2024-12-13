@@ -31,40 +31,82 @@
 
 
 ## 문제 해설 
-Problem 225: <br><br><br>
+Problem 225: 동전<br>
+-O()<br>
+-최대힙으로 나눌수있는 크기까지 pop시키면서 나누어 몫을 계산한다<br>
 
-Problem 226: <br><br><br>
+Problem 226: 회의실 배정<br>
+-<br>
+-끝나는순서가 빠른 순으로 정렬한 값들을 기준으로 가능한 회의실수를 셈한다<br>
 
-Problem 227: <br><br><br>
+Problem 227: 로프<br>
+-<br>
+-현재인덱스를기준으로 무게를 곱해서 최대값을구한다<br>
 
-Problem 228: <br><br><br>
+Problem 228: 보물<br>
+-<br>
+-오름차순, 내림차순을 서로 곱하면 최소가되므로 정렬후곱한다 <br>
 
-Problem 229: <br><br><br>
+Problem 229: ATM<br>
+-<br>
+-정렬후 누적합을 이용해 더한다<br>
 
-Problem 230: <br><br><br>
+Problem 230: 공주님의 정원<br>
+-<br>
+-입력값을 꽃이피는시간을 기준으로 정렬하고 현재 꽃이 지는 기간을 기준으로 새로운 입력값들이 지는시간보다작다면 가장 마지막에 지는 시간을 기준으로하는 최대힙으로 비교해 시뮬레이션하여 찾는다<br>
 
-Problem 231: <br><br><br>
+Problem 231: 잃어버린 괄호<br>
+-<br>
+-뺄셈연산이후에는 분배법칙을 적용해 +연산만을 -로하면 최소가 되므로 이를 이용하여 계산한다<br>
 
-Problem 232: <br><br><br>
+Problem 232: 주식<br>
+-<br>
+-입력값을 반대로 계산하면서 최대값기준으로 현재를 빼서 최대값을 계산해 출력한다<br>
 
-Problem 233: <br><br><br>
+Problem 233: 수 묶기<br>
+-<br>
+-2이상이라면 곱하는게 이득이므로 곱하여 더하고 음수의경우는 곱한것이 더하는것보다 크다면 곱하는게 이득이므로 이를 투포인터를 이용해 계산한다 이조건들에부합하지 않으면 그냥 더한다<br>
 
-Problem 234: <br><br><br>
+Problem 234: 게임을 만든 동준이<br>
+-<br>
+-<br>
 
-Problem 235: <br><br><br>
+Problem 235: 뒤집기<br>
+-<br>
+-<br>
 
-Problem 236: <br><br><br>
+Problem 236: 강의실 배정<br>
+-<br>
+-<br>
 
-Problem 237: <br><br><br>
+Problem 237: 카드 합체 놀이<br>
+-<br>
+-<br>
 
-Problem 238: <br><br><br>
+Problem 238: 선 긋기<br>
+-<br>
+-<br>
 
-Problem 239: <br><br><br>
+Problem 239: 멀티탭 스케줄링<br>
+-<br>
+-<br>
 
-Problem 240: <br><br><br>
+Problem 240: 택배<br>
+-<br>
+-<br>
 
-Problem 241: <br><br><br>
+Problem 241: 줄 세우기<br>
+-<br>
+-<br>
 
-Problem 242: <br><br><br>
+Problem 242: 테트로미노<br>
+-<br>
+-<br>
 
-Problem 243: <br><br><br>
+Problem 243: 구슬 탈출2<br>
+-<br>
+-<br>
+
+Problem 244: 연구소<br>
+-<br>
+-<br>
