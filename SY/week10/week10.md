@@ -1,4 +1,4 @@
-## Solving BaekJoon : Backtracking and recursion Problems : 205 - 224
+## Solving BaekJoon : Problems : 205 - 224
 ## Problems and Links
 
 | 인덱스 | 문제 번호 | 문제 제목             | 자료구조/알고리즘     | 정답 비율 | URL                                      |
@@ -25,7 +25,7 @@
 | 224    | 3190     | 뱀                   | 시뮬레이션          | 41.519%   | [3190](https://www.acmicpc.net/problem/3190)   |
 
 ## 배운 것 정리 
-  
+https://blog.naver.com/syl610/223687582500 정렬1,2 <br>
 
 ## 문제 해설 
 Problem 205: 감시<br>
@@ -33,16 +33,24 @@ Problem 205: 감시<br>
 -카메라 종류를 기록하고 회전시킨다, substr을 이용해 카메라회전을 구현, 이를 문자열의 인덱스로 처리해 dy, dx를 이용해 체크가 편하게끔 구성, 이후 백트래킹/시뮬레이션 하여 개수체크<br>
 
 Problem 206: 스티커 붙이기<br>
--O() <br>
--<br>
+-O(4^k * N * M) <br>
+-스티커를입력받고 스티커의 회전방향에따라 백트래킹통해 시뮬레이션한다, 이때 회전기준에 따라 우선적으로 붙힐 수 있는 스티커를 붙히는식으로 탐색하므로 별도의 예외처리는 필요없다<br>
 
-Problem 207: <br><br><br>
+Problem 207: 2048(Easy)<br>
+-O(4^5 * N * N) <br>
+-4방향에따른 move를 구현, right를 회전을통해구현하고 조건에맞는 이동조건을 구현해 밀어서 최대횟수 4^5를 체크한다.<br>
 
-Problem 208: <br><br><br>
+Problem 208: 치킨 배달<br>
+-O(2^13 * H * M)<br>
+-2^K백트래킹으로 치킨집 조합을 해당 치킨집 조합을 기준으로 집기준으로 거리를 재서 최단거리를 계산한다<br>
 
-Problem 209: <br><br><br>
+Problem 209: Puyo Puyo<br>
+-O(6 * 12 * (6 * 12)(DFS) * (6 * 12 * 12)(밑으로이동))<br>
+-입력받은값 기준으로 전체범위*DFS(6*12) 하여 최대갯수를센다, 이후밑으로 이동시킨다 <br>
 
-Problem 210: <br><br><br>
+Problem 210: 톱니바퀴<br>
+-O(4K)<br>
+-톱니바퀴의 방향을 기준으로 양측으로 전파시키며 회전시킨다. 문자열을이용해 앞,뒤 로만 붙혀서 체크<br>
 
 Problem 211: <br><br><br>
 
