@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main154  {
+public class Problem154  {
     static final int MOD = 10007;
     public static void main(String[] args) 
     throws IOException{

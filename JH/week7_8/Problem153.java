@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main153 {
+public class Problem153 {
 
     static boolean[] chk; // = new int[100001];
     static boolean[] isCycle; // = new boolean[100001];

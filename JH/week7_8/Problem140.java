@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class Main140{
+public class Problem140{
     static int[] nums = new int[301];
     static int[] dp = new int[301];
 

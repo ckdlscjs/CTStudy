@@ -5,7 +5,7 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 
 
-public class Main136{
+public class Problem136{
     static int N;
     static int K;
     static int[] D = new int[200000];

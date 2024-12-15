@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main162 {
+public class Problem162 {
  
     public static void main(String[] args) 
     throws IOException{

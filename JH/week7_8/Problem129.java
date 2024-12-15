@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 
-public class Main129 {
+public class Problem129 {
     public static void main(String[] args) 
     throws IOException{
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

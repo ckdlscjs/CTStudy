@@ -5,7 +5,7 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
 
-public class Main159 { // BFS 0-1
+public class Problem159 { // BFS 0-1
     public static void main(String[] args) 
     throws IOException{
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

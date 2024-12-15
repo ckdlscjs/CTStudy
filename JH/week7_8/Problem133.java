@@ -5,7 +5,7 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main133 {
+public class Problem133 {
 
     static int[][] board = new int[50][50];
     static int[] dy = {0,0,1,-1};

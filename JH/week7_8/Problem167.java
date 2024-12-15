@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main167 { // O(300 * 300 )
+public class Problem167 { // O(300 * 300 )
     
     static int[][] MAP;
     static int[][] delete;

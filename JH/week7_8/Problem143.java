@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.Arrays;
 
-public class Main143 {
+public class Problem143 {
 
     static int[] dy = {-2,-2,-1,-1,1,1,2,2};
     static int[] dx = {1,-1,-2,+2,-2,2,1,-1};

@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.io.BufferedReader;
 
-public class Main130 {
+public class Problem130 {
 
     public static void main(String[] args) 
     throws IOException{

@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Deque;
 import java.util.StringTokenizer;
 
-public class Main151 {
+public class Problem151 {
 
     static int[][] MAP;
     static boolean[][] chk;

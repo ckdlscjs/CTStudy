@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class Main132 {
+public class Problem132 {
     
     static int[] dp = new int[1000001];
 

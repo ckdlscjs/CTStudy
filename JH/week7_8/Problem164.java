@@ -8,7 +8,7 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 
-public class Main164 {
+public class Problem164 {
 
 
     static boolean isOutside(int y, int x, int M, int N){

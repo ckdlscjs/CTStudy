@@ -5,7 +5,7 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main155  {
+public class Problem155  {
 
     static int[][][] board; 
     static int N;

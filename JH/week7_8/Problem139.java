@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.StringTokenizer;
 
-public class Main139 {
+public class Problem139 {
     static int N;
     static int M;
     static int[][] board = new int[1001][1001];

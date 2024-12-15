@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Queue;
  
 
-public class Main161{
+public class Problem161{
 
     static int[] dx = {-1, 1, 2};
 

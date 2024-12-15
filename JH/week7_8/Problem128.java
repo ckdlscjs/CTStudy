@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 
-public class Main128  {
+public class Problem128  {
 
     static class Pair{
         Character data;

@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Main173 {
+public class Problem173 {
 
     static int[] dr = {0,0,1,-1};
     static int[] dc = {1, -1, 0, 0};

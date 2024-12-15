@@ -5,7 +5,7 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
 
-public class Main169 { // dist 배열 삭제, BFS 내부로 길이 계산하도록 
+public class Problem169 { // dist 배열 삭제, BFS 내부로 길이 계산하도록 
 
     static int[][] MAP = new int[1001][1001]; 
     // static int[][][] dist = new int[1001][1001][2];

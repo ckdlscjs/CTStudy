@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.Arrays;
 
-public class Main147  {
+public class Problem147  {
 
     static int[][][] board = new int[31][31][31];
     static int[][][] dist = new int[31][31][31];

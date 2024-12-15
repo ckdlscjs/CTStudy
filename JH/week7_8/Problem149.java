@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.Arrays;
 
-public class Main149  {
+public class Problem149  {
     static int[][] board = new int[1000][1000];
     static boolean[][] chk = new boolean[1000][1000];
     static boolean[][] s_chk = new boolean[1000][1000];

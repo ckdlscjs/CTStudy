@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Main141 {
+public class Problem141 {
     static int[][] board = new int[101][101];
     static boolean[][] chk = new boolean[101][101];
     static int[] dy = {0,0,1,-1};

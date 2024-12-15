@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main145  {
+public class Problem145  {
 
     static int[][] board = new int[101][101];
     static boolean[][] chk = new boolean[101][101];

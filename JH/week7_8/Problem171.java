@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 
-public class Main171 {
+public class Problem171 {
 
     
     static int[][] board = new int[100][100];
