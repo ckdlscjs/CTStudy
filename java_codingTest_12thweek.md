@@ -13,7 +13,7 @@
 | 245    | 1920     | 수 찾기                     | 정렬, 이분 탐색             | 30.475%  | [1920](https://www.acmicpc.net/problem/1920) |
 | 246    | 10816    | 숫자 카드 2                 | 정렬, 이분 탐색             | 38.076%  | [10816](https://www.acmicpc.net/problem/10816) |
 | 247    | 18870    | 좌표 압축                   | 정렬, 좌표 압축  | 39.737%  | [18870](https://www.acmicpc.net/problem/18870) |
-| 248    | 2295     | 세 수의 합                  | 이분 탐색, 중간에서 만날기 | 28.506%  | [2295](https://www.acmicpc.net/problem/2295) |
+| 248    | 2295     | 세 수의 합                  | 이분 탐색, 중간에서 만나기 | 28.506%  | [2295](https://www.acmicpc.net/problem/2295) |
 | 249    | 1654     | 랜선 자르기                 | 이분 탐색, 매개변수 탐색       | 21.637%  | [1654](https://www.acmicpc.net/problem/1654) |
 | 250    | 10815    | 숫자 카드                   | 정렬, 이분 탐색             | 42.798%  | [10815](https://www.acmicpc.net/problem/10815) |
 | 251    | 1822     | 차집합                       | 해시셋     | 46.672%  | [1822](https://www.acmicpc.net/problem/1822) |
