@@ -49,8 +49,8 @@ public class problem17 {
                 //    
                 // "abcd" : 4 
                 // "ab" : 2 -> 4 - 2 + 1 = 3 
-                // i < 3 := 0, 1, 2
                 // int pivot = Integer.parseInt(p);
+                // i < 3 := 0, 1, 2
                 
                 for(int i = 0;i<(n - m + 1); i++){
                     String ret = "";
