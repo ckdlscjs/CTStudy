@@ -1,69 +1,44 @@
-/*
-    1. this is written by JIN HO JEON
-    2. this problem is from BOJ 1920
- */
-
 package week12;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 import java.util.ArrayList;
-import java.util.Comparator;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.StringTokenizer;
+import java.util.HashSet;
 
 public class Problem245 {
-
+    static HashSet<Integer> set = new HashSet<>();
+    static HashMap<Integer, Integer> map = new HashMap<>();
+    static ArrayList<Integer> lst = new ArrayList<>();
 
     public static void main(String[] args)
-    throws IOException {
+            throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(bf.readLine());
+        int[] nums = new int[N];
         StringTokenizer st = new StringTokenizer(bf.readLine());
-        ArrayList<Integer> A = new ArrayList<>(N);
         for (int i = 0; i < N; i++) {
-            A.add(i, Integer.parseInt(st.nextToken()));
-        }
-        int M = Integer.parseInt(bf.readLine());
-        ArrayList<Integer> B = new ArrayList<>(M);
-
-        st = new StringTokenizer(bf.readLine());
-        for (int i = 0; i < M; i++) {
-            B.add(i, Integer.parseInt(st.nextToken()));
+            nums[i] = Integer.parseInt(st.nextToken());
+            if (!set.contains(nums[i])) {
+                set.add(nums[i]);
+                lst.add(nums[i]);
+            }
         }
 
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        A.sort(Comparator.comparingInt(o -> o));
-        for (Integer num : B) {
-            if (binarySearch(A, num)) {
-                bw.write("1\n");
-            } else {
-                bw.write("0\n");
-            }
-        }
-        bw.flush();
-        bw.close();
-        bf.close();
-//        Collections.binarySearch()
-    }
+        lst.sort(Integer::compareTo);
 
-    static boolean binarySearch(ArrayList<Integer> A, int num) {
-        int start = 0;
-        int end = A.size() - 1;
-        while (start <= end) {
-            int mid = (start + end) / 2;
-            if (A.get(mid) == num) {
-                return true;
-            }
-            else if (A.get(mid) < num) {
-                start = mid + 1;
-            }
-            else if (A.get(mid) > num) {
-                end = mid - 1;
-            }
+        for (int i = 0; i < lst.size(); i++) {
+            map.put(lst.get(i), Collections.binarySearch(lst, lst.get(i)));
         }
-        return false;
+
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < N; i++) {
+            sb.append(map.get(nums[i])).append(" ");
+        }
+        System.out.println(sb);
+
     }
 }

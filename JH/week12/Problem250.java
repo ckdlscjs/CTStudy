@@ -6,28 +6,42 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
-import java.util.stream.Collectors;
 
-public class Problem250 {
+public class Problem250{
     public static void main(String[] args)
     throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        int n = Integer.parseInt(bf.readLine());
-        int[] arr1 = new int[n];
         StringTokenizer st = new StringTokenizer(bf.readLine());
-        for (int i = 0; i < n; i++) {
-            arr1[i] = Integer.parseInt(st.nextToken());
-        }
-        Arrays.sort(arr1);
-
-        int m = Integer.parseInt(bf.readLine());
-        int[] arr2 = new int[m];
+        int n = Integer.parseInt(st.nextToken());
+        int m = Integer.parseInt(st.nextToken());
+        int[] nums = new int[m];
         st = new StringTokenizer(bf.readLine());
         for (int i = 0; i < m; i++) {
-            int idx = Arrays.binarySearch(arr1, Integer.parseInt(st.nextToken()));
-            arr2[i] = (n > idx && idx >= 0) ? 1 : 0;
+            nums[i] = Integer.parseInt(st.nextToken());
         }
-        System.out.println(Arrays.stream(arr2).mapToObj(s -> s + " ").collect(Collectors.joining()));
 
+        // Arrays.sort(nums);
+
+        long left = 0;
+        long right = Integer.MAX_VALUE;
+        while (left <= right) {
+            long mid = left + (right - left) / 2;
+            if(mid==0) {
+                System.out.println(0);
+                return;
+            }
+            long cnt = 0;
+            for (int i = 0; i < m; i++) {
+                 cnt += nums[i] / mid;
+            }
+
+            if (cnt >= n) {
+                left = mid + 1;
+            }
+            else{
+                right = mid - 1;
+            }
+        }
+        System.out.println(right == Integer.MAX_VALUE ? 0 : right);
     }
 }

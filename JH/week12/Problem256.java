@@ -1,3 +1,4 @@
+
 package week12;
 
 import java.io.BufferedReader;
@@ -12,52 +13,41 @@ public class Problem256 {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(bf.readLine());
         int[] nums = new int[N];
-
         StringTokenizer st = new StringTokenizer(bf.readLine());
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i <N; i++) {
             nums[i] = Integer.parseInt(st.nextToken());
         }
-
         Arrays.sort(nums);
-        long count = 0;
 
-        for (int i = 0; i < N - 2; i++) {
-            int left = i+1;
+        int cnt = 0;
+        for(int i = 0;i<N;i++){
+            int k = nums[i];
+            int left = 0;
             int right = N-1;
             while (left < right) {
-                long sum = nums[i] + nums[left] + nums[right];
-                if(sum==0){
-                    if (nums[left] == nums[right]) {
-                        long c = right - left+1;
-                        count += (c * (c - 1)) / 2;
-                        break;
-                    }else{
-                        int leftVal = nums[left];
-                        int rightVal = nums[right];
-                        int leftConunt = 0;
-                        int rightCont = 0;
 
-                        while(left < right && nums[left] == leftVal){
-                            leftConunt++;
-                            left++;
-                        }
-                        while(left <= right && nums[right] == rightVal){
-                            rightCont++;
-                            right--;
-                        }
-                        count += (leftConunt * rightCont);
-                    }
-                } else if (sum > 0) {
-                    right--;
-                }
-                else{
+                if (left == i) {
                     left++;
+                    continue;
+                }
+                else if (right == i) {
+                    right--;
+                    continue;
+                }
+                int sum = nums[left] + nums[right];
+                if (sum == k) {
+                    System.out.println(left +   " " +  right);
+                    cnt++;
+                    break;
+                }
+                else if (sum < k) {
+                    left++;
+                }
+                else {
+                    right--;
                 }
             }
         }
-
-        System.out.println(count);
+        System.out.println(cnt);
     }
-
-
 }

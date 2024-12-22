@@ -1,37 +1,53 @@
-
 package week12;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.HashMap;
-import java.util.HashSet;
 import java.util.StringTokenizer;
 
 public class Problem270 {
-    static HashSet<Integer> set = new HashSet<>();
+    static int[] dishes = new int[3001];
+
     public static void main(String[] args)
     throws Exception {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(bf.readLine());
-        int[] nums = new int[N];
         StringTokenizer st = new StringTokenizer(bf.readLine());
+        int n = Integer.parseInt(st.nextToken());
+        int d = Integer.parseInt(st.nextToken());
+        int k = Integer.parseInt(st.nextToken());
+        int c = Integer.parseInt(st.nextToken());
 
-        for (int i = 0; i < N; i++) {
-            nums[i] = Integer.parseInt(st.nextToken());
+        int[] nums = new int[n];
+        for (int i = 0; i < n; i++) {
+            nums[i] = Integer.parseInt(bf.readLine());
         }
 
-        int right = 0;
-        int cnt = 0;
-        for (int left = 0; left < N; left++) {
+        int currentLen = 0;
+        for (int i = 0; i < k; i++) {
+            if (dishes[nums[i]] == 0) {
+                currentLen++;
+            }
+            dishes[nums[i]]++;
+        }
+        int maxLen = currentLen;
 
-            while (right < N && !set.contains(nums[right])) {
-                set.add(nums[right++]);
+        for (int i = 0; i < n; i++) {
+            int remove = nums[i];
+            int addIdx = nums[(i + k) % n];
+
+            dishes[remove]--;
+            if (dishes[remove] == 0) {
+                currentLen--;
             }
 
-            cnt += set.size();
-            set.remove(nums[left]);
+            if(dishes[addIdx] == 0) {
+                currentLen++;
+            }
+
+            dishes[addIdx]++;
+            maxLen = Math.max(maxLen, currentLen + (dishes[c]>0 ? 0 : 1));
         }
-        System.out.println(cnt);
+
+        System.out.println(maxLen);
 
     }
 }

@@ -2,45 +2,34 @@ package week12;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-
 import java.util.Arrays;
-import java.util.OptionalInt;
 import java.util.StringTokenizer;
 
 public class Problem264 {
     public static void main(String[] args)
     throws Exception {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(br.readLine());
-        StringTokenizer st = new StringTokenizer(br.readLine());
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(bf.readLine());
+        int N = Integer.parseInt(st.nextToken());
+        int M = Integer.parseInt(st.nextToken());
         int[] nums = new int[N];
         for (int i = 0; i < N; i++) {
-            nums[i] = Integer.parseInt(st.nextToken());
+            nums[i] = Integer.parseInt(bf.readLine());
         }
-        int T = Integer.parseInt(br.readLine());
-
-        int left = 1;
-        int right = Arrays.stream(nums).max().orElse(Integer.MIN_VALUE);
-        int ret = 0;
-        while(left<=right){
-            int mid = left + (right - left)/2;
-            int cnt = 0;
-            for (int i = 0;i<N;i++){
-                if (mid >= nums[i]) {
-                    cnt+=nums[i];
-                }else{
-                    cnt+=mid;
-                }
-            }
-
-            if (cnt > T) {
-                right = mid - 1;
-            }else{ //
-                ret = Math.max(ret, mid);
-                left = mid + 1;
+        Arrays.sort(nums);
+        int left = 0;
+        int right = 0;
+        int ret = Integer.MAX_VALUE;
+        while (left<=right && right < N) {
+            int diff = nums[right] - nums[left];
+            if (diff >= M) {
+                ret = Math.min(ret, diff);
+                left++;
+            }else{
+                right++;
             }
         }
         System.out.println(ret);
+
     }
 }

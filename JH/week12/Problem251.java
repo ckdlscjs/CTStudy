@@ -5,6 +5,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.StringTokenizer;
 
 public class Problem251 {
@@ -12,36 +13,35 @@ public class Problem251 {
     throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(bf.readLine());
-        int n = Integer.parseInt(st.nextToken());
-        int m = Integer.parseInt(st.nextToken());
-        int[] arr1 = new int[n];
-        int[] arr2 = new int[m];
+        int N = Integer.parseInt(st.nextToken());
+        int K = Integer.parseInt(st.nextToken());
+        int[] nums = new int [N];
+        int left = 0;
+        int right = Integer.MIN_VALUE;
         st = new StringTokenizer(bf.readLine());
-        for (int i = 0; i < n; i++) {
-            arr1[i] = Integer.parseInt(st.nextToken());
+        for (int i = 0; i < N; i++) {
+            nums[i] = Integer.parseInt(st.nextToken());
+            right = Math.max(right, nums[i]);
         }
-        st = new StringTokenizer(bf.readLine());
-        for (int i = 0; i < m; i++) {
-            arr2[i] = Integer.parseInt(st.nextToken());
-        }
-        Arrays.sort(arr1);
-        Arrays.sort(arr2);
-        StringBuilder sb = new StringBuilder();
-        int cnt = 0;
-        for (int i = 0; i < n; i++) {
-            int idx = Arrays.binarySearch(arr2, arr1[i]);
-            if (idx <0 || idx>=m){
-                sb.append(arr1[i]).append(" ");
-                cnt++;
+
+
+        while(left <= right) {
+            int mid = (left + right) / 2;
+            long cnt = 0;
+            for (int i = 0; i < N; i++) {
+                if(nums[i]>mid) cnt += (nums[i] - mid);
+            }
+
+            if (cnt >= K) {
+                left = mid + 1;
+            }else{
+                right = mid - 1;
             }
         }
 
-        if(cnt>0){
-            System.out.println(cnt);
-            System.out.println(sb);
-        }
-        else{
-            System.out.println(0);
-        }
+        System.out.println(right);
+
+
+
     }
 }

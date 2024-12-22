@@ -1,70 +1,44 @@
-
 package week12;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.StringJoiner;
-import java.util.StringTokenizer;
+import java.util.Collections;
+import java.util.HashSet;
 
 public class Problem246 {
     public static void main(String[] args)
-    throws IOException {
+            throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(bf.readLine());
+        HashSet<Integer> set = new HashSet<>();
         int[] nums = new int[N];
-        StringTokenizer st = new StringTokenizer(bf.readLine());
+
         for (int i = 0; i < N; i++) {
-            nums[i] = Integer.parseInt(st.nextToken());
+            nums[i] = Integer.parseInt(bf.readLine());
         }
         Arrays.sort(nums);
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        int M = Integer.parseInt(bf.readLine());
-        st = new StringTokenizer(bf.readLine());
-        for (int i = 0; i < M; i++) {
-            int target = Integer.parseInt(st.nextToken());
-            bw.write((1+binaryRightSearch(nums, target) - binaryLeftSearch(nums, target)) + " ");
-        } // [a,b] := b-a+1, [1,2] := 2-1 + 1
-        bw.newLine();
-        bw.flush();
-        bw.close();
-        bf.close();
-    }
 
-
-    static int binaryLeftSearch(int[] nums, int target) {
-        int left = 0, right = nums.length - 1; //
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-            if (nums[mid] < target) {
-                left = mid + 1;
-            } else {
-                right = mid - 1;
+        ArrayList<Integer> sums = new ArrayList<>();
+        for (int i = 0; i < N; i++) {
+            for (int j = i; j < N; j++) {
+                set.add(nums[i]+nums[j]);
             }
         }
-        // 1 1 2 2 2 2
-        //     2
-        return left; // 왼쪽 경계
-    }
+        System.out.println(set);
 
-
-    static int binaryRightSearch(int[] nums, int target) {
-        int left = 0, right = nums.length - 1;
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-            if (nums[mid] <= target) {
-                left = mid + 1;
-            } else {
-                right = mid - 1;
+        outer:
+        for (int i = N-1; i >=0; i--) {
+            int k = nums[i];
+            for (int j = 0; j <N; j++) {
+                int target = k - nums[j];
+                if (set.contains(target)) {
+                    System.out.println(k);
+                    break outer;
+                }
             }
         }
-        // 1 1 2 2 2 2
-        // 0  2->3   5
-        //        4->5
-        //           5->6 end
-        return right; // 오른쪽 경계
     }
 }

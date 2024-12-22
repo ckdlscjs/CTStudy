@@ -1,61 +1,51 @@
-
 package week12;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.HashMap;
+import java.rmi.dgc.VMID;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Problem259 {
-    static ArrayList<Integer> sum2 = new ArrayList<>();
-    static HashMap<Integer, Integer> map = new HashMap<>();
     public static void main(String[] args)
     throws Exception {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        int T = Integer.parseInt(bf.readLine());
-
-        int N = Integer.parseInt(bf.readLine());
-        int[] A = new int[N];
         StringTokenizer st = new StringTokenizer(bf.readLine());
-        for (int i = 0; i < N; i++) {
-            A[i] = Integer.parseInt(st.nextToken());
+        int n = Integer.parseInt(st.nextToken());
+        int m = Integer.parseInt(st.nextToken()); // 공유기의 개수
+        int[] nums = new int[n];
+        int left = 1;
+        int right = 0;
+        for (int i = 0;i<n;i++){
+            nums[i] = Integer.parseInt(bf.readLine());
+            right = Math.max(right,nums[i]);
         }
+        Arrays.sort(nums);
 
-        int M = Integer.parseInt(bf.readLine());
-        int[] B = new int[M];
-        st = new StringTokenizer(bf.readLine());
-        for (int i = 0; i < M; i++) {
-            B[i] = Integer.parseInt(st.nextToken());
-        }
-
-        //  + N^2 + N^2 + N^2 logN
-
-        for (int i = 0; i < N; i++) {
-            int tmp = A[i];
-            map.put(A[i], map.getOrDefault(tmp, 0) + 1);
-            for (int j = i + 1; j < N; j++) {
-                tmp += A[j];
-                map.put(tmp, map.getOrDefault(tmp, 0) + 1);
+        int answer = 0;
+        while (left<=right){ // upper binary search 그 조건에서 가장 오른쪽에 해당하는 값 출력
+            int mid = left + (right-left)/2; // 현재 거리
+            if (canInstall(nums, n, m, mid)) { // 너무 많이 -> 거리 길게 -> left 큰값을
+                answer = mid;
+                left = mid + 1;
+            }else{
+                right = mid - 1;
             }
         }
+        System.out.println(answer);
+        //
+    }
 
-        for (int i = 0; i < M; i++) {
-            int tmp = B[i];
-            sum2.add(tmp);
-            for (int j = i + 1; j < M; j++) {
-                tmp = tmp + B[j];
-                sum2.add(tmp);
+    private static boolean canInstall(int[] nums, int n, int m, int dist) {
+        int cnt = 1;
+        int lastInstall = nums[0];
+        for (int i = 1;i<n;i++){
+            int distance = nums[i] - lastInstall;
+            if (distance >= dist) {
+                cnt++;
+                lastInstall = nums[i];
             }
         }
-
-        long ret = 0;
-        for (Integer sum : sum2) {
-            if (map.getOrDefault(T-sum, 0)>0) {
-                ret+=map.get(T-sum);
-            }
-        }
-        System.out.println(ret);
-
+        return cnt>=m;
     }
 }

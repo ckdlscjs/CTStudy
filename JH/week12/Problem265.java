@@ -8,48 +8,29 @@ import java.util.StringTokenizer;
 public class Problem265 {
     public static void main(String[] args)
     throws Exception {
-        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(bf.readLine());
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
         int n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
-        int k = Integer.parseInt(st.nextToken());
-        int[] nums = new int[n+2];
-        st = new StringTokenizer(bf.readLine());
-        nums[0] = 0;
-        for (int i = 1; i <= n; i++) {
+        st = new StringTokenizer(br.readLine());
+        int[] nums = new int[n];
+        for (int i = 0; i < n; i++) {
             nums[i] = Integer.parseInt(st.nextToken());
         }
-        nums[n+1] = k;
-        Arrays.sort(nums);
-        // 휴게소의 위치 1<= x <= k-1
-        // n+m < k
-        int left = 1;
-        int right = k;
-
-        int ans = k;
-
-
-        while (left <= right) {
-            int mid = (left + right) / 2;
-            int cnt = 0;
-            for(int i = 1;i<=n+1;i++){
-                int gap = nums[i] - nums[i-1];
-                if(gap >mid){
-                    cnt+=(gap-1)/mid;
-                    // 1을 빼는 이유는 dist([a,b]) = b -a - 1
-                    // [2,1] 2-1-1 = 0
-                }
-            }
-
-            if (cnt <= m) { // 부족해서 더 크게
-                ans = mid; // 조건에 맞는 경우
-                right = mid - 1;
-            }else{ // cnt > m := 이 경우는 해당사항 없음
-                left = mid + 1;
+        // Arrays.sort(nums);
+        // System.out.println(Arrays.toString(nums));
+        int left = 0, right = 0, sum = 0;
+        int min = Integer.MAX_VALUE;
+        while (left <= right && right < n) {
+            sum += nums[right++];
+            while (sum >= m && left <n) {
+                min = Math.min(min, right-left);
+                // 여기서 원래 [left, right]는 right - left + 1인데
+                // right-left+1가 아니라 right-left인 이유는
+                // 앞서 증감연산에 의해 right+1가 되었기 때문에 right - left가 사실은 right+1 - left다.
+                sum -= nums[left++];
             }
         }
-        System.out.println(ans);
+        System.out.println(min == Integer.MAX_VALUE ? 0 : min);
     }
-    // 첫째 줄에 M개의 휴게소를 짓고 난 후에 휴게소가 없는 구간의 최댓값의 최솟값을 출력한다.
-
 }

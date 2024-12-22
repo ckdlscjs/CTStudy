@@ -2,46 +2,68 @@
 package week12;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.StringTokenizer;
 
 public class Problem253 {
     public static void main(String[] args)
-    throws IOException {
+    throws Exception {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+        int N = Integer.parseInt(bf.readLine());
         StringTokenizer st = new StringTokenizer(bf.readLine());
-        int N = Integer.parseInt(st.nextToken());
-        int K = Integer.parseInt(st.nextToken());
-        int[] nums = new int [N];
-        int left = 0;
-        int right = Integer.MIN_VALUE;
-        st = new StringTokenizer(bf.readLine());
+        int[] nums = new int[N];
         for (int i = 0; i < N; i++) {
             nums[i] = Integer.parseInt(st.nextToken());
-            right = Math.max(right, nums[i]);
         }
+        Arrays.sort(nums);
 
+        int ret = Integer.MAX_VALUE;
+        int[] ans = new int[2];
+        ans[0] = Integer.MAX_VALUE/2;
+        ans[1] = Integer.MAX_VALUE/2;
 
-        while(left <= right) {
-            int mid = (left + right) / 2;
-            long cnt = 0;
-            for (int i = 0; i < N; i++) {
-                if(nums[i]>mid) cnt += (nums[i] - mid);
+        for (int i = 0; i < N; i++) {
+            int a = nums[i];
+            int idx = leftBinarySearch(nums, a * (-1));
+
+            int[] candidates = {idx - 1, idx};
+
+            for (int index : candidates) {
+                if (index >= 0 && index < N && index != i) {
+                    int b = nums[index];
+                    int sum = a + b;
+                    if (Math.abs(sum) < ret) {
+                        ret = Math.abs(sum);
+                        if (a < b) {
+                            ans[0]= a;
+                            ans[1]= b;
+                        }
+                        else{
+                            ans[0] = b;
+                            ans[1] = a;
+                        }
+                    }
+
+                }
             }
 
-            if (cnt >= K) {
-                left = mid + 1;
+
+        }
+        System.out.println(ans[0] + " " + ans[1]);
+    }
+
+    private static int leftBinarySearch(int[] nums, int target) {
+        int low = 0;
+        int high = nums.length - 1;
+        while (low <= high) {
+            int mid = (low + high) / 2;
+            if (nums[mid] >= target) {
+                high = mid - 1;
             }else{
-                right = mid - 1;
+                low = mid + 1;
             }
         }
-
-        System.out.println(right);
-
-
-
+        return low;
     }
 }

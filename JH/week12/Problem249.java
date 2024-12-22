@@ -1,3 +1,4 @@
+
 package week12;
 
 import java.io.BufferedReader;
@@ -11,31 +12,36 @@ public class Problem249 {
     throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(bf.readLine());
-        int N = Integer.parseInt(st.nextToken());
-        long[] nums =  new long[N];
-
-        int K = Integer.parseInt(st.nextToken());
-        for (int i = 0; i < N; i++) {
-            nums[i] = Long.parseLong(bf.readLine());
+        int n = Integer.parseInt(st.nextToken());
+        int m = Integer.parseInt(st.nextToken());
+        int[] arr1 = new int[n];
+        int[] arr2 = new int[m];
+        st = new StringTokenizer(bf.readLine());
+        for (int i = 0; i < n; i++) {
+            arr1[i] = Integer.parseInt(st.nextToken());
+        }
+        st = new StringTokenizer(bf.readLine());
+        for (int i = 0; i < m; i++) {
+            arr2[i] = Integer.parseInt(st.nextToken());
+        }
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
+        StringBuilder sb = new StringBuilder();
+        int cnt = 0;
+        for (int i = 0; i < n; i++) {
+            int idx = Arrays.binarySearch(arr2, arr1[i]);
+            if (idx <0 || idx>=m){
+                sb.append(arr1[i]).append(" ");
+                cnt++;
+            }
         }
 
-        Arrays.sort(nums);
-
-        long left = 1;
-        long right = Integer.MAX_VALUE;
-        while (left <= right) {
-            long mid = (left + right) / 2;
-            long t = 0;
-            for (int i = 0; i < N; i++) {
-                t +=  (nums[i]/mid);
-            }
-            if (t >= K) { // 초과이므로 줄여야 함 ->
-                left = mid + 1;
-            }
-            else {
-                right = mid - 1;
-            }
+        if(cnt>0){
+            System.out.println(cnt);
+            System.out.println(sb);
         }
-        System.out.println(right);
+        else{
+            System.out.println(0);
+        }
     }
 }

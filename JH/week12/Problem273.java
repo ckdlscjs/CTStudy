@@ -1,45 +1,64 @@
-
 package week12;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 public class Problem273 {
-    public static void main(String[] args)
-    throws Exception {
+    public static void main(String[] args) throws Exception {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(bf.readLine());
-        int n = Integer.parseInt(st.nextToken());
-        int m = Integer.parseInt(st.nextToken());
-        int[] nums = new int[n];
-        int[] chk = new int[100001];
-        st = new StringTokenizer(bf.readLine());
-        for (int i = 0; i < n; i++) {
-            nums[i] = Integer.parseInt(st.nextToken());
+        int N = Integer.parseInt(st.nextToken());
+        int K = Integer.parseInt(st.nextToken());
+        ArrayList<int[]> arr = new ArrayList<>();
+
+        int maxEnd = 0; // 최대 종료점
+        int minEnd = Integer.MAX_VALUE;
+        for (int i = 0; i < N; i++) {
+            st = new StringTokenizer(bf.readLine());
+            int a = Integer.parseInt(st.nextToken());
+            int b = Integer.parseInt(st.nextToken());
+            arr.add(new int[]{a, b});
+            maxEnd = Math.max(maxEnd, b);
+            minEnd = Math.min(minEnd, b);
         }
 
-        int left = 0;
-        int right = 0;
-        int maxLen = 0;
+
+        int[] prefix = new int[maxEnd + 2];
+        for (int[] interval : arr) {
+            prefix[interval[0]]++;         // 구간 시작점
+            prefix[interval[1]]--;    // [interval_start, end)
+        }
+
+
+        for (int i = 1; i <= maxEnd; i++) {
+            prefix[i] += prefix[i - 1];
+        }
+
+
+        int a = 0, b = 0;
         int currentLen = 0;
-        while (right < n) {
+        int answerA = -1, answerB = -1;
 
-            if (chk[nums[right]] < m) {
-                chk[nums[right]]++;
-                currentLen++;
-            }
-            else{
-                while ((chk[nums[right]] >=m) && (left < n)) {
-                    chk[nums[left++]]--;
-                    currentLen--;
+        // 투 포인터 탐색
+        while (b <= maxEnd) {
+            if (currentLen < K) {
+                currentLen += prefix[b];
+                b++;
+            } else {
+                if (currentLen == K) {
+                    System.out.println(a + " " + b);
+                    return;
                 }
-                chk[nums[right]]++;
-                currentLen++;
+                currentLen -= prefix[a];
+                a++;
             }
-            maxLen = Math.max(maxLen, currentLen);
-            right++;
         }
-        System.out.println(maxLen);
+
+        // 결과 출력
+        if (answerA == -1) {
+            System.out.println("0 0");
+        }
     }
 }

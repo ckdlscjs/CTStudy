@@ -1,44 +1,33 @@
+
 package week12;
 
 import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.io.IOException;
-import java.util.ArrayList;
+import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashSet;
+import java.util.StringTokenizer;
+import java.util.stream.Collectors;
 
 public class Problem248 {
     public static void main(String[] args)
-            throws IOException {
+    throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(bf.readLine());
-        HashSet<Integer> set = new HashSet<>();
-        int[] nums = new int[N];
-
-        for (int i = 0; i < N; i++) {
-            nums[i] = Integer.parseInt(bf.readLine());
+        int n = Integer.parseInt(bf.readLine());
+        int[] arr1 = new int[n];
+        StringTokenizer st = new StringTokenizer(bf.readLine());
+        for (int i = 0; i < n; i++) {
+            arr1[i] = Integer.parseInt(st.nextToken());
         }
-        Arrays.sort(nums);
+        Arrays.sort(arr1);
 
-        ArrayList<Integer> sums = new ArrayList<>();
-        for (int i = 0; i < N; i++) {
-            for (int j = i; j < N; j++) {
-                set.add(nums[i]+nums[j]);
-            }
+        int m = Integer.parseInt(bf.readLine());
+        int[] arr2 = new int[m];
+        st = new StringTokenizer(bf.readLine());
+        for (int i = 0; i < m; i++) {
+            int idx = Arrays.binarySearch(arr1, Integer.parseInt(st.nextToken()));
+            arr2[i] = (n > idx && idx >= 0) ? 1 : 0;
         }
-        System.out.println(set);
+        System.out.println(Arrays.stream(arr2).mapToObj(s -> s + " ").collect(Collectors.joining()));
 
-        outer:
-        for (int i = N-1; i >=0; i--) {
-            int k = nums[i];
-            for (int j = 0; j <N; j++) {
-                int target = k - nums[j];
-                if (set.contains(target)) {
-                    System.out.println(k);
-                    break outer;
-                }
-            }
-        }
     }
 }
