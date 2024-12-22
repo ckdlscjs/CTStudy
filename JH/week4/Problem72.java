@@ -1,4 +1,6 @@
-class Solution {
+package week4;
+
+public class Problem72 {
     public String solution(int n) {
         String answer = "";
         String odd = "박";

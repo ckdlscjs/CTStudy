@@ -1,6 +1,6 @@
 // import java.util.HashSet;
 
-class Solution {
+public class Problem42 {
     public int[] solution(int[] numbers) {
         int[] chk = new int[201];
         int n = numbers.length;

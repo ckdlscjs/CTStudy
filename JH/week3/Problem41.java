@@ -1,4 +1,4 @@
-class Solution {
+public class Problem41 {
     public int solution(int n) {
         String ret = "";
         StringBuilder sb = new StringBuilder();

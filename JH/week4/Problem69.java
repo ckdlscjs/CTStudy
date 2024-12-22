@@ -1,4 +1,6 @@
-class Solution {
+package week4;
+
+public class Problem69 {
     public int solution(int n) {
         int answer = 0;
         int sqrtn = (int) Math.ceil(Math.sqrt(n));

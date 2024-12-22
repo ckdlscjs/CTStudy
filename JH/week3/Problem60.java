@@ -1,4 +1,4 @@
-class Solution {
+public class Problem60 {
     public int solution(int num) {
         int answer = 0;
         int n = num;

@@ -1,7 +1,7 @@
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-class Solution {
+public class Problem44 {
     public int solution(int[][] board, int[] moves) {
         int answer = 0;
         Deque<Integer> st = new ArrayDeque<Integer>();

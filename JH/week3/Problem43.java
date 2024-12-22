@@ -1,7 +1,7 @@
 // 구현 문제
 import java.util.Arrays;
 
-class Solution {
+public class Problem43 {
     public String solution(int[] numbers, String hand) {
         String answer = "";
         // 1 4 7 -> 왼

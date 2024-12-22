@@ -1,4 +1,6 @@
-class Solution {
+package week4;
+
+public class Problem74 {
     public String solution(String[] seoul) {
         String answer = "";
         String K = "Kim";

@@ -1,4 +1,6 @@
-class Solution {
+package week4;
+
+public class Problem77 {
     boolean solution(String s) {
         boolean answer = true;
 

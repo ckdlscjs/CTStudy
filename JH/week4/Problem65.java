@@ -1,6 +1,8 @@
+package week4;
+
 import java.util.Arrays;
 
-class Solution {
+public class Problem65 {
     public long solution(long n) {
         int[] cnts = new int[10];
         long answer = 0;

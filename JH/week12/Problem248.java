@@ -27,6 +27,7 @@ public class Problem248 {
                 set.add(nums[i]+nums[j]);
             }
         }
+        System.out.println(set);
 
         outer:
         for (int i = N-1; i >=0; i--) {

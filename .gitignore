@@ -8,10 +8,23 @@
 
 # shell script
 *.sh
+./*.sh
+
+
+# iml
+
+*.iml
 
 # BlueJ files
 *.ctxt
 
+
+# idea 
+.idea/*
+
+# build 
+.out/*
+.out/
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 

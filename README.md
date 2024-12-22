@@ -1,46 +1,44 @@
 
 
 
-# Java_coding_factory : 12th Week
+# Java_coding_factory : 13th Week
 
 ---
 
-## Solving BaekJoon : Backtracking and recursion Problems : 245 - 275
+## Solving BaekJoon : Bisect, Two_pointer, Simulation and DP Problems : 276 - 300
 ## Problems and Links
 
-| 인덱스 | 문제 번호 | 문제 제목                    | 자료구조/알고리즘     | 정답 비율 | URL                                      |
-| ------ | -------- | --------------------------- | --------------------- | --------- | --------------------------------------- |
-| 245    | 1920     | 수 찾기                     | 정렬, 이분 탐색             | 30.475%  | [1920](https://www.acmicpc.net/problem/1920) |
-| 246    | 10816    | 숫자 카드 2                 | 정렬, 이분 탐색             | 38.076%  | [10816](https://www.acmicpc.net/problem/10816) |
-| 247    | 18870    | 좌표 압축                   | 정렬, 좌표 압축  | 39.737%  | [18870](https://www.acmicpc.net/problem/18870) |
-| 248    | 2295     | 세 수의 합                  | 이분 탐색, 중간에서 만날기 | 28.506%  | [2295](https://www.acmicpc.net/problem/2295) |
-| 249    | 1654     | 랜선 자르기                 | 이분 탐색, 매개변수 탐색       | 21.637%  | [1654](https://www.acmicpc.net/problem/1654) |
-| 250    | 10815    | 숫자 카드                   | 정렬, 이분 탐색             | 42.798%  | [10815](https://www.acmicpc.net/problem/10815) |
-| 251    | 1822     | 차집합                       | 해시셋     | 46.672%  | [1822](https://www.acmicpc.net/problem/1822) |
-| 252    | 16401    | 과자 나눠주기               | 이분 탐색, 매개변수 탐색       | 36.479%  | [16401](https://www.acmicpc.net/problem/16401) |
-| 253    | 2805     | 나무 자르기 (다국어)        | 이분 탐색, 매개변수 탐색       | 26.595%  | [2805](https://www.acmicpc.net/problem/2805) |
-| 254    | 18869    | 멀티버스 Ⅱ                 | 정렬, 좌표 압축      | 39.280%  | [18869](https://www.acmicpc.net/problem/18869) |
-| 255    | 2467     | 용액                         | 이분 탐색, 투 포인터, 정렬       | 37.220%  | [2467](https://www.acmicpc.net/problem/2467) |
-| 256    | 3151     | 합이 0                       | 이분 탐색, 투 포인터  | 23.427%  | [3151](https://www.acmicpc.net/problem/3151) |
-| 257    | 14921    | 용액 합성하기               | 투 포인터  | 45.137%  | [14921](https://www.acmicpc.net/problem/14921) |
-| 258    | 1253     | 좋다                         | 이분 탐색, 투 포인터           | 24.317%  | [1253](https://www.acmicpc.net/problem/1253) |
-| 259    | 2143     | 두 배열의 합                 | 이분 탐색         | 32.404%  | [2143](https://www.acmicpc.net/problem/2143) |
-| 260    | 2473     | 세 용액                      | 이분 탐색, 투 포인터       | 27.188%  | [2473](https://www.acmicpc.net/problem/2473) |
-| 261    | 2110     | 공유기 설치 (다국어)         | 이분 탐색             | 36.956%  | [2110](https://www.acmicpc.net/problem/2110) |
-| 262    | 7453     | 합이 0인 네 정수 (다국어)    | 이분 탐색 | 22.808%  | [7453](https://www.acmicpc.net/problem/7453) |
-| 263    | 12015    | 가장 긴 증가하는 부분 수열 2 | 이분 탐색             | 41.478%  | [12015](https://www.acmicpc.net/problem/12015) |
-| 264    | 2512     | 예산                         | 이분 탐색       | 36.973%  | [2512](https://www.acmicpc.net/problem/2512) |
-| 265    | 2230     | 수 고르기                               | 투 포인터             | 30.842%  | [2230](https://www.acmicpc.net/problem/2230) |
-| 266    | 1806     | 부분합                                  | 투 포인터             | 26.311%  | [1806](https://www.acmicpc.net/problem/1806) |
-| 267    | 1644     | 소수의 연속합                           | 투 포인터, 소수 판별  | 41.389%  | [1644](https://www.acmicpc.net/problem/1644) |
-| 268    | 2003     | 수들의 합 2                             | 투 포인터             | 48.347%  | [2003](https://www.acmicpc.net/problem/2003) |
-| 269    | 13144    | List of Unique Numbers                 | 투 포인터          | 34.260%  | [13144](https://www.acmicpc.net/problem/13144) |
-| 270    | 22862    | 가장 긴 짝수 연속한 부분 수열 (large) |         투 포인터 | 41.523%  | [22862](https://www.acmicpc.net/problem/22862) |
-| 271    | 2531     | 회전 초밥                               | 투 포인터 | 35.708%  | [2531](https://www.acmicpc.net/problem/2531) |
-| 272    | 20922    | 겹치는 건 싫어                         |   투 포인터          | 36.544%  | [20922](https://www.acmicpc.net/problem/20922) |
-| 273    | 2461     | 대표 선수                               | 투 포인터       | 44.569%  | [2461](https://www.acmicpc.net/problem/2461) |
-| 274    | 2283     | 구간 자르기                             | 투 포인터       | 31.214%  | [2283](https://www.acmicpc.net/problem/2283) |
-| 275    | 20366    | 같이 눈사람 만들래?                    | 투포인터    | 32.451%  | [20366](https://www.acmicpc.net/problem/20366) |
+
+# 문제 목록
+
+| 인덱스 | 문제 번호 | 문제 제목                  | 자료구조/알고리즘 | 정답 비율  | URL                                     |
+|--------|----------|---------------------------|------------------|-----------|-----------------------------------------|
+| 276    | 1300     | K번째 수                 | 이분탐색         | 37.948%   | https://www.acmicpc.net/problem/1300    |
+| 277    | 17951    | 흩날리는 시험지 속에서 내 평점이 느껴진거야 | 이분탐색         | 50.992%   | https://www.acmicpc.net/problem/17951   |
+| 278    | 1114     | 통나무 자르기            | 이분탐색         | 23.752%   | https://www.acmicpc.net/problem/1114    |
+| 279    | 1561     | 놀이 공원 다국어          | 이분탐색         | 26.706%   | https://www.acmicpc.net/problem/1561    |
+| 280    | 1637     | 날카로운 눈 다국어        | 이분탐색         | 30.326%   | https://www.acmicpc.net/problem/1637    |
+| 281    | 2842     | 집배원 한상덕 다국어      | 투포인터         | 24.590%   | https://www.acmicpc.net/problem/2842    |
+| 282    | 14572    | 스터디 그룹              | 투포인터         | 36.819%   | https://www.acmicpc.net/problem/14572   |
+| 283    | 20181    | 꿈틀꿈틀 호석 애벌레 - 효율성 전체 채점 | 투포인터         | 39.192%   | https://www.acmicpc.net/problem/20181   |
+| 284    | 2923     | 숫자 게임 다국어          | 투포인터         | 32.407%   | https://www.acmicpc.net/problem/2923    |
+| 285    | 17947    | 상남자 곽철용            | 투포인터         | 16.152%   | https://www.acmicpc.net/problem/17947   |
+| 286    | 20056    | 마법사 상어와 파이어볼    | 시뮬레이션       | 36.974%   | https://www.acmicpc.net/problem/20056   |
+| 287    | 20057    | 마법사 상어와 토네이도    | 시뮬레이션       | 71.074%   | https://www.acmicpc.net/problem/20057   |
+| 288    | 20058    | 마법사 상어와 파이어스톰  | 시뮬레이션       | 41.283%   | https://www.acmicpc.net/problem/20058   |
+| 289    | 21610    | 마법사 상어와 비바라기    | 시뮬레이션       | 49.706%   | https://www.acmicpc.net/problem/21610   |
+| 290    | 21611    | 마법사 상어와 블리자드    | 시뮬레이션       | 24.508%   | https://www.acmicpc.net/problem/21611   |
+| 291    | 11052    | 카드 구매하기            | DP               | 61.652%   | https://www.acmicpc.net/problem/11052   |
+| 292    | 9465     | 스티커                  | DP               | 46.954%   | https://www.acmicpc.net/problem/9465    |
+| 293    | 11057    | 오르막 수                | DP               | 47.778%   | https://www.acmicpc.net/problem/11057   |
+| 294    | 2293     | 동전 1                  | DP               | 47.760%   | https://www.acmicpc.net/problem/2293    |
+| 295    | 1904     | 01타일                  | DP               | 31.821%   | https://www.acmicpc.net/problem/1904    |
+| 296    | 1788     | 피보나치 수의 확장        | DP               | 33.288%   | https://www.acmicpc.net/problem/1788    |
+| 297    | 4883     | 삼각 그래프 다국어        | DP               | 26.272%   | https://www.acmicpc.net/problem/4883    |
+| 298    | 9251     | LCS                     | DP               | 41.328%   | https://www.acmicpc.net/problem/9251    |
+| 299    | 1699     | 제곱수의 합             | DP               | 40.094%   | https://www.acmicpc.net/problem/1699    |
+| 300    | 9084     | 동전                    | DP               | 67.486%   | https://www.acmicpc.net/problem/9084    |
+
 
 ## 배운 것 정리 
   
@@ -64,68 +62,56 @@
 <br/>
 <br/>
  
+Problem 276: <br><br><br>
 
-Problem 245: <br><br><br>
+Problem 277: <br><br><br>
 
-Problem 246: <br><br><br>
+Problem 278: <br><br><br>
 
-Problem 247: <br><br><br>
+Problem 279: <br><br><br>
 
-Problem 248: <br><br><br>
+Problem 280: <br><br><br>
 
-Problem 249: <br><br><br>
+Problem 281: <br><br><br>
 
-Problem 250: <br><br><br>
+Problem 282: <br><br><br>
 
-Problem 251: <br><br><br>
+Problem 283: <br><br><br>
 
-Problem 252: <br><br><br>
+Problem 284: <br><br><br>
 
-Problem 253: <br><br><br>
+Problem 285: <br><br><br>
 
-Problem 254: <br><br><br>
+Problem 286: <br><br><br>
 
-Problem 255: <br><br><br>
+Problem 287: <br><br><br>
 
-Problem 256: <br><br><br>
+Problem 288: <br><br><br>
 
-Problem 257: <br><br><br>
+Problem 289: <br><br><br>
 
-Problem 258: <br><br><br>
+Problem 290: <br><br><br>
 
-Problem 259: <br><br><br>
+Problem 291: <br><br><br>
 
-Problem 260: <br><br><br>
+Problem 292: <br><br><br>
 
-Problem 261: <br><br><br>
+Problem 293: <br><br><br>
 
-Problem 262: <br><br><br>
+Problem 294: <br><br><br>
 
-Problem 263: <br><br><br>
+Problem 295: <br><br><br>
 
-Problem 264: <br><br><br>
+Problem 296: <br><br><br>
 
-Problem 265: <br><br><br>
+Problem 297: <br><br><br>
 
-Problem 266: <br><br><br>
+Problem 298: <br><br><br>
 
-Problem 267: <br><br><br>
+Problem 299: <br><br><br>
 
-Problem 268: <br><br><br>
+Problem 300: <br><br><br>
 
-Problem 269: <br><br><br>
-
-Problem 270: <br><br><br>
-
-Problem 271: <br><br><br>
-
-Problem 272: <br><br><br>
-
-Problem 273: <br><br><br>
-
-Problem 274: <br><br><br>
-
-Problem 275: <br><br><br>
 
 
 

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-class Solution {
+public class Problem48 {
     public int[] solution(int[] array, int[][] commands) {
         int[] answer = new int[commands.length];
         int idx = 0;

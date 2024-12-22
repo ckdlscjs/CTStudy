@@ -1,4 +1,4 @@
-class Solution {
+public class Problem55 {
     public long[] solution(int x, int n) {
         long[] answer = new long[n];
         long step = x;
