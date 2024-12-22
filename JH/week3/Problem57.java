@@ -1,4 +1,4 @@
-class Solution {
+public class Problem57 {
     public String solution(String phone_number) {
         String answer = "";
         int n = phone_number.length();

@@ -1,4 +1,6 @@
-class Solution {
+package week4;
+
+public class Problem73 {
     public int solution(int n) {
         int answer = 0;
         for(int i = 2;i<=n;i++){

@@ -1,4 +1,4 @@
-class Solution {
+public class Problem59 {
     public double solution(int[] arr) {
         double answer = 0;
         int n = arr.length;

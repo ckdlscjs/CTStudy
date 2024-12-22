@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+public class Problem45 {
     public int[] solution(int N, int[] stages) {
         Map<Integer, Integer> stageCounts = new HashMap<>();
         List<int[]> st = new ArrayList<>();
@@ -20,7 +20,7 @@ class Solution {
             }
 
             double failureRate = (totalPlayers == 0) ? 0 : (double) stageCounts.getOrDefault(i, 0) / totalPlayers;
-            st.add(new int[]{i, failureRate});
+            st.add(new int[]{i, (int) failureRate});
         }
 
         // Sort by failure rate in descending order, and by stage number in ascending order if rates are equal

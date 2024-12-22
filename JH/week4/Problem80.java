@@ -1,7 +1,9 @@
+package week4;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
-class Solution {
+public class Problem80 {
     public ArrayList<Integer> solution(int[] arr, int divisor) {
         // int[] answer = {};
         ArrayList<Integer> res = new ArrayList<Integer>();

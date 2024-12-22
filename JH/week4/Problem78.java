@@ -1,7 +1,9 @@
+package week4;
+
 import java.util.Arrays;
 import java.util.Comparator;
 
-class Solution {
+public class Problem78 {
     public String[] solution(String[] strings, int n) {
  
         

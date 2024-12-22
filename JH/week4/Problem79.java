@@ -1,4 +1,6 @@
-class Solution {
+package week4;
+
+public class Problem79 {
     public long solution(int a, int b) {
         long two = 2L;
         long A = a;

@@ -1,4 +1,6 @@
-class Solution {
+package week4;
+
+public class Problem62 {
     public String solution(int num) {
         String odd = "Odd";
         String even = "Even";

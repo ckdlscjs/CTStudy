@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.ArrayList;
 
-class Solution {
+public class Problem47 {
     public int[] solution(int[] answers) {
         int[] answer = {0,0,0};
         int n = answers.length;

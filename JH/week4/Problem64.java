@@ -1,6 +1,8 @@
-import java.util.Collections; 
+package week4;
 
-class Solution {
+import java.util.Collections;
+
+public class Problem64 {
     public int[] solution(int[] arr) {
         int[] answer = new int[arr.length-1];
         int idx = 0;

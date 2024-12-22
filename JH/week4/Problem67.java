@@ -1,6 +1,8 @@
+package week4;
+
 import java.util.*;
 
-public class Solution {
+public class Problem67 {
     public int solution(int n) {
         int answer = 0;
         

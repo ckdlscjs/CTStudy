@@ -1,6 +1,8 @@
+package week4;
+
 import java.util.Arrays;
     
-class Solution {
+public class Problem76 {
     public String solution(String s) {
         int[] Big = new int[26];
         int[] small = new int[26];

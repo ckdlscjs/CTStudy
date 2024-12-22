@@ -1,7 +1,8 @@
- 
+package week4;
+
 import java.util.Arrays;
  
-class Solution {
+public class Problem61 {
        public int[] solution(int n, int m) {
            int[] answer = new int[2];
            

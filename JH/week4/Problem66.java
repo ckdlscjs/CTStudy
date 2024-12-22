@@ -1,4 +1,6 @@
-class Solution {
+package week4;
+
+public class Problem66 {
     public int[] solution(long n) {
         int cnt = 0;
         long m = n;
