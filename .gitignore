@@ -23,8 +23,9 @@
 .idea/*
 
 # build 
+out/
 .out/*
-.out/
+.out/*/*
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
