@@ -42,66 +42,107 @@
 ## 문제 해설 
 
 
-Problem 245: <br><br><br>
+Problem 245: 수 찾기<br>
+-O()<br>
+-입력값을 기록하고 새로들어오는 쿼리에대해 찾는다, 해시로 으로 조회시 O(1)로찾는다<br>
 
-Problem 246: <br><br><br>
+Problem 246: 숫자 카드 2<br>
+-O()<br>
+-입력값을 기록하고 새로들어오는 쿼리에대해 찾는다, 해시로 으로 조회시 O(1)로찾는다<br>
 
-Problem 247: <br><br><br>
+Problem 247: 좌표 압축<br>
+-O()<br>
+-좌표를 압축시키기위해 입력된 배열을 별도로 정렬하기위한 배열에 추가로 기록후 정렬한다, 이후 정렬된 순서를 기준으로 자신의 앞에있는 순서를 기반으로 갯수를 기록하는 변수를 이용하여 앞에 위치한 갯수를 기록하고 이를 사용해 압축된 결과를 출력한다<br>
 
-Problem 248: <br><br><br>
+Problem 248: 세 수의 합<br>
+-O()<br>
+-입력값이 1000개이므로 이를n^2 * log N으로 해결하기위해 두개를 더한 조합의합을 구해놓고 이를 기준으로 세 수의 합이 배열내에 존재하는 값이기 때문에 투포인터를 이용해 큰값-작은값으로 투포인터를 기준으로 찾되 같은값이 존재하는가 이분탐색으로 logN으로 빠른탐색하는데
+X + Y + Z = K이므로 X + Y == K - Z를 양측비교하여 투포인터로 i,j지정후 mid를 이분탐색하여 찾는것<br>
 
-Problem 249: <br><br><br>
+Problem 249: 랜선 자르기<br>
+-O()<br>
+-t/f결정문제에서 최대t를 이분탐색으로 찾는다<br>
 
-Problem 250: <br><br><br>
+Problem 250: 숫자 카드<br>
+-O()<br>
+-입력값에 존재하는가 이분탐색을 이용해 찾는다<br>
 
-Problem 251: <br><br><br>
+Problem 251: 차집합<br>
+-O()<br>
+-값을 입력받고 정렬후, 원소를 순회하면서 기록하는 변수를 이용하여 원소가 겹치지 않는 값을 찾아야하기에 이전값까지 반복문을 이용해 증감시켜가며 집어넣는다, 
+원소가같으면 삽입하지않고 인덱스만증감시켜 차집합을 찾는다<br>
 
-Problem 252: <br><br><br>
-
-Problem 253: <br><br><br>
-
-Problem 254: <br><br><br>
-
-Problem 255: <br><br><br>
-
-Problem 256: <br><br><br>
-
-Problem 257: <br><br><br>
-
-Problem 258: <br><br><br>
-
-Problem 259: <br><br><br>
-
-Problem 260: <br><br><br>
-
-Problem 261: <br><br><br>
-
-Problem 262: <br><br><br>
-
-Problem 263: <br><br><br>
-
-Problem 264: <br><br><br>
-
-Problem 265: <br><br><br>
-
-Problem 266: <br><br><br>
-
-Problem 267: <br><br><br>
-
-Problem 268: <br><br><br>
-
-Problem 269: <br><br><br>
-
-Problem 270: <br><br><br>
-
-Problem 271: <br><br><br>
-
-Problem 272: <br><br><br>
-
-Problem 273: <br><br><br>
-
-Problem 274: <br><br><br>
-
-Problem 275: <br><br><br>
+Problem 252: 과자 나눠주기<br>
+-O()<br>
+-<br>
+Problem 253: 나무 자르기<br>
+-O()<br>
+-<br>
+Problem 254: 멀티버스 Ⅱ<br>
+-O()<br>
+-<br>
+Problem 255: 용액<br>
+-O()<br>
+-<br>
+Problem 256: 합이 0<br>
+-O()<br>
+-<br>
+Problem 257: 용액 합성하기<br>
+-O()<br>
+-<br>
+Problem 258: 좋다<br>
+-O()<br>
+-<br>
+Problem 259: 두 배열의 합<br>
+-O()<br>
+-<br>
+Problem 260: 세 용액<br>
+-O()<br>
+-<br>
+Problem 261: 공유기 설치<br>
+-O()<br>
+-<br>
+Problem 262: 합이 0인 네 정수<br>
+-O()<br>
+-<br>
+Problem 263: 가장 긴 증가하는 부분 수열 2<br>
+-O()<br>
+-<br>
+Problem 264: 예산<br>
+-O()<br>
+-<br>
+Problem 265: 수 고르기<br>
+-O()<br>
+-<br>
+Problem 266: 부분합<br>
+-O()<br>
+-<br>
+Problem 267: 소수의 연속합<br>
+-O()<br>
+-<br>
+Problem 268: 수들의 합 2<br>
+-O()<br>
+-<br>
+Problem 269: List of Unique Numbers<br>
+-O()<br>
+-<br>
+Problem 270: 가장 긴 짝수 연속한 부분 수열 (large)<br>
+-O()<br>
+-<br>
+Problem 271: 회전 초밥<br>
+-O()<br>
+-<br>
+Problem 272: 겹치는 건 싫어<br>
+-O()<br>
+-<br>
+Problem 273: 대표 선수<br>
+-O()<br>
+-<br>
+Problem 274: 구간 자르기<br>
+-O()<br>
+-<br>
+Problem 275: 같이 눈사람 만들래?<br>
+-O()<br>
+-<br>
 
 
