@@ -37,7 +37,9 @@
 | 275    | 20366    | 같이 눈사람 만들래?                    | 투포인터    | 32.451%  | [20366](https://www.acmicpc.net/problem/20366) |
 
 ## 배운 것 정리 
-  
+
+https://blog.naver.com/syl610/223702203441 이분탐색<br>
+https://blog.naver.com/syl610/223702205547 투포인터<br>
 
 ## 문제 해설 
 
