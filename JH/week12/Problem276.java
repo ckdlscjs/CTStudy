@@ -41,5 +41,6 @@ public class Problem276 {
             }
         }
         System.out.println(minDiff);
+        
     }
 }
