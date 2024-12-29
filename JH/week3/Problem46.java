@@ -1,4 +1,4 @@
-class Solution {
+public class Problem46 {
     public int solution(int n, int[] lost, int[] reserve) {
         
         int[] friends = new int[n+1];

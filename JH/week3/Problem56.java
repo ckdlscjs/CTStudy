@@ -1,4 +1,4 @@
-class Solution {
+public class Problem56 {
     public int[][] solution(int[][] arr1, int[][] arr2) {
         int[][] answer = matrixAddition(arr1,arr2);
         return answer;

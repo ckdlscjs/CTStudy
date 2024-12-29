@@ -1,6 +1,8 @@
+package week3;
+
 import java.util.HashMap;
 
-class Solution {
+public class Problem49 {
     public String solution(String[] participant, String[] completion) {
         String answer = "";
         

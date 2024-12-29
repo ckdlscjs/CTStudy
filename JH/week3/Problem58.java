@@ -1,4 +1,4 @@
-class Solution {
+public class Problem58 {
     public boolean solution(int x) {
         // boolean answer = true;
         int cur = x;

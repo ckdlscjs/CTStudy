@@ -1,4 +1,4 @@
-## Solving BaekJoon : Backtracking and recursion Problems : 205 - 224
+## Solving BaekJoon : Problems : 205 - 224
 ## Problems and Links
 
 | 인덱스 | 문제 번호 | 문제 제목             | 자료구조/알고리즘     | 정답 비율 | URL                                      |
@@ -25,7 +25,7 @@
 | 224    | 3190     | 뱀                   | 시뮬레이션          | 41.519%   | [3190](https://www.acmicpc.net/problem/3190)   |
 
 ## 배운 것 정리 
-  
+https://blog.naver.com/syl610/223687582500 정렬1,2 <br>
 
 ## 문제 해설 
 Problem 205: 감시<br>
@@ -33,44 +33,60 @@ Problem 205: 감시<br>
 -카메라 종류를 기록하고 회전시킨다, substr을 이용해 카메라회전을 구현, 이를 문자열의 인덱스로 처리해 dy, dx를 이용해 체크가 편하게끔 구성, 이후 백트래킹/시뮬레이션 하여 개수체크<br>
 
 Problem 206: 스티커 붙이기<br>
--O() <br>
--<br>
+-O(4^k * N * M) <br>
+-스티커를입력받고 스티커의 회전방향에따라 백트래킹통해 시뮬레이션한다, 이때 회전기준에 따라 우선적으로 붙힐 수 있는 스티커를 붙히는식으로 탐색하므로 별도의 예외처리는 필요없다<br>
 
-Problem 207: <br><br><br>
+Problem 207: 2048(Easy)<br>
+-O(4^5 * N * N) <br>
+-4방향에따른 move를 구현, right를 회전을통해구현하고 조건에맞는 이동조건을 구현해 밀어서 최대횟수 4^5를 체크한다.<br>
 
-Problem 208: <br><br><br>
+Problem 208: 치킨 배달<br>
+-O(2^13 * H * M)<br>
+-2^K백트래킹으로 치킨집 조합을 해당 치킨집 조합을 기준으로 집기준으로 거리를 재서 최단거리를 계산한다<br>
 
-Problem 209: <br><br><br>
+Problem 209: Puyo Puyo<br>
+-O(6 * 12 * (6 * 12)(DFS) * (6 * 12 * 12)(밑으로이동))<br>
+-입력받은값 기준으로 전체범위*DFS(6*12) 하여 최대갯수를센다, 이후밑으로 이동시킨다 <br>
 
-Problem 210: <br><br><br>
+Problem 210: 톱니바퀴<br>
+-O(4K)<br>
+-톱니바퀴의 방향을 기준으로 양측으로 전파시키며 회전시킨다. 문자열을이용해 앞,뒤 로만 붙혀서 체크<br>
 
-Problem 211: <br><br><br>
+Problem 211: 주사위 굴리기<br>
+-O(N)<br>
+-주사위를 돌리는 방향을 기준으로 돌아갔을때의 면을 계산하는 함수를 기록해놓고 시뮬레이션<br>
 
-Problem 212: <br><br><br>
+Problem 212: 트럭<br>
+-O(N)<br>
+-트럭의 들어오는값들을 기준으로 큐에 순차적으로 넣을때 다리의길이, 현재진입값을 기준으로 더해 시뮬레이션<br>
 
-Problem 213: <br><br><br>
+Problem 213: Maaaaaaaaaze<br>
+-O(5^5(5층) * 4(회전) * N * M * 5(탐색))<br>
+-회전의행렬을 기준으로 2차원배열을 회전시킨배열을 미리 기록해놓고 이를 조합을 통해 시뮬레이션 반대대각선을 출구<->입구 로 잡아 거리를 계산, 최단비용에대한 커트를 미리 기저조건으로기록<br>
 
-Problem 214: <br><br><br>
+Problem 214: 로봇 청소기<br>
+-O(N*M)<br>
+-동서남북방향을 기준으로 시뮬레이션, 실패했을때 기준으로 백트래킹하면 안되므로 이후에 return하는구문통해 정확한 시뮬레이션을 구현한다<br>
 
-Problem 215: <br><br><br>
+Problem 215~219: 수 정렬하기<br>
+-O(NlogN)<br>
+-정렬을 사용해서 결과대로 정렬, Quick, Merge등의 nlogn으로 구현하였음(algorthm.h 혹은 직접구현)<br>
 
-Problem 216: <br><br><br>
+Problem 220: 나이순 정렬<br>
+-O(NlogN)<br>
+-퀵소트는 최악의경우 n^2이므로 병합정렬로 구현<br>
 
-Problem 217: <br><br><br>
+Problem 221~222: 좌표 정렬하기1,2<br>
+-O(NlogN)<br>
+-최소힙을이용해정렬<br>
 
-Problem 218: <br><br><br>
+Problem 223: 구슬 탈출2<br>
+-O(4^10(방향) * N * M(이동))<br>
+-백트래킹을 이용해서 구슬의 이동경로를 반복문을통해 조건탈출(R, B to O, #)까지 반복하면서 시뮬레이션한다, 백트래킹시 기존의 이동경로를 원복시키면서 체크<br>
 
-Problem 219: <br><br><br>
-
-Problem 220: <br><br><br>
-
-Problem 221: <br><br><br>
-
-Problem 222: <br><br><br>
-
-Problem 223: <br><br><br>
-
-Problem 224: <br><br><br>
+Problem 224: 뱀<br>
+-O(L * N * M)<br>
+-각 횟수 타이밍마다 현재뱀의길이를 기준으로만 순회하면서 뱀의 이동경로를 체크한다, 다음횟수의 증가분은다음 while에서 처리되므로 현재길이만을 기준으로 시뮬레이션하며 횟수를반복<br>
 
 
 

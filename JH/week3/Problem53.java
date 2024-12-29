@@ -1,4 +1,4 @@
-class Solution {
+public class Problem53 {
     public int solution(int[] nums) {
         int answer = 0;
         int n = nums.length;

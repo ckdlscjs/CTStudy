@@ -1,35 +1,44 @@
 
 
 
-# Java_coding_factory : 10th Week
+# Java_coding_factory : 13th Week
 
 ---
 
-## Solving BaekJoon : Backtracking and recursion Problems : 205 - 224
+## Solving BaekJoon : Bisect, Two_pointer, Simulation and DP Problems : 276 - 300
 ## Problems and Links
 
-| 인덱스 | 문제 번호 | 문제 제목             | 자료구조/알고리즘     | 정답 비율 | URL                                      |
-| ------ | -------- | ------------------- | ---------------- | --------- | --------------------------------------- |
-| 205    | 15683    | 감시                  | 시뮬레이션          | 45.197%   | [15683](https://www.acmicpc.net/problem/15683) |
-| 206    | 18808    | 스티커 붙이기         | 시뮬레이션          | 62.656%   | [18808](https://www.acmicpc.net/problem/18808) |
-| 207    | 12100    | 2048 (Easy)          | 시뮬레이션          | 26.829%   | [12100](https://www.acmicpc.net/problem/12100) |
-| 208    | 15686    | 치킨 배달             | 시뮬레이션          | 46.252%   | [15686](https://www.acmicpc.net/problem/15686) |
-| 209    | 11559    | Puyo Puyo           | 시뮬레이션          | 39.840%   | [11559](https://www.acmicpc.net/problem/11559) |
-| 210    | 14891    | 톱니바퀴              | 시뮬레이션          | 55.469%   | [14891](https://www.acmicpc.net/problem/14891) |
-| 211    | 14499    | 주사위 굴리기         | 시뮬레이션          | 45.390%   | [14499](https://www.acmicpc.net/problem/14499) |
-| 212    | 13335    | 트럭                  | 시뮬레이션          | 56.882%   | [13335](https://www.acmicpc.net/problem/13335) |
-| 213    | 16985    | Maaaaaaaaaze        | 시뮬레이션          | 55.821%   | [16985](https://www.acmicpc.net/problem/16985) |
-| 214    | 14503    | 로봇 청소기           | 시뮬레이션          | 53.920%   | [14503](https://www.acmicpc.net/problem/14503) |
-| 215    | 2750     | 수 정렬하기           | 정렬                | 58.190%   | [2750](https://www.acmicpc.net/problem/2750)   |
-| 216    | 2751     | 수 정렬하기 2         | 정렬                | 31.370%   | [2751](https://www.acmicpc.net/problem/2751)   |
-| 217    | 10989    | 수 정렬하기 3         | 정렬                | 23.846%   | [10989](https://www.acmicpc.net/problem/10989) |
-| 218    | 11931    | 수 정렬하기 4         | 정렬                | 54.733%   | [11931](https://www.acmicpc.net/problem/11931) |
-| 219    | 15688    | 수 정렬하기 5         | 정렬                | 49.512%   | [15688](https://www.acmicpc.net/problem/15688) |
-| 220    | 10814    | 나이순 정렬           | 정렬                | 43.897%   | [10814](https://www.acmicpc.net/problem/10814) |
-| 221    | 11650    | 좌표 정렬하기         | 정렬                | 48.500%   | [11650](https://www.acmicpc.net/problem/11650) |
-| 222    | 11651    | 좌표 정렬하기 2       | 정렬                | 66.950%   | [11651](https://www.acmicpc.net/problem/11651) |
-| 223    | 13460    | 구슬 탈출 2           | 시뮬레이션          | 28.311%   | [13460](https://www.acmicpc.net/problem/13460) |
-| 224    | 3190     | 뱀                   | 시뮬레이션          | 41.519%   | [3190](https://www.acmicpc.net/problem/3190)   |
+
+# 문제 목록
+
+| 인덱스 | 문제 번호 | 문제 제목                  | 자료구조/알고리즘 | 정답 비율  | URL                                     |
+|--------|----------|---------------------------|------------------|-----------|-----------------------------------------|
+| 276    | 1300     | K번째 수                 | 이분탐색         | 37.948%   | https://www.acmicpc.net/problem/1300    |
+| 277    | 17951    | 흩날리는 시험지 속에서 내 평점이 느껴진거야 | 이분탐색         | 50.992%   | https://www.acmicpc.net/problem/17951   |
+| 278    | 1114     | 통나무 자르기            | 이분탐색         | 23.752%   | https://www.acmicpc.net/problem/1114    |
+| 279    | 1561     | 놀이 공원 다국어          | 이분탐색         | 26.706%   | https://www.acmicpc.net/problem/1561    |
+| 280    | 1637     | 날카로운 눈 다국어        | 이분탐색         | 30.326%   | https://www.acmicpc.net/problem/1637    |
+| 281    | 2842     | 집배원 한상덕 다국어      | 투포인터         | 24.590%   | https://www.acmicpc.net/problem/2842    |
+| 282    | 14572    | 스터디 그룹              | 투포인터         | 36.819%   | https://www.acmicpc.net/problem/14572   |
+| 283    | 20181    | 꿈틀꿈틀 호석 애벌레 - 효율성 전체 채점 | 투포인터         | 39.192%   | https://www.acmicpc.net/problem/20181   |
+| 284    | 2923     | 숫자 게임 다국어          | 투포인터         | 32.407%   | https://www.acmicpc.net/problem/2923    |
+| 285    | 17947    | 상남자 곽철용            | 투포인터         | 16.152%   | https://www.acmicpc.net/problem/17947   |
+| 286    | 20056    | 마법사 상어와 파이어볼    | 시뮬레이션       | 36.974%   | https://www.acmicpc.net/problem/20056   |
+| 287    | 20057    | 마법사 상어와 토네이도    | 시뮬레이션       | 71.074%   | https://www.acmicpc.net/problem/20057   |
+| 288    | 20058    | 마법사 상어와 파이어스톰  | 시뮬레이션       | 41.283%   | https://www.acmicpc.net/problem/20058   |
+| 289    | 21610    | 마법사 상어와 비바라기    | 시뮬레이션       | 49.706%   | https://www.acmicpc.net/problem/21610   |
+| 290    | 21611    | 마법사 상어와 블리자드    | 시뮬레이션       | 24.508%   | https://www.acmicpc.net/problem/21611   |
+| 291    | 11052    | 카드 구매하기            | DP               | 61.652%   | https://www.acmicpc.net/problem/11052   |
+| 292    | 9465     | 스티커                  | DP               | 46.954%   | https://www.acmicpc.net/problem/9465    |
+| 293    | 11057    | 오르막 수                | DP               | 47.778%   | https://www.acmicpc.net/problem/11057   |
+| 294    | 2293     | 동전 1                  | DP               | 47.760%   | https://www.acmicpc.net/problem/2293    |
+| 295    | 1904     | 01타일                  | DP               | 31.821%   | https://www.acmicpc.net/problem/1904    |
+| 296    | 1788     | 피보나치 수의 확장        | DP               | 33.288%   | https://www.acmicpc.net/problem/1788    |
+| 297    | 4883     | 삼각 그래프 다국어        | DP               | 26.272%   | https://www.acmicpc.net/problem/4883    |
+| 298    | 9251     | LCS                     | DP               | 41.328%   | https://www.acmicpc.net/problem/9251    |
+| 299    | 1699     | 제곱수의 합             | DP               | 40.094%   | https://www.acmicpc.net/problem/1699    |
+| 300    | 9084     | 동전                    | DP               | 67.486%   | https://www.acmicpc.net/problem/9084    |
+
 
 ## 배운 것 정리 
   
@@ -38,8 +47,9 @@
 
 어떤 ADT를 가졌는지, <br/>
 
-시간복잡도는 어떻게 되는지 
-<br/>
+시간복잡도는 어떻게 되는지 <br/>
+
+링크 : <br/>
 
 
 ## 문제 해설 
@@ -51,45 +61,58 @@
   4. 까다로웠던 점 & 논의하고 싶은 부분 : 자바 특성상 임의의 자료형을 정의를 하는 순간 길이가 엄청나게 길어진다. 그게 좀 재밌으면서도 어려웠다.
 <br/>
 <br/>
-Problem 205: <br><br><br>
+ 
+Problem 276: <br><br><br>
 
-Problem 206: <br><br><br>
+Problem 277: <br><br><br>
 
-Problem 207: <br><br><br>
+Problem 278: <br><br><br>
 
-Problem 208: <br><br><br>
+Problem 279: <br><br><br>
 
-Problem 209: <br><br><br>
+Problem 280: <br><br><br>
 
-Problem 210: <br><br><br>
+Problem 281: <br><br><br>
 
-Problem 211: <br><br><br>
+Problem 282: <br><br><br>
 
-Problem 212: <br><br><br>
+Problem 283: <br><br><br>
 
-Problem 213: <br><br><br>
+Problem 284: <br><br><br>
 
-Problem 214: <br><br><br>
+Problem 285: <br><br><br>
 
-Problem 215: <br><br><br>
+Problem 286: <br><br><br>
 
-Problem 216: <br><br><br>
+Problem 287: <br><br><br>
 
-Problem 217: <br><br><br>
+Problem 288: <br><br><br>
 
-Problem 218: <br><br><br>
+Problem 289: <br><br><br>
 
-Problem 219: <br><br><br>
+Problem 290: <br><br><br>
 
-Problem 220: <br><br><br>
+Problem 291: <br><br><br>
 
-Problem 221: <br><br><br>
+Problem 292: <br><br><br>
 
-Problem 222: <br><br><br>
+Problem 293: <br><br><br>
 
-Problem 223: <br><br><br>
+Problem 294: <br><br><br>
 
-Problem 224: <br><br><br>
+Problem 295: <br><br><br>
+
+Problem 296: <br><br><br>
+
+Problem 297: <br><br><br>
+
+Problem 298: <br><br><br>
+
+Problem 299: <br><br><br>
+
+Problem 300: <br><br><br>
+
+
 
 
 
