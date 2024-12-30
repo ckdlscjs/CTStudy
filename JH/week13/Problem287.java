@@ -1,5 +1,4 @@
 package week13;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -7,164 +6,139 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Problem287 {
-
-    static int outsideSand = 0;
-    static int[] dy = {0, 1, 0, -1};
-    static int[] dx = {-1, 0, 1, 0};
-    static int[] dy_sc = {2,0,-2,1,-1,1,-1,1,-1};
-    static int[] dx_sc = {0,2, 0,0, 0,-1,1,1,-1};
-    static int[][] scatterPatternWest = { // y 기준
-            {0, -2, 5},   // 위쪽 두 칸
-            {2, 0, 2},    // 위쪽 두 칸
-            {-2, 0, 2},   // 아래쪽 두 칸
-            {-1, -1, 10}, // 오른쪽 아래
-            {1, -1, 10}, // 왼쪽 아래
-            {-1, 0, 7},    // 바로 위
-            {1, 0, 7},    // 바로 아래
-            {-1, 1, 1},    // 오른쪽 위
-            {1, 1, 1},   // 왼쪽 위
-            {0, -1, 0}     // alpha 위치
-    };
-
-    static int[][] scatterPatternSouth = {
-            {2, 0, 5},   // 남쪽 두칸
-            {0, -2, 2},  // 왼쪽 두 칸
-            {0, 2, 2},   // 오른쪽 두 칸
-            {1, -1, 10}, // 위쪽 오른쪽
-            {1, 1, 10},  // 아래쪽 오른쪽
-            {0, -1, 7},  // 위쪽 왼쪽
-            {0, 1, 7},   // 아래쪽 왼쪽
-            {-1, -1, 1}, // 바로 왼쪽
-            {-1,  1, 1}, // 바로 왼쪽
-            {1, 0, 0}    // alpha 위치
-    };
-    static int[][] scatterPatternEast = {
-            {0, 2, 5},  //
-            {2,  0, 2},
-            {-2, 0, 2},  // 위쪽 두 칸
-            {-1, 1, 10}, // 왼쪽 위
-            {1,  1, 10},  // 오른쪽 위
-            {1, 0, 7},  // 바로 아래
-            {-1, 0, 7},  // 바로 아래
-            {1, -1, 1}, // 왼쪽 아래
-            {-1, -1, 1},  // 오른쪽 아래
-            {0, 1, 0}    // alpha 위치
-    };
-
-    static int[][] scatterPatternNorth = {
-            {-2, 0, 5},  // 왼쪽 두 칸
-            {0,  2, 2},   // 오른쪽 두 칸
-            {0, -2, 2},   // 오른쪽 두 칸
-            {-1, 1, 10},  // 아래쪽 오른쪽
-            {-1, -1, 10},   // 위쪽 오른쪽
-            {0, 1,  7},   // 바로 오른쪽
-            {0, -1, 7},// 아래쪽 왼쪽
-            {1, -1, 1}, // 위쪽 왼쪽
-            {1, 1, 1},   // 바로 오른쪽
-            {-1, 0, 0}    // alpha 위치
-    };
-
-    static ArrayList<int[][]> scatterPattern = new ArrayList<>();
-
+    static int len;
     static int[][] MAP;
-
+    static boolean[][] chk;
+    static int[] dy = {0, 1, 0, -1};
+    static int[] dx = {1, 0, -1, 0};
+    static ArrayList<Integer> magics = new ArrayList<>();
     public static void main(String[] args)
-    throws Exception{
-        // Input
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in), 1 << 17);
-
-        int N = Integer.parseInt(br.readLine());
-        MAP = new int[N][N];
-
-        for (int i = 0; i < N; i++) {
-            StringTokenizer st = new StringTokenizer(br.readLine());
-            for (int j = 0; j < N; j++) {
+            throws Exception{
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(bf.readLine());
+        int N = Integer.parseInt(st.nextToken());
+        int M = Integer.parseInt(st.nextToken());
+        len = (int) Math.pow(2,N);
+        MAP = new int[len][len];
+        chk = new boolean[len][len];
+        for (int i = 0;i<len;i++){
+            st = new StringTokenizer(bf.readLine());
+            for(int j = 0;j<len;j++){
                 MAP[i][j] = Integer.parseInt(st.nextToken());
             }
         }
 
-        scatterPattern.add(scatterPatternWest);
-        scatterPattern.add(scatterPatternSouth);
-        scatterPattern.add(scatterPatternEast);
-        scatterPattern.add(scatterPatternNorth);
-        // N ; 홀수
-        int r = N/2;
-        int c = N/2;
-        int dir = 0;
-        int dist = 1;
-        // System.out.println(r + " " + c + " " + dist + " " + dir);
-        outer:
-        while (true) {
-            // move
-            for(int j = 0;j<dist;j++){
-                int[] nextTornado = move(r, c, dir);
-                int sand = MAP[nextTornado[0]][nextTornado[1]];
-                MAP[nextTornado[0]][nextTornado[1]] = 0;
-                scatter(nextTornado, sand, dir, N);
-                if(nextTornado[0] == 0 && nextTornado[1] == 0){
-                    break outer;
+        st = new StringTokenizer(bf.readLine());
+        for (int i = 0;i<M;i++){
+            magics.add(Integer.parseInt(st.nextToken()));
+        }
+
+        DO();
+
+        int res = Arrays.stream(MAP)
+                .flatMapToInt(Arrays::stream)
+                .sum();
+        System.out.println(res);
+
+        int ret = 0;
+        for(int i = 0;i<len;i++){
+            for(int j=0;j<len;j++){
+                if(!chk[i][j] && MAP[i][j]>0) {
+                    ret = Math.max(DFS(i, j), ret);
                 }
-                r = nextTornado[0];
-                c = nextTornado[1];
-                // System.out.println(r + " " + c + " " + dist + " " + dir);
-                // print();
             }
-            dir = (dir+1)%4;
-            if(dir==0 || dir==2) dist++;
-            // if(r==4 || c== 2) break;
         }
-
-        System.out.println(outsideSand);
+        System.out.println(ret);
     }
 
-    private static int[] move(int r, int c, int dir) {
-        // dist :  1 -> 1 -> 2 ->  2 -> 3 -> 4 -> 4 ..
-        // direct : west -> south -> east -> north -> west ...
-        return new int[]{r+dy[dir], c+dx[dir]};
-    }
+    private static void DO() {
+        // divide -> rotate -> apply
+        for(int i = 0; i< magics.size();i++){
+            int size = (int) Math.pow(2, magics.get(i));
 
-    private static void scatter(int[] nextTornado, int sand, int dir,   int N) {
-        if (sand == 0) return;
-
-        int r = nextTornado[0];
-        int c = nextTornado[1];
-        int totalSpread = 0;
-
-        // 서쪽 기준 패턴을 현재 방향에 맞게 회전시킴
-        int[][] curPattern = scatterPattern.get(dir);
-        for (int i = 0; i < 10; i++) {
-            int ddy = curPattern[i][0];
-            int ddx = curPattern[i][1];
-            int percent = curPattern[i][2];
-
-            int nr = r + ddy;
-            int nc = c + ddx;
-
-            int spread = (int) Math.floor((sand * percent) / 100.0);
-            totalSpread += spread;
-
-            if (i == curPattern.length - 1) { // alpha 위치
-                if (nr >= 0 && nr < N && nc >= 0 && nc < N) {
-                    MAP[nr][nc] += (sand - totalSpread);
-                } else {
-                    outsideSand += (sand - totalSpread);
+            for (int r_i = 0; r_i < len; r_i += size) {
+                for(int r_j = 0; r_j < len; r_j += size) {
+                    // rotate size : half
+                    rotateSubgrid(r_i, r_j, size);
                 }
-                break;
             }
+            // check;
+            // print();
+            check();
+        }
+    }
 
-            if (nr >= 0 && nr < N && nc >= 0 && nc < N) {
-                MAP[nr][nc] += spread;
-            } else {
-                outsideSand += spread;
+    private static void rotateSubgrid(int r_i, int r_j, int size) {
+        int[][] tmp = new int[size][size];
+        // 시계 방향 회전: (i, j) -> (j, size-1-i)
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                tmp[j][size - 1 - i] = MAP[r_i + i][r_j + j];
+            }
+        }
+        // 회전된 결과를 다시 MAP에 반영
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                MAP[r_i + i][r_j + j] = tmp[i][j];
             }
         }
     }
 
-    private static void print(){
-        System.out.println();
-        for (int i = 0; i < MAP.length; i++) {
-            System.out.println(Arrays.toString(MAP[i]));
+    private static void check() {
+        ArrayList<int[]> melted = new ArrayList<>();
+        for (int i = 0; i < len; i++) {
+            for (int j = 0; j < len; j++) {
+                if (MAP[i][j] > 0 && !hasThree(i, j)) {
+                    melted.add(new int[]{i, j});
+                }
+            }
         }
-        System.out.println();
+
+        for(int[] pos: melted){
+            MAP[pos[0]][pos[1]]--;
+        }
+    }
+
+    private static boolean hasThree(int y, int x) {
+        int Ice = 0;
+        for(int d = 0;d<4;d++){
+            int ny = y+dy[d];
+            int nx = x+dx[d];
+            if (isOutside(ny, nx)) {
+                continue;
+            }
+            if (MAP[ny][nx] > 0) {
+                Ice++;
+            }
+        }
+        return Ice>=3;
+    }
+
+    // check all
+
+    private static  boolean isOutside(int y, int x) {
+        return 0>y || y>= len || 0>x || x>= len;
+    }
+
+
+
+    private static int DFS(int y, int x) {
+        if(isOutside(y, x) || chk[y][x] || MAP[y][x] == 0) return 0;
+        int cnt = 1; // current
+        chk[y][x] = true;
+        cnt += DFS(y - 1, x);
+        cnt += DFS(y + 1, x);
+        cnt += DFS(y, x - 1);
+        cnt += DFS(y, x + 1);
+        return cnt;
+    }
+
+    private static void print() {
+        for (int i = 0; i < len; i++) {
+            for (int j = 0; j < len; j++) {
+                System.out.print(MAP[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }

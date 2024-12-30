@@ -6,21 +6,30 @@ import java.util.StringTokenizer;
 
 public class Problem291 {
     public static void main(String[] args)
-    throws Exception {
+    throws Exception{
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(bf.readLine());
-        int[] nums = new int[N+1];
-        int[] dp = new int[N+1];
-        // 1 2 3 4 5
-        StringTokenizer st = new StringTokenizer(bf.readLine());
-        for (int i = 1; i <= N; i++) {
-            nums[i] = Integer.parseInt(st.nextToken());
-        }
-        for(int k = 1;k<=N;k++){
-            for (int i = 1; i<= k; i++) { // k = 2, i = 0, i = 1
-                dp[k] = Math.max(dp[k], dp[k - i] + nums[i]);
+        int t = Integer.parseInt(bf.readLine());
+        StringBuilder sb = new StringBuilder();
+
+        while (t-->0) {
+            int N = Integer.parseInt(bf.readLine());
+            int[][] nums = new int[2][N];
+            int[][] dp = new int[2][N];
+            for(int i = 0;i<2;i++){
+                StringTokenizer st = new StringTokenizer(bf.readLine());
+                for(int j = 0;j<N;j++){
+                    nums[i][j] = Integer.parseInt(st.nextToken());
+                }
             }
+            dp[0][0] = nums[0][0];
+            dp[1][0] = nums[1][0];
+            for(int i = 1;i<N;i++){
+                dp[0][i] = Math.max(dp[1][i - 1] + nums[0][i], dp[0][i - 1]);
+                dp[1][i] = Math.max(dp[0][i - 1] + nums[1][i], dp[1][i - 1]); // 스티커 선택, 선택하지 않음
+            }
+            sb.append(Math.max(dp[0][N - 1], dp[1][N - 1])).append('\n');
+            // 부분 구조가 뭘
         }
-        System.out.println(dp[N]);
+        System.out.print(sb);
     }
 }
