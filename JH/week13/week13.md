@@ -59,9 +59,19 @@
    <br/>
    <br/>
 
-Problem 276: <br><br><br>
+Problem 275: K번째 수
+- 문제 이해 : 주어진 K번째 숫자를 이분탐색을 활용해서 구하려면 $ \mathrm {cnt} = \sum_{i}^{N} \frac{mid}{nums[i]} $ 값에 대한
+parametric를 해야 한다. 
+- 시간 복잡도 : $O\left( N \log \left( 10^{10} \right) \right) = O\left( N 10 \log\left( 10 \right) \right) \approx O\left(34N \right) $
 
-Problem 277: <br><br><br>
+Problem 276: 흩날리는 시험지 속에서 내 평점이 느껴진 거야
+- 문제 이해 : 값을 기준으로 시험지의 그룹을 나눈다. 시험지가 한계치보다 많다면 left = mid + 1를 해주어 mid값을 크게 해주었고, 그렇지 않다면, right = mid - 1를 하여 갱신하였다.
+- 시간복잡도 : $ O\left(N \log {N} \right)$
+
+Problem 277: 통나무 자르기
+- 문제 이해 : 통나무 길이가 주어진다. 통나무를 K개 만큼으로 잘라야 하는데, 그 길이에 대한 Parametric search를 해야 한다. 여기서 식은 아래와 같다.
+
+- 시간복잡도 : 
 
 Problem 278: <br><br><br>
 
@@ -90,7 +100,7 @@ Problem 289: <br><br><br>
 Problem 290: <br><br><br>
 
 Problem 291: <br><br><br>
-
+  
 Problem 292: <br><br><br>
 
 Problem 293: <br><br><br>
@@ -106,8 +116,6 @@ Problem 297: <br><br><br>
 Problem 298: <br><br><br>
 
 Problem 299: <br><br><br>
-
-Problem 300: <br><br><br>
 
 
 
