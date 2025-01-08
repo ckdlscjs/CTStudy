@@ -36,7 +36,7 @@
 | 321    | 15684    | 사다리 조작               | 시뮬레이션       | 22.239%   | https://www.acmicpc.net/problem/15684   |
 | 322    | 15685    | 드래곤 커브               | 시뮬레이션       | 56.256%   | https://www.acmicpc.net/problem/15685   |
 | 323    | 17281    | ⚾                        | 시뮬레이션       | 43.900%   | https://www.acmicpc.net/problem/17281   |
-| 324    | 11967    | 불켜기                   | DFS/BFS          | 27.762%   | https://www.acmicpc.net/problem/11967   |
+ 
 
 ---
 
@@ -77,7 +77,6 @@
 - **Problem 321:** <br><br><br>
 - **Problem 322:** <br><br><br>
 - **Problem 323:** <br><br><br>
-- **Problem 324:** <br><br><br>
-
+ 
 
  
