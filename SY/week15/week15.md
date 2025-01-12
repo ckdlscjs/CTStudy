@@ -38,10 +38,6 @@
 
 ---
 
-## 2. Review week6 => prepare to say something new
-
----
-
 ## 문제 해설
 
 - **Problem 324:** <br><br><br>
@@ -62,6 +58,7 @@
 
 ---
 <br>
+## 2. Review week6 => prepare to say something new
 
 ## 2. 이전 문제 리뷰(예시)
 
