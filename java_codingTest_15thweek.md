@@ -113,8 +113,7 @@
 
 ## 2. Week 6 Review and Preparing Insights for Week 7  
 
----
-
+ 
 ## 문제 리뷰(예시)
 
 ### 문제 1: [11725](https://www.acmicpc.net/problem/11725)  
