@@ -60,7 +60,7 @@
    <br/>
 
 Problem 275: K번째 수
-- 문제 이해 : 주어진 K번째 숫자를 이분탐색을 활용해서 구하려면 $ \mathrm {cnt} = \sum_{i}^{N} \frac{mid}{nums[i]} $ 값에 대한
+- 문제 이해 : 주어진 K번째 숫자를 이분탐색을 활용해서 구하려면 $ cnt = \sum_{i}^{N} \frac{mid}{nums[i]} $ 값에 대한
 parametric를 해야 한다. 
 - 시간 복잡도 : $O\left( N \log \left( 10^{10} \right) \right) = O\left( N 10 \log\left( 10 \right) \right) \approx O\left(34N \right) $
 
