@@ -36,67 +36,110 @@
 ## 배운 것 정리 
   
 
-무엇을 배웠고 <br/>
-
-어떤 ADT를 가졌는지, <br/>
-
-시간복잡도는 어떻게 되는지 <br/>
-
-링크 : <br/>
-
-
 ## 문제 해설 
 
  
-Problem 276: <br><br><br>
+Problem 276: K번째 수<br>
+-O(NlogN)<br>
+-파라매트릭서치를 이용해 경계값을 찾는다, k번째 수는 특정 배열에서 몇번째행,열에 위치하는가를 찾으므로 이를 NN배열에서 몫으로 취해 계산해 경계값을 찾는데 f/t의 lowerbound를 찾는다<br>
 
-Problem 277: <br><br><br>
+Problem 277: 흩날리는 시험지 속에서 내 평점이 느껴진거야<br>
+-O(NlogN)<br>
+-파라매트릭서치, 경계점수 이상만을 체크한다, t/f최대 t 를 찾는다<br>
 
-Problem 278: <br><br><br>
+Problem 278: 통나무 자르기<br>
+-O(NlogN)<br>
+-0부터 정해진 범위까지만 자를 수 있으므로 중복값을 먼저 제거한다, 이후 이분탐색을 통해 자를 경계값을 찾고 뒤에서부터 잘라내어 횟수가 남는가에대한 여부와 최대조각길이 체크를 한다<br>
 
-Problem 279: <br><br><br>
+Problem 279: 날카로운 눈<br>
+-O(NlogN)<br>
+-파라매트릭서치, 입력값을 기반으로 공차를 기준으로 갯수를 센다, 이때 찾아야되는 경계값까지의 숫자갯수를 센다 입력값이 홀수한개, 나머지는 전부 짝수개 이므로 몫(공차)로 나누어 덧셈하였을때 갯수가 홀수면
+해당 경계선 까지의 몫의갯수의 합이 홀수개면 경계선값이 홀수값이라는 역산이 되므로 이를 기반으로 lowerbound로 이분탐색처럼 경계값 f/t/f의 t를 fit하게 찾는다, 이후 fit한 hi값 이므로 hi값까지의 숫자갯수-(hi-1)까지의 숫자갯수를 빼면
+정확히 hi에대한 숫자 갯수가 나오므로 ub-lb같은 갯수의셈방식을 이용<br>
 
 Problem 280: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 281: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 282: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 283: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 284: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 285: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 286: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 287: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 288: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 289: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 290: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 291: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 292: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 293: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 294: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 295: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 296: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 297: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 298: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 299: <br><br><br>
+-O()<br>
+-<br>
 
 Problem 300: <br><br><br>
+-O()<br>
+-<br>
 
 
 
