@@ -2,24 +2,33 @@ package week13;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Arrays;
+import java.util.StringTokenizer;
 
 public class Problem299 {
     public static void main(String[] args)
     throws Exception{
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(bf.readLine());
-        int[] dp = new int[N + 1];
-        for (int i = 1;i*i<=N; i++) {
-            dp[i*i]++;
-        }
-        Arrays.fill(dp, Integer.MAX_VALUE);
-        dp[0]=0;
-        for (int i = 1; i*i <= N; i++) { // O(300)
-            for (int j = i*i;j <= N; j++) { // Nlog(N)
-                dp[j] = Math.min(dp[j], dp[j-i*i]+1);
+        int t = Integer.parseInt(bf.readLine());
+        StringBuilder sb = new StringBuilder();
+
+        while(t-->0){
+            int n = Integer.parseInt(bf.readLine());
+            int[] nums = new int[n];
+            StringTokenizer st = new StringTokenizer(bf.readLine());
+            int[] dp = new int[10_000 + 1];
+
+            for(int i = 0; i < n; i++){
+                nums[i] = Integer.parseInt(st.nextToken());
             }
+            int m = Integer.parseInt(bf.readLine());
+            dp[0] = 1;
+            for(int i = 0;i<n;i++){
+                for(int j = nums[i];j<=m;j++){
+                    dp[j] += dp[j-nums[i]];
+                }
+            }
+            sb.append(dp[m]).append('\n');
         }
-        System.out.println(dp[N]);
+        System.out.print(sb);
     }
 }

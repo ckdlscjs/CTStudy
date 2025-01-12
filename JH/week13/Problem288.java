@@ -1,144 +1,126 @@
 package week13;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Problem288 {
-    static int len;
-    static int[][] MAP;
-    static boolean[][] chk;
-    static int[] dy = {0, 1, 0, -1};
-    static int[] dx = {1, 0, -1, 0};
-    static ArrayList<Integer> magics = new ArrayList<>();
+    static int MAP[][];
+    static ArrayDeque<int[]> clouds = new ArrayDeque<>();
+    static ArrayList<int[]> cloudOrders = new ArrayList<>();
+    static int[] dy = { 0,  -1, -1, -1, 0, 1, 1,  1};
+    static int[] dx = {-1,  -1,  0,  1, 1, 1, 0, -1};
+    static int[] diag = {1, 3, 5, 7};
+    static int N;
+    static int M;
+
     public static void main(String[] args)
-            throws Exception{
+    throws Exception{
+        INPUT();
+        DO();
+        calcul();
+    }
+
+    static void INPUT() throws Exception{
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(bf.readLine());
-        int N = Integer.parseInt(st.nextToken());
+        N = Integer.parseInt(st.nextToken());
+        MAP = new int[N][N];
+
         int M = Integer.parseInt(st.nextToken());
-        len = (int) Math.pow(2,N);
-        MAP = new int[len][len];
-        chk = new boolean[len][len];
-        for (int i = 0;i<len;i++){
+        for (int i = 0;i<N;i++){
             st = new StringTokenizer(bf.readLine());
-            for(int j = 0;j<len;j++){
+            for (int j =0;j<N;j++){
                 MAP[i][j] = Integer.parseInt(st.nextToken());
             }
         }
 
-        st = new StringTokenizer(bf.readLine());
-        for (int i = 0;i<M;i++){
-            magics.add(Integer.parseInt(st.nextToken()));
+        for(int i = 0;i<M;i++){
+            st = new StringTokenizer(bf.readLine());
+            int d = Integer.parseInt(st.nextToken())-1;
+            int s = Integer.parseInt(st.nextToken());
+            cloudOrders.add(new int[]{d,s});
         }
 
-        DO();
+    }
 
-        int res = Arrays.stream(MAP)
-                .flatMapToInt(Arrays::stream)
-                .sum();
-        System.out.println(res);
+    static void DO(){
+        // initialize clouds
+        clouds.add(new int[]{N - 2, 0});
+        clouds.add(new int[]{N - 2, 1});
+        clouds.add(new int[]{N - 1, 0});
+        clouds.add(new int[]{N - 1, 1});
+        boolean[][] visited = new boolean[N][N];
+        // move
+        for (int[] order : cloudOrders) {
+            for(int i = 0;i<N;i++){
+                Arrays.fill(visited[i], false);
+            }
+            int n = clouds.size();
+            int d = order[0];
+            int s = order[1];
+            for(int j = 0; j<n;j++){
+                int[] cloud = clouds.poll();
+                int cloudY = cloud[0];
+                int cloudX = cloud[1];
+                int ny = (cloudY + dy[d] * s) % N;
+                if(ny<0) ny += N;
+                int nx = (cloudX + dx[d] * s) % N;
+                if(nx<0) nx += N; // 음수 예외처리
+                MAP[ny][nx]++;
+                clouds.add(new int[]{ny,nx});
+            } // clouds moves and rains and disappear
 
-        int ret = 0;
-        for(int i = 0;i<len;i++){
-            for(int j=0;j<len;j++){
-                if(!chk[i][j] && MAP[i][j]>0) {
-                    ret = Math.max(DFS(i, j), ret);
+            //
+            while(!clouds.isEmpty()){ // new place
+                int[] cloud = clouds.poll();
+                int cloudY = cloud[0];
+                int cloudX = cloud[1];
+                visited[cloudY][cloudX] = true;
+                // 대각선 체크해서
+                int cnt = 0;
+                for(int j = 0; j<4;j++){ // using diag
+                    int ny = (cloudY + dy[diag[j]]);
+                    int nx = (cloudX + dx[diag[j]]);
+                    if(isOutBound(ny,nx) || MAP[ny][nx]==0) continue;
+                    cnt++;
                 }
+                MAP[cloudY][cloudX] += cnt;
+            }
+
+            for(int i = 0;i<N;i++){
+                for(int j = 0;j<N;j++){
+                    if(visited[i][j]) continue;
+                    if (MAP[i][j] >= 2) {
+                        MAP[i][j]-=2;
+                        clouds.add(new int[]{i,j});
+                    }
+                }
+            }
+        }
+    }
+
+    static boolean isOutBound(int y, int x){
+        return 0>y || y>= N || 0>x || x>= N;
+    }
+
+    static void calcul(){
+        int ret = 0;
+        for (int i = 0;i<N;i++){
+            System.out.println(Arrays.toString(MAP[i]));
+            for(int j =0;j<N;j++){
+                ret+=MAP[i][j];
             }
         }
         System.out.println(ret);
     }
 
-    private static void DO() {
-        // divide -> rotate -> apply
-        for(int i = 0; i< magics.size();i++){
-            int size = (int) Math.pow(2, magics.get(i));
-
-            for (int r_i = 0; r_i < len; r_i += size) {
-                for(int r_j = 0; r_j < len; r_j += size) {
-                    // rotate size : half
-                    rotateSubgrid(r_i, r_j, size);
-                }
-            }
-            // check;
-            // print();
-            check();
-        }
-    }
-
-    private static void rotateSubgrid(int r_i, int r_j, int size) {
-        int[][] tmp = new int[size][size];
-        // 시계 방향 회전: (i, j) -> (j, size-1-i)
-        for (int i = 0; i < size; i++) {
-            for (int j = 0; j < size; j++) {
-                tmp[j][size - 1 - i] = MAP[r_i + i][r_j + j];
-            }
-        }
-        // 회전된 결과를 다시 MAP에 반영
-        for (int i = 0; i < size; i++) {
-            for (int j = 0; j < size; j++) {
-                MAP[r_i + i][r_j + j] = tmp[i][j];
-            }
-        }
-    }
-
-    private static void check() {
-        ArrayList<int[]> melted = new ArrayList<>();
-        for (int i = 0; i < len; i++) {
-            for (int j = 0; j < len; j++) {
-                if (MAP[i][j] > 0 && !hasThree(i, j)) {
-                    melted.add(new int[]{i, j});
-                }
-            }
-        }
-
-        for(int[] pos: melted){
-            MAP[pos[0]][pos[1]]--;
-        }
-    }
-
-    private static boolean hasThree(int y, int x) {
-        int Ice = 0;
-        for(int d = 0;d<4;d++){
-            int ny = y+dy[d];
-            int nx = x+dx[d];
-            if (isOutside(ny, nx)) {
-                continue;
-            }
-            if (MAP[ny][nx] > 0) {
-                Ice++;
-            }
-        }
-        return Ice>=3;
-    }
-
-    // check all
-
-    private static  boolean isOutside(int y, int x) {
-        return 0>y || y>= len || 0>x || x>= len;
-    }
-
-
-
-    private static int DFS(int y, int x) {
-        if(isOutside(y, x) || chk[y][x] || MAP[y][x] == 0) return 0;
-        int cnt = 1; // current
-        chk[y][x] = true;
-        cnt += DFS(y - 1, x);
-        cnt += DFS(y + 1, x);
-        cnt += DFS(y, x - 1);
-        cnt += DFS(y, x + 1);
-        return cnt;
-    }
-
-    private static void print() {
-        for (int i = 0; i < len; i++) {
-            for (int j = 0; j < len; j++) {
-                System.out.print(MAP[i][j] + " ");
-            }
-            System.out.println();
+    static void print(){
+        for (int i = 0;i<N;i++){
+            System.out.println(Arrays.toString(MAP[i]));
         }
     }
 }
