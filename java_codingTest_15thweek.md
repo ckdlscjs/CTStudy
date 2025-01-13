@@ -1,9 +1,9 @@
 # Java_coding_factory : 15th Week
-
+---
  
 
 ## 1. Solving BaekJoon : Tree, Trie, and Union-find Problems : 324 - 338
-
+---
  
 
 ## Problems and Links
@@ -28,19 +28,18 @@
 | 337    | [20040](https://www.acmicpc.net/problem/20040) | 사이클 게임          | Union-find        | 50.270%   | https://www.acmicpc.net/problem/20040   |
 | 338    | [18116](https://www.acmicpc.net/problem/18116) | 로봇 조립            | Union-find        | 28.482%   | https://www.acmicpc.net/problem/18116   |
 
----
+ 
 
 ## 개념 설명 블로그 링크 : <br><br>
 
----
+ 
 
 ## 문제 해설 예시 : 
 - 문제 번호 : (문제 이름?)
 - 문제 해설 : .... 
 - 문제별 사용 알고리즘과 자료구조: Tree, Trie, Union-find.
 - 시간복잡도 계산 및 개선 방법.
-
----
+ 
 
 ## 문제 해설
 
@@ -60,10 +59,10 @@
 - **Problem 337:** <br><br><br>
 - **Problem 338:** <br><br><br>
 
----
+ 
 
 ## 2. Review week6 => prepare to say something new
-
+---
  
 <br>
 
