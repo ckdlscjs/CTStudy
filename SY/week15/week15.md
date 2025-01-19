@@ -108,7 +108,7 @@ https://blog.naver.com/syl610/223729047217 UnionFind<br>
 <br>
 ## 2. Review week6 => prepare to say something new
 
-## 이전 문제 리뷰(예시)
+## 이전 문제 리뷰
 
 ### 문제 1: 오큰수 https://www.acmicpc.net/problem/17298
 1. **새로 배운 점**: BFS로 트리의 부모를 찾는 방법.  
