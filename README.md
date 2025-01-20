@@ -10,21 +10,21 @@
 
 | 인덱스 | 문제 번호 | 문제 제목                  | 자료구조/알고리즘      | 정답 비율  | URL                                     |
 |--------|----------|---------------------------|----------------------|-----------|-----------------------------------------|
-| 339    | [7662](https://www.acmicpc.net/problem/7662) | 이중 우선순위 큐       | 다국어, 우선순위 큐    | 22.161%   | https://www.acmicpc.net/problem/7662   |
-| 340    | [1202](https://www.acmicpc.net/problem/1202) | 보석 도둑             | 다국어, 그리디 알고리즘 | 22.711%   | https://www.acmicpc.net/problem/1202   |
-| 341    | [21939](https://www.acmicpc.net/problem/21939) | 문제 추천 시스템 Version 1 | 알고리즘, 힙           | 32.738%   | https://www.acmicpc.net/problem/21939   |
-| 342    | [23326](https://www.acmicpc.net/problem/23326) | 홍익 투어리스트        | 알고리즘, 다익스트라    | 29.626%   | https://www.acmicpc.net/problem/23326   |
-| 343    | [21944](https://www.acmicpc.net/problem/21944) | 문제 추천 시스템 Version 2 | 알고리즘, 그리디 알고리즘 | 27.732%   | https://www.acmicpc.net/problem/21944   |
-| 344    | [2252](https://www.acmicpc.net/problem/2252) | 줄 세우기             | 위상 정렬, 알고리즘    | 57.536%   | https://www.acmicpc.net/problem/2252    |
-| 345    | [2623](https://www.acmicpc.net/problem/2623) | 음악프로그램           | 위상 정렬, 알고리즘    | 51.236%   | https://www.acmicpc.net/problem/2623    |
-| 346    | [21276](https://www.acmicpc.net/problem/21276) | 계보 복원가 호석      | 위상 정렬, 알고리즘    | 47.922%   | https://www.acmicpc.net/problem/21276   |
-| 347    | [1766](https://www.acmicpc.net/problem/1766) | 문제집                 | 위상 정렬, 알고리즘    | 49.419%   | https://www.acmicpc.net/problem/1766    |
-| 348    | [2056](https://www.acmicpc.net/problem/2056) | 작업                   | 위상 정렬, 알고리즘    | 44.327%   | https://www.acmicpc.net/problem/2056    |
-| 349    | [1005](https://www.acmicpc.net/problem/1005) | ACM Craft              | 위상 정렬, 알고리즘    | 29.693%   | https://www.acmicpc.net/problem/1005    |
-| 350    | [1715](https://www.acmicpc.net/problem/1715) | 카드 정렬하기          | 우선순위 큐, 알고리즘  | 35.041%   | https://www.acmicpc.net/problem/1715    |
-| 351    | [13975](https://www.acmicpc.net/problem/13975) | 파일 합치기 3         | 우선순위 큐, 그리디 알고리즘 | 48.770%   | https://www.acmicpc.net/problem/13975   |
-| 352    | [1655](https://www.acmicpc.net/problem/1655) | 가운데를 말해요        | 우선순위 큐, 알고리즘  | 30.625%   | https://www.acmicpc.net/problem/1655    |
-| 353    | [1781](https://www.acmicpc.net/problem/1781) | 컵라면                 | 우선순위 큐, 그리디 알고리즘 | 33.595%   | https://www.acmicpc.net/problem/1781    |
+| 339    | [7662](https://www.acmicpc.net/problem/7662) | 이중 우선순위 큐       | 우선순위 큐           | 22.161%   | https://www.acmicpc.net/problem/7662   |
+| 340    | [1202](https://www.acmicpc.net/problem/1202) | 보석 도둑             | 그리디         | 22.711%   | https://www.acmicpc.net/problem/1202   |
+| 341    | [21939](https://www.acmicpc.net/problem/21939) | 문제 추천 시스템 Version 1 | 힙                    | 32.738%   | https://www.acmicpc.net/problem/21939   |
+| 342    | [23326](https://www.acmicpc.net/problem/23326) | 홍익 투어리스트        | 트리를 사용한 집합과 맵            | 29.626%   | https://www.acmicpc.net/problem/23326   |
+| 343    | [21944](https://www.acmicpc.net/problem/21944) | 문제 추천 시스템 Version 2 | 그리디        | 27.732%   | https://www.acmicpc.net/problem/21944   |
+| 344    | [2252](https://www.acmicpc.net/problem/2252) | 줄 세우기             | 위상 정렬             | 57.536%   | https://www.acmicpc.net/problem/2252    |
+| 345    | [2623](https://www.acmicpc.net/problem/2623) | 음악프로그램           | 위상 정렬             | 51.236%   | https://www.acmicpc.net/problem/2623    |
+| 346    | [21276](https://www.acmicpc.net/problem/21276) | 계보 복원가 호석      | 위상 정렬             | 47.922%   | https://www.acmicpc.net/problem/21276   |
+| 347    | [1766](https://www.acmicpc.net/problem/1766) | 문제집                 | 위상 정렬             | 49.419%   | https://www.acmicpc.net/problem/1766    |
+| 348    | [2056](https://www.acmicpc.net/problem/2056) | 작업                   | 위상 정렬             | 44.327%   | https://www.acmicpc.net/problem/2056    |
+| 349    | [1005](https://www.acmicpc.net/problem/1005) | ACM Craft              | 위상 정렬             | 29.693%   | https://www.acmicpc.net/problem/1005    |
+| 350    | [1715](https://www.acmicpc.net/problem/1715) | 카드 정렬하기          | 우선순위 큐           | 35.041%   | https://www.acmicpc.net/problem/1715    |
+| 351    | [13975](https://www.acmicpc.net/problem/13975) | 파일 합치기 3         | 우선순위 큐, 그리디  | 48.770%   | https://www.acmicpc.net/problem/13975   |
+| 352    | [1655](https://www.acmicpc.net/problem/1655) | 가운데를 말해요        | 우선순위 큐           | 30.625%   | https://www.acmicpc.net/problem/1655    |
+| 353    | [1781](https://www.acmicpc.net/problem/1781) | 컵라면                 | 우선순위 큐, 그리디  | 33.595%   | https://www.acmicpc.net/problem/1781    |
 
 ## 개념 설명 블로그 링크 : <br><br>
 
