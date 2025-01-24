@@ -33,21 +33,23 @@
 
 ## 문제 해설
 
-- **Problem 339:** <br><br><br>
-- **Problem 340:** <br><br><br>
-- **Problem 341:** <br><br><br>
-- **Problem 342:** <br><br><br>
-- **Problem 343:** <br><br><br>
-- **Problem 344:** <br><br><br>
-- **Problem 345:** <br><br><br>
-- **Problem 346:** <br><br><br>
-- **Problem 347:** <br><br><br>
-- **Problem 348:** <br><br><br>
-- **Problem 349:** <br><br><br>
-- **Problem 350:** <br><br><br>
-- **Problem 351:** <br><br><br>
-- **Problem 352:** <br><br><br>
-- **Problem 353:** <br><br><br>
+- **Problem 339:** 이중 우선순위 큐 <br>
+-O(NlogN)<br>
+-중복원소를 포함해 정렬하는 multiset을 이용 혹은 최소힙,최대힙의 우선순위큐 두개를 이용해 구현한다, 두개의힙 사용시 갯수를 기록하는 배열을 이용해 제거된 원소는 반복문을이용해처리<br>
+- **Problem 340:** 보석 도둑 <br><br><br>
+- **Problem 341:** 문제 추천 시스템 Version 1<br>-O()<br><br>
+- **Problem 342:** 홍익 투어리스트 <br><br><br>
+- **Problem 343:** 문제 추천 시스템 Version 2<br><br><br>
+- **Problem 344:** 줄 세우기<br><br><br>
+- **Problem 345:** 음악프로그램 <br><br><br>
+- **Problem 346:** 계보 복원가 호석<br><br><br>
+- **Problem 347:** 문제집<br><br><br>
+- **Problem 348:** 작업<br><br><br>
+- **Problem 349:** ACM Craft<br><br><br>
+- **Problem 350:** 카드 정렬하기 <br><br><br>
+- **Problem 351:** 파일 합치기 3<br><br><br>
+- **Problem 352:** 가운데를 말해요 <br><br><br>
+- **Problem 353:** 컵라면<br><br><br>
 
 ## 2. Review week6 => prepare to say something new
 ---
