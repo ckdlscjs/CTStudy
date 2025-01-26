@@ -1,7 +1,7 @@
 # Java_coding_factory : 17th Week
 ---
 
-## 1. Solving BaekJoon : BST, Topological Sort, PQ Problems : 354 - 368
+## 1. Solving BaekJoon : Dijstra, MST, Floyd-Warshall, Bellman-Ford Problems : 354 - 368
 ---
 
 ## Problems and Links
