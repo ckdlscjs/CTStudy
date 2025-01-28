@@ -44,22 +44,28 @@
 
 ## 문제 해설
 
-- **Problem 339:** 최단경로<br>-O(E logV)<br>-다익스트라알고리즘을 이용해 그리디적으로 최단경로를 찾고 비용을 기록 및 출력한다<br>
-- **Problem 340:** 최소비용구하기2<br>-O(E logV)<br>-다익스트라를 이용해 최단경로를 찾으면서 비용갱신시마다 이전노드를 부모로 기억해 경로또한 기입, costs를 찾고 그에따라 역순으로 시작노드까지 찾아간다<br>
-- **Problem 341:** 파티<br>-O(2*E logV)<br>-단방향그래프일때 역순이어도 최단경로는 유지되는 특성을 이용해 두번 다익스트라를 이용하여 x->v, x->u를 찾아 이를 더한다<br>
-- **Problem 342:** 특정한 최단경로<br>-O(3*E logV)<br>-양방향그래프, U<->V는 고정적, 이외는 1->U+N->V 와 1->V+N->U를 비교해 적은값으로 더한뒤 그중 최소를 구해 둘을 더해서 최단경로를 구한다<br>
-- **Problem 343:** 최소비용 구하기<br>-O(E logV)<br>-다익스트라알고리즘을 이용해 그리디적으로 최단경로를 찾고 비용을 기록 및 출력한다<br>
-- **Problem 344:** 알고스팟<br><br><br>
-- **Problem 345:** 면접보는 승범이네<br>-O(E logV)<br>-면접지점들 K를 기준으로 다익스트라를 실행해야하므로 그래프를 역으로기록, 최단경로의특성을 보여주는 다익스트라의 구조를 이용해 한번의다익스트라로 최장거리를 갱신한다<br>
-- **Problem 346:** <br><br><br>
-- **Problem 347:** <br><br><br>
-- **Problem 348:** <br><br><br>
-- **Problem 349:** <br><br><br>
-- **Problem 350:** <br><br><br>
-- **Problem 351:** <br><br><br>
-- **Problem 352:** <br><br><br>
-- **Problem 353:** <br><br><br>
-
+- **Problem 354:** 최단경로<br>-O(E logV)<br>-다익스트라알고리즘을 이용해 그리디적으로 최단경로를 찾고 비용을 기록 및 출력한다<br>
+- **Problem 355:** 최소비용구하기2<br>-O(E logV)<br>-다익스트라를 이용해 최단경로를 찾으면서 비용갱신시마다 이전노드를 부모로 기억해 경로또한 기입, costs를 찾고 그에따라 역순으로 시작노드까지 찾아간다<br>
+- **Problem 356:** 파티<br>-O(2*E logV)<br>-단방향그래프일때 역순이어도 최단경로는 유지되는 특성을 이용해 두번 다익스트라를 이용하여 x->v, x->u를 찾아 이를 더한다<br>
+- **Problem 357:** 특정한 최단경로<br>-O(3*E logV)<br>-양방향그래프, U<->V는 고정적, 이외는 1->U+N->V 와 1->V+N->U를 비교해 적은값으로 더한뒤 그중 최소를 구해 둘을 더해서 최단경로를 구한다<br>
+- **Problem 358:** 최소비용 구하기<br>-O(E logV)<br>-다익스트라알고리즘을 이용해 그리디적으로 최단경로를 찾고 비용을 기록 및 출력한다<br>
+- **Problem 359:** 알고스팟<br><br><br>
+- **Problem 360:** 면접보는 승범이네<br>-O(E logV)<br>-면접지점들 K를 기준으로 다익스트라를 실행해야하므로 그래프를 역으로기록, 최단경로의특성을 보여주는 다익스트라의 구조를 이용해 한번의다익스트라로 최장거리를 갱신한다<br>
+- **Problem 361:** 도시 분할 계획<br>-O(N)<br>-UnionFind를 이용해 크루스칼알고리즘으로 MST를 구성하면서 가중치를 작은순으로 그리디하게 더해나간다<br>
+- **Problem 362:** 학교 탐방하기<br>-O(N)<br>-UnionFind를 이용해 크루스칼알고리즘으로 MST를 구성, 큰가중치순, 작은가중치순으로 합의 제곱의차를 구한다<br>
+- **Problem 363:** 우주신과의 교감<br>-O(N)<br>-UnionFind를 이용, 유클리드거리를 구하고 이를 작은순으로 더해나간다, 이때 DisjointSet에서 갯수를 세는 cnts를 두어 N보다 커지면 다더해졌으므로 break<br>
+- **Problem 364:** 전기가 부족해<br>-O(N)<br>-UnionFind를 이용, ranks를 이용해 발전기의 위치는 최대값N급으로 둔다, 크루스칼알고리즘을 기반으로 작은순으로 더하면서 ranks가 양쪽다 발전기에속해있으면 union하지않는다<br>
+- **Problem 365:** 행성 터널<br>-O(N)<br>-UnionFind를 이용, 유클리드거리가 아닌 최소의 차 이므로 X,Y,Z대로 최대30만개의 순서쌍조합을 구성시켜 이를 기반으로 UNIONFIND<br>
+- **Problem 366:** <br><br><br>
+- **Problem 367:** <br><br><br>
+- **Problem 368:** <br><br><br>
+- **Problem 369:** <br><br><br>
+- **Problem 370:** <br><br><br>
+- **Problem 371:** <br><br><br>
+- **Problem 372:** <br><br><br>
+- **Problem 373:** <br><br><br>
+- **Problem 374:** <br><br><br>
+- **Problem 375:** <br><br><br>
 
 ## 2. Review week6 => prepare to say something new
 ---
