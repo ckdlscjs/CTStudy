@@ -24,11 +24,12 @@
 | 353    | [1781](https://www.acmicpc.net/problem/1781) | 컵라면                 | 우선순위 큐, 그리디 알고리즘 | 33.595%   | https://www.acmicpc.net/problem/1781    |
 
 ## 개념 설명 블로그 링크 : <br><br>
-
-## 문제 해설 예시 : 
 -https://blog.naver.com/syl610/223741120307(BST)<br>
 -https://blog.naver.com/syl610/223741112781(PQ)<br>
 -https://blog.naver.com/syl610/223741115502(TPSort)<br>
+
+## 문제 해설 예시 : 
+
 
 ## 문제 해설
 
