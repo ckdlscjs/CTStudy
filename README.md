@@ -1,30 +1,38 @@
-# Java_coding_factory : 17th Week
+ # Java_coding_factory : 17th Week
 ---
 
-## 1. Solving BaekJoon : Dijstra, MST, Floyd-Warshall, Bellman-Ford Problems : 354 - 368
+## 1. Solving BaekJoon : Dijstra, MST(Minimum Spanning Tree), Floyd Warshall & Bellman-Ford Problems : 354 - 376
 ---
 
 ## Problems and Links
 
 ### 문제 목록
-
-| 인덱스 | 문제 번호 | 문제 제목                  | 자료구조/알고리즘      | 정답 비율  | URL                                     |
-|--------|----------|---------------------------|----------------------|-----------|-----------------------------------------|
-| 354    | [7662](https://www.acmicpc.net/problem/7662) | 이중 우선순위 큐       | 우선순위 큐           | 22.161%   | https://www.acmicpc.net/problem/7662   |
-| 355    | [1202](https://www.acmicpc.net/problem/1202) | 보석 도둑             | 그리디         | 22.711%   | https://www.acmicpc.net/problem/1202   |
-| 356    | [21939](https://www.acmicpc.net/problem/21939) | 문제 추천 시스템 Version 1 | 힙                    | 32.738%   | https://www.acmicpc.net/problem/21939   |
-| 357    | [23326](https://www.acmicpc.net/problem/23326) | 홍익 투어리스트        | 트리를 사용한 집합과 맵            | 29.626%   | https://www.acmicpc.net/problem/23326   |
-| 358    | [21944](https://www.acmicpc.net/problem/21944) | 문제 추천 시스템 Version 2 | 그리디        | 27.732%   | https://www.acmicpc.net/problem/21944   |
-| 359    | [2252](https://www.acmicpc.net/problem/2252) | 줄 세우기             | 위상 정렬             | 57.536%   | https://www.acmicpc.net/problem/2252    |
-| 360    | [2623](https://www.acmicpc.net/problem/2623) | 음악프로그램           | 위상 정렬             | 51.236%   | https://www.acmicpc.net/problem/2623    |
-| 361    | [21276](https://www.acmicpc.net/problem/21276) | 계보 복원가 호석      | 위상 정렬             | 47.922%   | https://www.acmicpc.net/problem/21276   |
-| 362    | [1766](https://www.acmicpc.net/problem/1766) | 문제집                 | 위상 정렬             | 49.419%   | https://www.acmicpc.net/problem/1766    |
-| 363    | [2056](https://www.acmicpc.net/problem/2056) | 작업                   | 위상 정렬             | 44.327%   | https://www.acmicpc.net/problem/2056    |
-| 364    | [1005](https://www.acmicpc.net/problem/1005) | ACM Craft              | 위상 정렬             | 29.693%   | https://www.acmicpc.net/problem/1005    |
-| 365    | [1715](https://www.acmicpc.net/problem/1715) | 카드 정렬하기          | 우선순위 큐           | 35.041%   | https://www.acmicpc.net/problem/1715    |
-| 366    | [13975](https://www.acmicpc.net/problem/13975) | 파일 합치기 3         | 우선순위 큐, 그리디  | 48.770%   | https://www.acmicpc.net/problem/13975   |
-| 367    | [1655](https://www.acmicpc.net/problem/1655) | 가운데를 말해요        | 우선순위 큐           | 30.625%   | https://www.acmicpc.net/problem/1655    |
-| 368    | [1781](https://www.acmicpc.net/problem/1781) | 컵라면                 | 우선순위 큐, 그리디  | 33.595%   | https://www.acmicpc.net/problem/1781    |
+| 인덱스 | 문제 번호 | 문제 제목              | 자료구조/알고리즘           | 정답 비율  | URL                                      |
+|--------|----------|-----------------------|---------------------------|-----------|------------------------------------------|
+| 354    | 1753     | 최단경로              | 다익스트라                | 26.115%   | [1753](https://www.acmicpc.net/problem/1753)   |
+| 355    | 11779    | 최소비용 구하기 2      | 다익스트라, 경로 추적     | 37.082%   | [11779](https://www.acmicpc.net/problem/11779)  |
+| 356    | 1238     | 파티                  | 다익스트라, 역방향 그래프 | 49.096%   | [1238](https://www.acmicpc.net/problem/1238)   |
+| 357    | 1504     | 특정한 최단 경로       | 다익스트라                | 25.407%   | [1504](https://www.acmicpc.net/problem/1504)   |
+| 358    | 1916     | 최소비용 구하기        | 다익스트라                | 32.751%   | [1916](https://www.acmicpc.net/problem/1916)   |
+| 359    | 1261     | 알고스팟              | 다익스트라, 0-1 BFS       | 43.287%   | [1261](https://www.acmicpc.net/problem/1261)   |
+| 360    | 17835    | 면접보는 승범이네      | 다익스트라, 다중 출발     | 24.984%   | [17835](https://www.acmicpc.net/problem/17835)  |
+| 361    | 1647     | 도시 분할 계획         | MST (크루스칼, 프림)      | 48.767%   | [1647](https://www.acmicpc.net/problem/1647)   |
+| 362    | 13418    | 학교 탐방하기          | MST, 간선 가중치         | 37.830%   | [13418](https://www.acmicpc.net/problem/13418)  |
+| 363    | 1774     | 우주신과의 교감        | MST, 유클리드 거리       | 31.344%   | [1774](https://www.acmicpc.net/problem/1774)   |
+| 364    | 10423    | 전기가 부족해          | MST, 유니온 파인드       | 69.544%   | [10423](https://www.acmicpc.net/problem/10423)  |
+| 365    | 2887     | 행성 터널             | MST, 좌표 압축           | 35.825%   | [2887](https://www.acmicpc.net/problem/2887)   |
+| 366    | 1956     | 운동                  | 플로이드-워셜            | 36.921%   | [1956](https://www.acmicpc.net/problem/1956)   |
+| 367    | 11562    | 백양로 브레이크        | 플로이드-워셜            | 47.765%   | [11562](https://www.acmicpc.net/problem/11562)  |
+| 368    | 1507     | 궁금한 민호           | 플로이드-워셜, 간선 제거 | 54.775%   | [1507](https://www.acmicpc.net/problem/1507)   |
+| 369    | 1719     | 택배                  | 플로이드-워셜, 경로 출력 | 58.192%   | [1719](https://www.acmicpc.net/problem/1719)   |
+| 370    | 13314    | 플로이드에 오타가?    | 플로이드-워셜            | 53.201%   | [13314](https://www.acmicpc.net/problem/13314)  |
+| 371    | 23286    | 허들 넘기             | 플로이드-워셜, 경로 제한 | 53.968%   | [23286](https://www.acmicpc.net/problem/23286)  |
+| 372    | 11657    | 타임머신             | 벨만-포드               | 26.058%   | [11657](https://www.acmicpc.net/problem/11657)  |
+| 373    | 1865     | 웜홀                 | 벨만-포드, 음수 사이클  | 20.982%   | [1865](https://www.acmicpc.net/problem/1865)   |
+| 374    | 1219     | 오민식의 고민         | 벨만-포드, 경로 확인    | 18.843%   | [1219](https://www.acmicpc.net/problem/1219)   |
+| 375    | 1738     | 골목길               | 벨만-포드, 경로 복원    | 18.285%   | [1738](https://www.acmicpc.net/problem/1738)   |
+| 376    | 3860     | 할로윈 묘지          | 벨만-포드      | 15.902%   | [3860](https://www.acmicpc.net/problem/3860)   |
+<br>
 
 ## 개념 설명 블로그 링크 : <br><br>
 
@@ -51,8 +59,16 @@
 - **Problem 366:** <br><br><br>
 - **Problem 367:** <br><br><br>
 - **Problem 368:** <br><br><br>
+- **Problem 369:** <br><br><br>
+- **Problem 370:** <br><br><br>
+- **Problem 371:** <br><br><br>
+- **Problem 372:** <br><br><br>
+- **Problem 373:** <br><br><br>
+- **Problem 374:** <br><br><br>
+- **Problem 375:** <br><br><br>
+- **Problem 376:** <br><br><br>
 
-## 2. Review week6 => prepare to say something new
+## 2. Review week9 => prepare to say something new
 ---
 
 <br>
