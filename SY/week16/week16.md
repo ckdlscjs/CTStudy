@@ -24,12 +24,12 @@
 | 353    | [1781](https://www.acmicpc.net/problem/1781) | 컵라면                 | 우선순위 큐, 그리디 알고리즘 | 33.595%   | https://www.acmicpc.net/problem/1781    |
 
 ## 개념 설명 블로그 링크 : <br><br>
+-https://blog.naver.com/syl610/223741120307(BST)<br>
+-https://blog.naver.com/syl610/223741112781(PQ)<br>
+-https://blog.naver.com/syl610/223741115502(TPSort)<br>
 
 ## 문제 해설 예시 : 
-- 문제 번호 : (문제 이름?)
-- 문제 해설 : .... 
-- 문제별 사용 알고리즘과 자료구조: BST, Topological Sort, PQ.
-- 시간복잡도 계산 및 개선 방법.
+
 
 ## 문제 해설
 
