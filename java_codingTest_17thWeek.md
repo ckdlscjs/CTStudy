@@ -31,7 +31,7 @@
 | 373    | 1865     | 웜홀                 | 벨만-포드, 음수 사이클  | 20.982%   | [1865](https://www.acmicpc.net/problem/1865)   |
 | 374    | 1219     | 오민식의 고민         | 벨만-포드, 경로 확인    | 18.843%   | [1219](https://www.acmicpc.net/problem/1219)   |
 | 375    | 1738     | 골목길               | 벨만-포드, 경로 복원    | 18.285%   | [1738](https://www.acmicpc.net/problem/1738)   |
-| 376    | 3860     | 할로윈 묘지          | 벨만-포드, 다국어       | 15.902%   | [3860](https://www.acmicpc.net/problem/3860)   |
+| 376    | 3860     | 할로윈 묘지          | 벨만-포드      | 15.902%   | [3860](https://www.acmicpc.net/problem/3860)   |
 <br>
 
 ## 개념 설명 블로그 링크 : <br><br>
