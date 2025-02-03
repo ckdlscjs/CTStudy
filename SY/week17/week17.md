@@ -1,7 +1,7 @@
 17th Week
 ---
 
-## 1. Solving BaekJoon : Dijstra, MST(Minimum Spanning Tree), Floyd Warshall & Bellman-Ford Problems : 354 - 368
+## 1. Solving BaekJoon : Dijstra, MST(Minimum Spanning Tree), Floyd Warshall & Bellman-Ford Problems : 354 - 376
 ---
 
 ## Problems and Links
