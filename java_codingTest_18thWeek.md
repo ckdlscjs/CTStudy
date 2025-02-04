@@ -1,7 +1,7 @@
  # Java_coding_factory : 18th Week
 ---
 
-## 1. Solving BaekJoon : Bitmasking, Hash, KMP, LCA Problems : 377 - 391
+## 1. Solving BaekJoon : Bitmasking, Hash, KMP, LCA Problems : 377 - 396
 ---
 
 ## Problems and Links
@@ -24,6 +24,11 @@
 | 389 | 1305 | 광고 | KMP | 56.177% | [1305](https://www.acmicpc.net/problem/1305) |
 | 390 | 4354 | 문자열 제곱 | KMP | 34.551% | [4354](https://www.acmicpc.net/problem/4354) |
 | 391 | 11585 | 속타는 저녁 메뉴 | KMP | 38.343% | [11585](https://www.acmicpc.net/problem/11585) |
+| 392 | 11437 | LCA | LCA | 40.976% | [11437](https://www.acmicpc.net/problem/11437) |
+| 393 | 17435 | 합성함수와 쿼리 | LCA | 	51.929% | [17435](https://www.acmicpc.net/problem/17435) | 
+| 394 | 11438 | LCA2 | LCA | 	32.894% | [11438](https://www.acmicpc.net/problem/11438) |
+| 395 | 1761 | 정점들의 거리 | LCA | 36.727% | [1761](https://www.acmicpc.net/problem/1761) | 
+| 396 | 13511 | 트리와 쿼리 | LCA | 	28.422% | [13511](https://www.acmicpc.net/problem/13511) | 
 <br>
 
 ## 개념 설명 블로그 링크 : <br><br>
@@ -50,6 +55,17 @@
 - **Problem 389:** <br><br><br>
 - **Problem 390:** <br><br><br>
 - **Problem 391:** <br><br><br>
+- **Problem 392:** <br><br><br>
+- **Problem 393:** <br><br><br>
+- **Problem 394:** <br><br><br>
+- **Problem 395:** <br><br><br>
+- **Problem 396:** <br><br><br>
+
+ 
+<br>
+
+## 개념 설명 블로그 링크 : <br><br>
+ 
 
 ## 2. Review week10 => prepare to say something new
 ---
