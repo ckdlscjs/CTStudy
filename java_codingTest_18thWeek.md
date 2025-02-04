@@ -1,7 +1,7 @@
  # Java_coding_factory : 18th Week
 ---
 
-## 1. Solving BaekJoon : Bitmasking, Hash, KMP Problems : 377 - 391
+## 1. Solving BaekJoon : Bitmasking, Hash, KMP, LCA Problems : 377 - 391
 ---
 
 ## Problems and Links
