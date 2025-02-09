@@ -14,7 +14,6 @@
 | 이월 | 1305 | 광고 | KMP | 56.177% | [1305](https://www.acmicpc.net/problem/1305) |
 | 이월 | 4354 | 문자열 제곱 | KMP | 34.551% | [4354](https://www.acmicpc.net/problem/4354) |
 | 이월 | 11585 | 속타는 저녁 메뉴 | KMP | 38.343% | [11585](https://www.acmicpc.net/problem/11585) |
- t/problem/13511) | 
 | 397 | 2042 |   구간 합 구하기 | Segment Tree  | 25.808% | [2042](https://www.acmicpc.net/problem/2042) |
 | 398  | 11505	 | 구간 곱 구하기 | Segment Tree | 33.310% | [11505](https://www.acmicpc.net/problem/11505) | 
 | 399 | 2357 | 최솟값과 최댓값 | Segment Tree | 52.315% | [2357](https://www.acmicpc.net/problem/2357) | 
