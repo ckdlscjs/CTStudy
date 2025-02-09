@@ -1,7 +1,7 @@
  # Java_coding_factory : 18th Week
 ---
 
-## 1. Solving BaekJoon : Segment Tree, Fenwick Tree, Lazy SegmenTree and Previous KMP Problems : 396 - 416
+## 1. Solving BaekJoon : Segment Tree, Fenwick Tree, Lazy SegmenTree and Previous KMP Problems : 397 - 411
 ---
 
 ## Problems and Links
@@ -15,7 +15,12 @@
 | 이월 | 4354 | 문자열 제곱 | KMP | 34.551% | [4354](https://www.acmicpc.net/problem/4354) |
 | 이월 | 11585 | 속타는 저녁 메뉴 | KMP | 38.343% | [11585](https://www.acmicpc.net/problem/11585) |
  t/problem/13511) | 
-| 397 | 
+| 397 | 2042 |   구간 합 구하기 | Segment Tree  | 25.808% | [2042](https://www.acmicpc.net/problem/2042) |
+| 398  | 11505	 | 구간 곱 구하기 | Segment Tree | 33.310% | [11505](https://www.acmicpc.net/problem/11505) | 
+| 399 | 2357 | 최솟값과 최댓값 | Segment Tree | 52.315% | [2357](https://www.acmicpc.net/problem/2357) | 
+| 400 | 9345	| 디지털 비디오 디스크(DVDs)	| Segment Tree |	40.793% | [9345](http://www.acmicpc.net/problem/9345) |
+| 401 | 1517 | 버블 소트	| Segment Tree |	30.633% | [1517](http://www.acmicpc.net/problem/1517) |
+
 <br>
 
 ## 개념 설명 블로그 링크 : <br><br>
