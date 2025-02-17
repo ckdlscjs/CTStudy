@@ -17,7 +17,7 @@
 | 412 | 프그1 | 완전범죄 | ??   | ??% | [완전범죄](https://school.programmers.co.kr/learn/courses/30/lessons/389479) |
 | 413 | 프그2 |  서버 증설 횟수 | ?? | ??% | [서버 증설 횟수](https://school.programmers.co.kr/learn/courses/30/lessons/389479) | 
 | 414 | 프그3 | 지게차와 크레인 | ?? | ??% | [지게차와 크레인](https://school.programmers.co.kr/learn/courses/30/lessons/388353) | 
-| 415 | 프그4	| 퍼즐 게임 챌린지	| ?? | ??% | [퍼즐 게임 챌린지](https://school.programmers.co.kr/learn/courses/30/lessons/340212) |
+| 415 |프그4| 퍼즐 게임 챌린지	| ?? | ??% | [퍼즐 게임 챌린지](https://school.programmers.co.kr/learn/courses/30/lessons/340212) |
 | 416 | 프그5 | 충돌위험 찾기	| ?? |	??% | [충돌위험 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/340211) |
 | 417 | 프그6 | 도넛과 막대 그래프 | ?? | ??% | [도넛과 막대 그래프](https://school.programmers.co.kr/learn/courses/30/lessons/258711) | 
 | 418 | 프그7 | 석유 시추 | ??| ??%| [석유 시추](https://school.programmers.co.kr/learn/courses/30/lessons/250136) | 
