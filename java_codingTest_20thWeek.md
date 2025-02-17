@@ -1,7 +1,7 @@
  # Java_coding_factory : 20th Week
 ---
 
-## 1. Solving BaekJoon : SCC(Strongly-Connected-Component), BCC(Bi-Connected-Componet) Problems : 407-- 426 
+## 1. Solving BaekJoon : SCC, BCC Problems with Programmers Problems : 407 - 426 
 ---
 
 ## Problems and Links
