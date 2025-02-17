@@ -1,7 +1,7 @@
  # Java_coding_factory : 20th Week
 ---
 
-## 1. Solving BaekJoon : SCC, BCC Problems with Programmers Problems : 407 - 426 
+## BackJoon : SCC, BCC Problems and 15 Programmers Problems : 407 - 426 
 ---
 
 ## Problems and Links
