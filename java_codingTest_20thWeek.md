@@ -11,7 +11,7 @@
 |--------|----------|----------|----------------|----------|----------------|
 | 407 | 2150 | Strongly Connected Component | SCC | 45.176% | [2150](https://www.acmicpc.net/problem/2150) |
 | 408 | 4196 | 도미노 | SCC | 	30.219% | [4196](https://www.acmicpc.net/problem/4196) |
-| 409 | 17304 | 변호사들 | SCC | 56.177% | [1305](https://www.acmicpc.net/problem/1305) |
+| 409 | 17304 | 변호사들 | SCC | 56.177% | [1305](https://www.acmicpc.net/problem/17304) |
 | 410 | 10891 | Cactus? Not cactus? | BCC | 34.551% | [4354](https://www.acmicpc.net/problem/10891) |
 | 411 | 2111 | 선인장 | BCC | 19.623% | [2111](https://www.acmicpc.net/problem/2111) |
 | 412 | 프그1 | 완전범죄 | ??   | ??% | [완전범죄](https://school.programmers.co.kr/learn/courses/30/lessons/389479) |
