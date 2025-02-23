@@ -1,7 +1,7 @@
- # Java_coding_factory : 19th Week
+ # Java_coding_factory : 20th Week
 ---
 
-## 1. Solving BaekJoon : Segment Tree, Fenwick Tree, Lazy SegmenTree and Previous KMP Problems : 397 - 406
+## BackJoon : SCC, BCC Problems and 15 Programmers Problems : 407 - 426 
 ---
 
 ## Problems and Links
@@ -9,21 +9,26 @@
 ### 문제 목록
 | 인덱스 | 문제 번호 | 문제 제목 | 자료구조/알고리즘 | 정답 비율 | URL |
 |--------|----------|----------|----------------|----------|----------------|
-| prev1 | 1786 | 찾기 | KMP | 30.787% | [1786](https://www.acmicpc.net/problem/1786) |
-| prev2 | 1893 | 시저 암호 | KMP | 36.979% | [1893](https://www.acmicpc.net/problem/1893) |
-| prev3 | 1305 | 광고 | KMP | 56.177% | [1305](https://www.acmicpc.net/problem/1305) |
-| prev4 | 4354 | 문자열 제곱 | KMP | 34.551% | [4354](https://www.acmicpc.net/problem/4354) |
-| prev5 | 11585 | 속타는 저녁 메뉴 | KMP | 38.343% | [11585](https://www.acmicpc.net/problem/11585) |
-| 397 | 2042 |   구간 합 구하기 | Segment Tree  | 25.808% | [2042](https://www.acmicpc.net/problem/2042) |
-| 398 | 11505	 | 구간 곱 구하기 | Segment Tree | 33.310% | [11505](https://www.acmicpc.net/problem/11505) | 
-| 399 | 2357 | 최솟값과 최댓값 | Segment Tree | 52.315% | [2357](https://www.acmicpc.net/problem/2357) | 
-| 400 | 9345	| 디지털 비디오 디스크(DVDs)	| Segment Tree |	40.793% | [9345](http://www.acmicpc.net/problem/9345) |
-| 401 | 1517 | 버블 소트	| Segment Tree |	30.633% | [1517](http://www.acmicpc.net/problem/1517) |
-| 402 | 10999 | 수열 합 구하기 2 | lazy Segment Tree | 37.497% | [10999](http://www.acmicpc.net/problem/10999) | 
-| 403 | 14245 | XOR | lazy Segment Tree | 61.893% | [14245](https://www.acmicpc.net/problem/14245) | 
-| 404 | 17407 | 괄호 문자열과 쿼리 | lazy Segment Tree | 43.029% | [17407](https://www.acmicpc.net/problem/17407) |
-| 405 | 1395 | 스위치 | lazy Segment Tree | 42.949% | [1395](https://www.acmicpc.net/problem/1395) |
-| 406 | 16978 | 수열과 쿼리 22 | Offline query + Segment Tree | 48.942% | [16978](http://ww.acmicpc.net/problem/16978) |  
+| 407 | 2150 | Strongly Connected Component | SCC | 45.176% | [2150](https://www.acmicpc.net/problem/2150) |
+| 408 | 4196 | 도미노 | SCC | 	30.219% | [4196](https://www.acmicpc.net/problem/4196) |
+| 409 | 17304 | 변호사들 | SCC | 56.177% | [1305](https://www.acmicpc.net/problem/17304) |
+| 410 | 10891 | Cactus? Not cactus? | BCC | 34.551% | [4354](https://www.acmicpc.net/problem/10891) |
+| 411 | 2111 | 선인장 | BCC | 19.623% | [2111](https://www.acmicpc.net/problem/2111) |
+| 412 | 프그1 | 완전범죄 | ??   | ??% | [완전범죄](https://school.programmers.co.kr/learn/courses/30/lessons/389479) |
+| 413 | 프그2 |  서버 증설 횟수 | ?? | ??% | [서버 증설 횟수](https://school.programmers.co.kr/learn/courses/30/lessons/389479) | 
+| 414 | 프그3 | 지게차와 크레인 | ?? | ??% | [지게차와 크레인](https://school.programmers.co.kr/learn/courses/30/lessons/388353) | 
+| 415 | 프그4 | 퍼즐 게임 챌린지 | ?? | ??% | [퍼즐 게임 챌린지](https://school.programmers.co.kr/learn/courses/30/lessons/340212) |
+| 416 | 프그5 | 충돌위험 찾기	| ?? |	??% | [충돌위험 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/340211) |
+| 417 | 프그6 | 도넛과 막대 그래프 | ?? | ??% | [도넛과 막대 그래프](https://school.programmers.co.kr/learn/courses/30/lessons/258711) | 
+| 418 | 프그7 | 석유 시추 | ??| ??%| [석유 시추](https://school.programmers.co.kr/learn/courses/30/lessons/250136) | 
+| 419 | 프그8 | 아날로그 시계 | ?? | ??% | [아날로그 시계](https://school.programmers.co.kr/learn/courses/30/lessons/250135) |
+| 420 | 프그9 | 요격 시스템 | ?? | ??% | [요격 시스템](https://school.programmers.co.kr/learn/courses/30/lessons/181188) |
+| 421 | 프그10 | 두 원 사이의 정수 쌍 | ?? | ??% | [두 원 사이의 정수 쌍](https://school.programmers.co.kr/learn/courses/30/lessons/181187) |  
+| 422 | 프그11 | 연속된 부분 수열의 합 | ?? | ??% | [연속된 부분 수열의 합](https://school.programmers.co.kr/learn/courses/30/lessons/178870) |
+| 423 | 프그12 | 과제 진행하기 | ?? | ??% | [과제 진행하기](https://school.programmers.co.kr/learn/courses/30/lessons/176962) |
+| 424 | 프그13 | 광물 캐기 | ?? | ??% | [광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927) |
+| 425 | 프그14 | 리코쳇 로봇 | ?? | ??% | [리코챗 로봇](https://school.programmers.co.kr/learn/courses/30/lessons/169199) |
+| 426 | 프그15 | 당구 연습 | ?? | ??% | [당구 연습](https://school.programmers.co.kr/learn/courses/30/lessons/169198) |
 
 
 <br>
@@ -37,23 +42,27 @@
 - 시간복잡도 계산 및 개선 방법.
 
 ## 문제 해설
-- **Problem prev1 :** <br><br><br>
-- **Problem prev2 :** <br><br><br>
-- **Problem prev3 :** <br><br><br>
-- **Problem prev4 :** <br><br><br>
-- **Problem prev5 :** <br><br><br>
-- **Problem 397 :** <br><br><br>
-- **Problem 398 :** <br><br><br>
-- **Problem 399 :** <br><br><br>
-- **Problem 400 :** <br><br><br>
-- **Problem 401 :** <br><br><br>
-- **Problem 402 :** <br><br><br>
-- **Problem 403 :** <br><br><br>
-- **Problem 404 :** <br><br><br>
-- **Problem 405 :** <br><br><br>
-- **Problem 406 :** <br><br><br>
+- **Problem 407 :** <br><br><br>
+- **Problem 408 :** <br><br><br>
+- **Problem 409 :** <br><br><br>
+- **Problem 410 :** <br><br><br>
+- **Problem 411 :** <br><br><br>
+- **Problem 412 :** <br><br><br>
+- **Problem 413 :** <br><br><br>
+- **Problem 414 :** <br><br><br>
+- **Problem 415 :** <br><br><br>
+- **Problem 416 :** <br><br><br>
+- **Problem 417 :** <br><br><br>
+- **Problem 418 :** <br><br><br>
+- **Problem 419 :** <br><br><br>
+- **Problem 420 :** <br><br><br>
+- **Problem 421 :** <br><br><br>
+- **Problem 422 :** <br><br><br>
+- **Problem 423 :** <br><br><br>
+- **Problem 424 :** <br><br><br>
+- **Problem 425 :** <br><br><br>
+- **Problem 426 :** <br><br><br>
 
- 
 <br>
 
 ## 개념 설명 블로그 링크 : <br><br>
