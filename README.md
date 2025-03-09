@@ -1,34 +1,50 @@
- # Java_coding_factory : 20th Week
+ # Java_coding_factory : 21th Week
 ---
 
-## BackJoon : SCC, BCC Problems and 15 Programmers Problems : 407 - 426 
+## BackJoon : Problems of class 1 in Backjoon  
 ---
 
 ## Problems and Links
 
-### 문제 목록
-| 인덱스 | 문제 번호 | 문제 제목 | 자료구조/알고리즘 | 정답 비율 | URL |
-|--------|----------|----------|----------------|----------|----------------|
-| 407 | 2150 | Strongly Connected Component | SCC | 45.176% | [2150](https://www.acmicpc.net/problem/2150) |
-| 408 | 4196 | 도미노 | SCC | 	30.219% | [4196](https://www.acmicpc.net/problem/4196) |
-| 409 | 17304 | 변호사들 | SCC | 56.177% | [1305](https://www.acmicpc.net/problem/17304) |
-| 410 | 10891 | Cactus? Not cactus? | BCC | 34.551% | [4354](https://www.acmicpc.net/problem/10891) |
-| 411 | 2111 | 선인장 | BCC | 19.623% | [2111](https://www.acmicpc.net/problem/2111) |
-| 412 | 프그1 | 완전범죄 | ??   | ??% | [완전범죄](https://school.programmers.co.kr/learn/courses/30/lessons/389479) |
-| 413 | 프그2 |  서버 증설 횟수 | ?? | ??% | [서버 증설 횟수](https://school.programmers.co.kr/learn/courses/30/lessons/389479) | 
-| 414 | 프그3 | 지게차와 크레인 | ?? | ??% | [지게차와 크레인](https://school.programmers.co.kr/learn/courses/30/lessons/388353) | 
-| 415 | 프그4 | 퍼즐 게임 챌린지 | ?? | ??% | [퍼즐 게임 챌린지](https://school.programmers.co.kr/learn/courses/30/lessons/340212) |
-| 416 | 프그5 | 충돌위험 찾기	| ?? |	??% | [충돌위험 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/340211) |
-| 417 | 프그6 | 도넛과 막대 그래프 | ?? | ??% | [도넛과 막대 그래프](https://school.programmers.co.kr/learn/courses/30/lessons/258711) | 
-| 418 | 프그7 | 석유 시추 | ??| ??%| [석유 시추](https://school.programmers.co.kr/learn/courses/30/lessons/250136) | 
-| 419 | 프그8 | 아날로그 시계 | ?? | ??% | [아날로그 시계](https://school.programmers.co.kr/learn/courses/30/lessons/250135) |
-| 420 | 프그9 | 요격 시스템 | ?? | ??% | [요격 시스템](https://school.programmers.co.kr/learn/courses/30/lessons/181188) |
-| 421 | 프그10 | 두 원 사이의 정수 쌍 | ?? | ??% | [두 원 사이의 정수 쌍](https://school.programmers.co.kr/learn/courses/30/lessons/181187) |  
-| 422 | 프그11 | 연속된 부분 수열의 합 | ?? | ??% | [연속된 부분 수열의 합](https://school.programmers.co.kr/learn/courses/30/lessons/178870) |
-| 423 | 프그12 | 과제 진행하기 | ?? | ??% | [과제 진행하기](https://school.programmers.co.kr/learn/courses/30/lessons/176962) |
-| 424 | 프그13 | 광물 캐기 | ?? | ??% | [광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927) |
-| 425 | 프그14 | 리코쳇 로봇 | ?? | ??% | [리코챗 로봇](https://school.programmers.co.kr/learn/courses/30/lessons/169199) |
-| 426 | 프그15 | 당구 연습 | ?? | ??% | [당구 연습](https://school.programmers.co.kr/learn/courses/30/lessons/169198) |
+| 인덱스 | 문제 번호 | 문제 제목 | 자료구조/알고리즘 | URL |
+|--------|----------|----------|------------------|----------------|
+| 427 | 1001 | A-B | ??? | [1001](https://www.acmicpc.net/problem/1001) |
+| 428 | 1008 | A/B | ??? | [1008](https://www.acmicpc.net/problem/1008) |
+| 429 | 1330 | 두 수 비교하기 | ??? | [1330](https://www.acmicpc.net/problem/1330) |
+| 430 | 2475 | 검증수 | ??? | [2475](https://www.acmicpc.net/problem/2475) |
+| 431 | 2739 | 구구단 | ??? | [2739](https://www.acmicpc.net/problem/2739) |
+| 432 | 2741 | N 찍기 | ??? | [2741](https://www.acmicpc.net/problem/2741) |
+| 433 | 10172 | Dogs | ??? | [10172](https://www.acmicpc.net/problem/10172) |
+| 434 | 10950 | A+B - 3 | ??? | [10950](https://www.acmicpc.net/problem/10950) |
+| 435 | 10951 | A+B - 4 | ??? | [10951](https://www.acmicpc.net/problem/10951) |
+| 436 | 10952 | A+B - 5 | ??? | [10952](https://www.acmicpc.net/problem/10952) |
+| 437 | 10998 | AxB | ??? | [10998](https://www.acmicpc.net/problem/10998) |
+| 438 | 11654 | 아스키 코드 | ??? | [11654](https://www.acmicpc.net/problem/11654) |
+| 439 | 25083 | 새싹 | ??? | [25083](https://www.acmicpc.net/problem/25083) |
+| 440 | 27866 | 문자와 문자열 | ??? | [27866](https://www.acmicpc.net/problem/27866) |
+| 441 | 11720 | 숫자의 합 | ??? | [11720](https://www.acmicpc.net/problem/11720) |
+| 442 | 31403 | A+B−C | ??? | [31403](https://www.acmicpc.net/problem/31403) |
+| 443 | 2884 | SPAVANAC | ??? | [2884](https://www.acmicpc.net/problem/2884) |
+| 444 | 10250 | ACM Hotel | ??? | [10250](https://www.acmicpc.net/problem/10250) |
+| 445 | 10818 | 최소, 최대 | ??? | [10818](https://www.acmicpc.net/problem/10818) |
+| 446 | 1152 | 단어의 개수 | ??? | [1152](https://www.acmicpc.net/problem/1152) |
+| 447 | 2675 | Repeating Characters | ??? | [2675](https://www.acmicpc.net/problem/2675) |
+| 448 | 2920 | NOTE | ??? | [2920](https://www.acmicpc.net/problem/2920) |
+| 449 | 3052 | MODULO | ??? | [3052](https://www.acmicpc.net/problem/3052) |
+| 450 | 8958 | Score | ??? | [8958](https://www.acmicpc.net/problem/8958) |
+| 451 | 10809 | 알파벳 찾기 | ??? | [10809](https://www.acmicpc.net/problem/10809) |
+| 452 | 1000 | A+B | ??? | [1000](https://www.acmicpc.net/problem/1000) |
+| 453 | 2438 | 별 찍기 - 1 | ??? | [2438](https://www.acmicpc.net/problem/2438) |
+| 454 | 2557 | Hello World | ??? | [2557](https://www.acmicpc.net/problem/2557) |
+| 455 | 2753 | 윤년 | ??? | [2753](https://www.acmicpc.net/problem/2753) |
+| 456 | 9498 | 시험 성적 | ??? | [9498](https://www.acmicpc.net/problem/9498) |
+| 457 | 10171 | Cats | ??? | [10171](https://www.acmicpc.net/problem/10171) |
+| 458 | 10869 | 사칙연산 | ??? | [10869](https://www.acmicpc.net/problem/10869) |
+| 459 | 10871 | X보다 작은 수 | ??? | [10871](https://www.acmicpc.net/problem/10871) |
+| 460 | 2439 | 별 찍기 - 2 | ??? | [2439](https://www.acmicpc.net/problem/2439) |
+| 461 | 2562 | 최댓값 | ??? | [2562](https://www.acmicpc.net/problem/2562) |
+| 462 | 2577 | 숫자의 개수 | ??? | [2577](https://www.acmicpc.net/problem/2577) |
+
 
 
 <br>
@@ -42,46 +58,43 @@
 - 시간복잡도 계산 및 개선 방법.
 
 ## 문제 해설
-- **Problem 407 :** <br><br><br>
-- **Problem 408 :** <br><br><br>
-- **Problem 409 :** <br><br><br>
-- **Problem 410 :** <br><br><br>
-- **Problem 411 :** <br><br><br>
-- **Problem 412 :** <br><br><br>
-- **Problem 413 :** <br><br><br>
-- **Problem 414 :** <br><br><br>
-- **Problem 415 :** <br><br><br>
-- **Problem 416 :** <br><br><br>
-- **Problem 417 :** <br><br><br>
-- **Problem 418 :** <br><br><br>
-- **Problem 419 :** <br><br><br>
-- **Problem 420 :** <br><br><br>
-- **Problem 421 :** <br><br><br>
-- **Problem 422 :** <br><br><br>
-- **Problem 423 :** <br><br><br>
-- **Problem 424 :** <br><br><br>
-- **Problem 425 :** <br><br><br>
-- **Problem 426 :** <br><br><br>
+- **Problem 427 :** <br><br><br>
+- **Problem 428 :** <br><br><br>
+- **Problem 429 :** <br><br><br>
+- **Problem 430 :** <br><br><br>
+- **Problem 431 :** <br><br><br>
+- **Problem 432 :** <br><br><br>
+- **Problem 433 :** <br><br><br>
+- **Problem 434 :** <br><br><br>
+- **Problem 435 :** <br><br><br>
+- **Problem 436 :** <br><br><br>
+- **Problem 437 :** <br><br><br>
+- **Problem 438 :** <br><br><br>
+- **Problem 439 :** <br><br><br>
+- **Problem 440 :** <br><br><br>
+- **Problem 441 :** <br><br><br>
+- **Problem 442 :** <br><br><br>
+- **Problem 443 :** <br><br><br>
+- **Problem 444 :** <br><br><br>
+- **Problem 445 :** <br><br><br>
+- **Problem 446 :** <br><br><br>
+- **Problem 447 :** <br><br><br>
+- **Problem 448 :** <br><br><br>
+- **Problem 449 :** <br><br><br>
+- **Problem 450 :** <br><br><br>
+- **Problem 451 :** <br><br><br>
+- **Problem 452 :** <br><br><br>
+- **Problem 453 :** <br><br><br>
+- **Problem 454 :** <br><br><br>
+- **Problem 455 :** <br><br><br>
+- **Problem 456 :** <br><br><br>
+- **Problem 457 :** <br><br><br>
+- **Problem 458 :** <br><br><br>
+- **Problem 459 :** <br><br><br>
+- **Problem 460 :** <br><br><br>
+- **Problem 461 :** <br><br><br>
+- **Problem 462 :** <br><br><br>
+
 
 <br>
-
-## 개념 설명 블로그 링크 : <br><br>
- 
-
-## 2. Review up to week 11
----
-
-<br>
-
-## 이전 문제 리뷰(예시)
-
-### 문제 1: [11725](https://www.acmicpc.net/problem/11725)  
-1. **새로 배운 점**: BFS로 트리의 부모를 찾는 방법.  
-2. **보완한 부분**: DFS와 BFS 간 효율성 비교.  
-3. **유사 문제 탐색**: [1240](https://www.acmicpc.net/problem/1240) 노드 사이의 거리.  
-
-### 문제 2: [1991](https://www.acmicpc.net/problem/1991)  
-1. **새로 배운 점**: 트리 순회 방식 (전위, 중위, 후위).  
-2. **보완한 부분**: 순회 구현 중 실수한 재귀 호출 구조 수정.  
-3. **유사 문제 탐색**: 트라이와 관련된 순회 문제 탐구.
 
