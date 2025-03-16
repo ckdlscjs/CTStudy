@@ -58,42 +58,158 @@
 - 시간복잡도 계산 및 개선 방법.
 
 ## 문제 해설
-- **Problem 427 :** <br><br><br>
-- **Problem 428 :** <br><br><br>
-- **Problem 429 :** <br><br><br>
-- **Problem 430 :** <br><br><br>
-- **Problem 431 :** <br><br><br>
-- **Problem 432 :** <br><br><br>
-- **Problem 433 :** <br><br><br>
-- **Problem 434 :** <br><br><br>
-- **Problem 435 :** <br><br><br>
-- **Problem 436 :** <br><br><br>
-- **Problem 437 :** <br><br><br>
-- **Problem 438 :** <br><br><br>
-- **Problem 439 :** <br><br><br>
-- **Problem 440 :** <br><br><br>
-- **Problem 441 :** <br><br><br>
-- **Problem 442 :** <br><br><br>
-- **Problem 443 :** <br><br><br>
-- **Problem 444 :** <br><br><br>
-- **Problem 445 :** <br><br><br>
-- **Problem 446 :** <br><br><br>
-- **Problem 447 :** <br><br><br>
-- **Problem 448 :** <br><br><br>
-- **Problem 449 :** <br><br><br>
-- **Problem 450 :** <br><br><br>
-- **Problem 451 :** <br><br><br>
-- **Problem 452 :** <br><br><br>
-- **Problem 453 :** <br><br><br>
-- **Problem 454 :** <br><br><br>
-- **Problem 455 :** <br><br><br>
-- **Problem 456 :** <br><br><br>
-- **Problem 457 :** <br><br><br>
-- **Problem 458 :** <br><br><br>
-- **Problem 459 :** <br><br><br>
-- **Problem 460 :** <br><br><br>
-- **Problem 461 :** <br><br><br>
-- **Problem 462 :** <br><br><br>
+- **Problem 427 : A-B  
+문제 유형 : 구현 
+<br> 시간복잡도 : O(1)
+<br>
+- **Problem 428 : A/B
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(1)
+<br>
+- **Problem 429 : 두 수 비교하기 
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(1)
+<br>
+
+- **Problem 430 : 검증수 
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(1)
+<br>
+- **Problem 431 : 구구단
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(1)
+<br>
+
+- **Problem 432 : N 찍기
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(N)
+<br>
+
+- **Problem 433 : Dogs 
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(1)
+<br>
+
+- **Problem 434 : A+B - 3
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(T)
+<br>
+- **Problem 435 : A+B - 4 
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(T)
+<br>
+- **Problem 436 : A+B - 5
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(T)
+<br>
+- **Problem 437 : AXB
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(1)
+<br>
+
+
+- **Problem 438 : 아스키 코드
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(1)
+<br>
+
+- **Problem 439 : 새싹
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(1)
+<br>
+
+- **Problem 440 : 문자와 문자열
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(S)
+<br>
+- **Problem 441 : 숫자의 합 
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(N)
+<br>
+- **Problem 442 : A+B-C
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(1)
+<br>
+- **Problem 443 :알람시계
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(1)
+<br>
+
+- **Problem 444 : ACM Hotel
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(W*H*T)
+<br>
+- **Problem 445 : 최소, 최대
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(N)
+<br>
+- **Problem 446 : 단어의 개수 
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(|S|)
+<br>
+- **Problem 447 : 문자열 반복 
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(T * |S| * R)
+<br>
+- **Problem 448 : 음계
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(8)
+<br>
+- **Problem 449 : Modulo 
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O( 10 + 42 )
+<br>
+- **Problem 450 : Score
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(T * |S| )
+<br>
+- **Problem 451 : 알파벳 찾기 
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(|S| + 26)
+<br>
+- **Problem 452 : A+B
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(1)
+<br>
+- **Problem 453 : Hello World
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(1)
+<br>
+
+- **Problem 454 : 윤년
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(1)
+<br>
+- **Problem 455 : 시험성적
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(1)
+<br>
+- **Problem 457 : Cats
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(1)
+<br>
+
+- **Problem 458 : 사칙연산
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(1)
+<br>
+- **Problem 459 : X보다 작은 수
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(N)
+<br>
+- **Problem 460 : 별 찍기 - 2
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O($N^2$)
+<br>
+- **Problem 461 : 최댓값 
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(N)
+<br>
+- **Problem 462 : 숫자의 개수
+<br> 문제 유형 : 구현
+<br> 시간복잡도 : O(3*3 + 6*3 * 9)
+<br>
+
 
 
 <br>
