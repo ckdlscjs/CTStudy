@@ -37,17 +37,30 @@
 - 시간복잡도 계산 및 개선 방법.
 
 ## 문제 해설
-- **Problem 486:** [11723 - 집합](https://www.acmicpc.net/problem/11723) | ???  
-- **Problem 487:** [1620 - 나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620) | ???  
+- **Problem 486:** [11723 - 집합](https://www.acmicpc.net/problem/11723) | ???
+<br><br><br>
+- **Problem 487:** [1620 - 나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620) | ???
+<br><br><br>
 - **Problem 488:** [1764 - 듣보잡](https://www.acmicpc.net/problem/1764) | ???  
+<br><br><br>
 - **Problem 489:** [17219 - 비밀번호 찾기](https://www.acmicpc.net/problem/17219) | ???  
+<br><br><br>
 - **Problem 490:** [9375 - Incognito](https://www.acmicpc.net/problem/9375) | ???  
+<br><br><br>
 - **Problem 491:** [17626 - Four Squares](https://www.acmicpc.net/problem/17626) | ???  
+<br><br><br>
 - **Problem 492:** [1927 - 최소 힙](https://www.acmicpc.net/problem/1927) | ???  
+<br><br><br>
 - **Problem 493:** [11279 - 최대 힙](https://www.acmicpc.net/problem/11279) | ???  
+<br><br><br>
 - **Problem 494:** [18111 - 마인크래프트](https://www.acmicpc.net/problem/18111) | ???  
+<br><br><br>
 - **Problem 495:** [21736 - 헌내기는 친구가 필요해](https://www.acmicpc.net/problem/21736) | ???  
+<br><br><br>
 - **Problem 496:** [30804 - Fruit Tanghulu](https://www.acmicpc.net/problem/30804) | ???  
+<br><br><br>
 - **Problem 497:** [1389 - 케빈 베이컨의 6단계 법칙](https://www.acmicpc.net/problem/1389) | ???  
+<br><br><br>
 - **Problem 498:** [5525 - IOIOI](https://www.acmicpc.net/problem/5525) | ???  
+<br><br><br>
 - **Problem 499:** [6064 - Cain Calendar](https://www.acmicpc.net/problem/6064) | ???  
