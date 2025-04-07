@@ -1,26 +1,23 @@
-# Java_coding_factory : 24th Week
+# Java_coding_factory : 25th Week
 
 ---
 
-## BackJoon : Problems of class 4 in Backjoon  
+## BackJoon : Problems of class 5 in Backjoon (continued)
 
-| 인덱스 | 문제 번호 | 문제 제목                   | 자료구조/알고리즘 | URL |
-|--------|------------|-----------------------------|------------------|------------------------------------------------|
-| 500    | 2096       | 내려가기                   |                  | [2096](https://www.acmicpc.net/problem/2096)   |
-| 501    | 12865      | 평범한 배낭                 |                  | [12865](https://www.acmicpc.net/problem/12865) |
-| 502    | 17070      | 파이프 옮기기 1            |                  | [17070](https://www.acmicpc.net/problem/17070) |
-| 503    | 1967       | 트리의 지름                 |                  | [1967](https://www.acmicpc.net/problem/1967)   |
-| 504    | 1987       | 알파벳                     |                  | [1987](https://www.acmicpc.net/problem/1987)   |
-| 505    | 5639       | 이진 검색 트리             |                  | [5639](https://www.acmicpc.net/problem/5639)   |
-| 506    | 9935       | 문자열 폭발                 |                  | [9935](https://www.acmicpc.net/problem/9935)   |
-| 507    | 10830      | 행렬 제곱                   |                  | [10830](https://www.acmicpc.net/problem/10830) |
-| 508    | 11054      | 가장 긴 바이토닉 부분 수열 |                  | [11054](https://www.acmicpc.net/problem/11054) |
-| 509    | 11404      | 플로이드                   |                  | [11404](https://www.acmicpc.net/problem/11404) |
-| 510    | 13172      | Σ                          |                  | [13172](https://www.acmicpc.net/problem/13172) |
-| 511    | 14938      | 서강그라운드               |                  | [14938](https://www.acmicpc.net/problem/14938) |
-| 512    | 17144      | 미세먼지 안녕!             |                  | [17144](https://www.acmicpc.net/problem/17144) |
-| 513    | 30805      | 사전 순 최대 공통 부분 수열 |                 | [30805](https://www.acmicpc.net/problem/30805) |
-| 514    | 2638       | 치즈                        |                 | [2638](https://www.acmicpc.net/problem/2638)   |
+| 인덱스 | 문제 번호 | 문제 제목                 | 자료구조/알고리즘 | URL |
+|--------|------------|---------------------------|------------------|------------------------------------------------|
+| 515    | 2166       | 다각형의 면적             |                  | [2166](https://www.acmicpc.net/problem/2166)   |
+| 516    | 1197       | 최소 스패닝 트리         |                  | [1197](https://www.acmicpc.net/problem/1197)   |
+| 517    | 2239       | 스도쿠                   |                  | [2239](https://www.acmicpc.net/problem/2239)   |
+| 518    | 17404      | RGB거리 2                |                  | [17404](https://www.acmicpc.net/problem/17404) |
+| 519    | 20040      | 사이클 게임              |                  | [20040](https://www.acmicpc.net/problem/20040) |
+| 520    | 27172      | 수 나누기 게임           |                  | [27172](https://www.acmicpc.net/problem/27172) |
+| 521    | 2342       | Dance Dance Revolution   |                  | [2342](https://www.acmicpc.net/problem/2342)   |
+| 522    | 7579       | 앱                       |                  | [7579](https://www.acmicpc.net/problem/7579)   |
+| 523    | 11049      | 행렬 곱셈 순서           |                  | [11049](https://www.acmicpc.net/problem/11049) |
+| 524    | 16724      | 피리 부는 사나이         |                  | [16724](https://www.acmicpc.net/problem/16724) |
+| 525    | 9527       | Counting ones            |                  | [9527](https://www.acmicpc.net/problem/9527)   |
+| 526    | 10775      | Gates                    |                  | [10775](https://www.acmicpc.net/problem/10775) |
 
 
 <br>
@@ -34,47 +31,40 @@
 - 시간복잡도 계산 및 개선 방법.
 
 ## 문제 해설
-- **Problem 500:** [2096 - 내려가기](https://www.acmicpc.net/problem/2096) | ???
+
+- **Problem 515:** [2166 - 다각형의 면적](https://www.acmicpc.net/problem/2166) | ???
 <br><br><br>
 
-- **Problem 501:** [12865 - 평범한 배낭](https://www.acmicpc.net/problem/12865) | ???
+- **Problem 516:** [1197 - 최소 스패닝 트리](https://www.acmicpc.net/problem/1197) | ???
 <br><br><br>
 
-- **Problem 502:** [17070 - 파이프 옮기기 1](https://www.acmicpc.net/problem/17070) | ???
+- **Problem 517:** [2239 - 스도쿠](https://www.acmicpc.net/problem/2239) | ???
 <br><br><br>
 
-- **Problem 503:** [1967 - 트리의 지름](https://www.acmicpc.net/problem/1967) | ???
+- **Problem 518:** [17404 - RGB거리 2](https://www.acmicpc.net/problem/17404) | ???
 <br><br><br>
 
-- **Problem 504:** [1987 - 알파벳](https://www.acmicpc.net/problem/1987) | ???
+- **Problem 519:** [20040 - 사이클 게임](https://www.acmicpc.net/problem/20040) | ???
 <br><br><br>
 
-- **Problem 505:** [5639 - 이진 검색 트리](https://www.acmicpc.net/problem/5639) | ???
+- **Problem 520:** [27172 - 수 나누기 게임](https://www.acmicpc.net/problem/27172) | ???
 <br><br><br>
 
-- **Problem 506:** [9935 - 문자열 폭발](https://www.acmicpc.net/problem/9935) | ???
+- **Problem 521:** [2342 - Dance Dance Revolution](https://www.acmicpc.net/problem/2342) | ???
 <br><br><br>
 
-- **Problem 507:** [10830 - 행렬 제곱](https://www.acmicpc.net/problem/10830) | ???
+- **Problem 522:** [7579 - 앱](https://www.acmicpc.net/problem/7579) | ???
 <br><br><br>
 
-- **Problem 508:** [11054 - 가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054) | ???
+- **Problem 523:** [11049 - 행렬 곱셈 순서](https://www.acmicpc.net/problem/11049) | ???
 <br><br><br>
 
-- **Problem 509:** [11404 - 플로이드](https://www.acmicpc.net/problem/11404) | ???
+- **Problem 524:** [16724 - 피리 부는 사나이](https://www.acmicpc.net/problem/16724) | ???
 <br><br><br>
 
-- **Problem 510:** [13172 - Σ](https://www.acmicpc.net/problem/13172) | ???
+- **Problem 525:** [9527 - Counting ones](https://www.acmicpc.net/problem/9527) | ???
 <br><br><br>
 
-- **Problem 511:** [14938 - 서강그라운드](https://www.acmicpc.net/problem/14938) | ???
+- **Problem 526:** [10775 - Gates](https://www.acmicpc.net/problem/10775) | ???
 <br><br><br>
 
-- **Problem 512:** [17144 - 미세먼지 안녕!](https://www.acmicpc.net/problem/17144) | ???
-<br><br><br>
-
-- **Problem 513:** [30805 - 사전 순 최대 공통 부분 수열](https://www.acmicpc.net/problem/30805) | ???
-<br><br><br>
-
-- **Problem 514:** [2638 - 치즈](https://www.acmicpc.net/problem/2638) | ???
-<br><br><br>
