@@ -2,7 +2,7 @@
 
 ---
 
-## BackJoon : Problems of class 5 in Backjoon (continued)
+## BackJoon : Problems of class 5 in Backjoon  
 
 | 인덱스 | 문제 번호 | 문제 제목                 | 자료구조/알고리즘 | URL |
 |--------|------------|---------------------------|------------------|------------------------------------------------|
