@@ -1,23 +1,27 @@
 # Java_coding_factory : 25th Week
 
 ---
-
-## BackJoon : Problems of class 5 in Backjoon  
+ 
+## BackJoon : Problems of class 4 in Backjoon 
 
 | 인덱스 | 문제 번호 | 문제 제목                 | 자료구조/알고리즘 | URL |
 |--------|------------|---------------------------|------------------|------------------------------------------------|
-| 515    | 2166       | 다각형의 면적             |                  | [2166](https://www.acmicpc.net/problem/2166)   |
-| 516    | 1197       | 최소 스패닝 트리         |                  | [1197](https://www.acmicpc.net/problem/1197)   |
-| 517    | 2239       | 스도쿠                   |                  | [2239](https://www.acmicpc.net/problem/2239)   |
-| 518    | 17404      | RGB거리 2                |                  | [17404](https://www.acmicpc.net/problem/17404) |
-| 519    | 20040      | 사이클 게임              |                  | [20040](https://www.acmicpc.net/problem/20040) |
-| 520    | 27172      | 수 나누기 게임           |                  | [27172](https://www.acmicpc.net/problem/27172) |
-| 521    | 2342       | Dance Dance Revolution   |                  | [2342](https://www.acmicpc.net/problem/2342)   |
-| 522    | 7579       | 앱                       |                  | [7579](https://www.acmicpc.net/problem/7579)   |
-| 523    | 11049      | 행렬 곱셈 순서           |                  | [11049](https://www.acmicpc.net/problem/11049) |
-| 524    | 16724      | 피리 부는 사나이         |                  | [16724](https://www.acmicpc.net/problem/16724) |
-| 525    | 9527       | Counting ones            |                  | [9527](https://www.acmicpc.net/problem/9527)   |
-| 526    | 10775      | Gates                    |                  | [10775](https://www.acmicpc.net/problem/10775) |
+| 515    | 1167       | 트리의 지름               |                  | [1167](https://www.acmicpc.net/problem/1167)   |
+| 516    | 11444      | 피보나치 수 6             |                  | [11444](https://www.acmicpc.net/problem/11444) |
+| 517    | 15650      | N과 M (2)                 |                  | [15650](https://www.acmicpc.net/problem/15650) |
+| 518    | 15652      | N과 M (4)                 |                  | [15652](https://www.acmicpc.net/problem/15652) |
+| 519    | 15654      | N과 M (5)                 |                  | [15654](https://www.acmicpc.net/problem/15654) |
+| 520    | 11053      | 가장 긴 증가하는 부분 수열 |                 | [11053](https://www.acmicpc.net/problem/11053) |
+| 521    | 11725      | 트리의 부모 찾기         |                  | [11725](https://www.acmicpc.net/problem/11725) |
+| 522    | 15663      | N과 M (9)                 |                  | [15663](https://www.acmicpc.net/problem/15663) |
+| 523    | 15666      | N과 M (12)                |                  | [15666](https://www.acmicpc.net/problem/15666) |
+| 524    | 16953      | A → B                     |                  | [16953](https://www.acmicpc.net/problem/16953) |
+| 525    | 1149       | RGB거리                   |                  | [1149](https://www.acmicpc.net/problem/1149)   |
+| 526    | 1629       | 곱셈                      |                  | [1629](https://www.acmicpc.net/problem/1629)   |
+| 527    | 1932       | 정수 삼각형               |                  | [1932](https://www.acmicpc.net/problem/1932)   |
+| 528    | 1991       | 트리 순회                 |                  | [1991](https://www.acmicpc.net/problem/1991)   |
+| 529    | 9465       | 스티커                    |                  | [9465](https://www.acmicpc.net/problem/9465)   |
+
 
 
 
@@ -32,40 +36,49 @@
 - 시간복잡도 계산 및 개선 방법.
 
 ## 문제 해설
+ 
 
-- **Problem 515:** [2166 - 다각형의 면적](https://www.acmicpc.net/problem/2166) | ???
+- **Problem 515:** [1167 - 트리의 지름](https://www.acmicpc.net/problem/1167) | ???
 <br><br><br>
 
-- **Problem 516:** [1197 - 최소 스패닝 트리](https://www.acmicpc.net/problem/1197) | ???
+- **Problem 516:** [11444 - 피보나치 수 6](https://www.acmicpc.net/problem/11444) | ???
 <br><br><br>
 
-- **Problem 517:** [2239 - 스도쿠](https://www.acmicpc.net/problem/2239) | ???
+- **Problem 517:** [15650 - N과 M (2)](https://www.acmicpc.net/problem/15650) | ???
 <br><br><br>
 
-- **Problem 518:** [17404 - RGB거리 2](https://www.acmicpc.net/problem/17404) | ???
+- **Problem 518:** [15652 - N과 M (4)](https://www.acmicpc.net/problem/15652) | ???
 <br><br><br>
 
-- **Problem 519:** [20040 - 사이클 게임](https://www.acmicpc.net/problem/20040) | ???
+- **Problem 519:** [15654 - N과 M (5)](https://www.acmicpc.net/problem/15654) | ???
 <br><br><br>
 
-- **Problem 520:** [27172 - 수 나누기 게임](https://www.acmicpc.net/problem/27172) | ???
+- **Problem 520:** [11053 - 가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) | ???
 <br><br><br>
 
-- **Problem 521:** [2342 - Dance Dance Revolution](https://www.acmicpc.net/problem/2342) | ???
+- **Problem 521:** [11725 - 트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | ???
 <br><br><br>
 
-- **Problem 522:** [7579 - 앱](https://www.acmicpc.net/problem/7579) | ???
+- **Problem 522:** [15663 - N과 M (9)](https://www.acmicpc.net/problem/15663) | ???
 <br><br><br>
 
-- **Problem 523:** [11049 - 행렬 곱셈 순서](https://www.acmicpc.net/problem/11049) | ???
+- **Problem 523:** [15666 - N과 M (12)](https://www.acmicpc.net/problem/15666) | ???
 <br><br><br>
 
-- **Problem 524:** [16724 - 피리 부는 사나이](https://www.acmicpc.net/problem/16724) | ???
+- **Problem 524:** [16953 - A → B](https://www.acmicpc.net/problem/16953) | ???
 <br><br><br>
 
-- **Problem 525:** [9527 - Counting ones](https://www.acmicpc.net/problem/9527) | ???
+- **Problem 525:** [1149 - RGB거리](https://www.acmicpc.net/problem/1149) | ???
 <br><br><br>
 
-- **Problem 526:** [10775 - Gates](https://www.acmicpc.net/problem/10775) | ???
+- **Problem 526:** [1629 - 곱셈](https://www.acmicpc.net/problem/1629) | ???
 <br><br><br>
 
+- **Problem 527:** [1932 - 정수 삼각형](https://www.acmicpc.net/problem/1932) | ???
+<br><br><br>
+
+- **Problem 528:** [1991 - 트리 순회](https://www.acmicpc.net/problem/1991) | ???
+<br><br><br>
+
+- **Problem 529:** [9465 - 스티커](https://www.acmicpc.net/problem/9465) | ???
+<br><br><br>
