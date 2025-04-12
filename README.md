@@ -1,84 +1,91 @@
-# Java_coding_factory : 25th Week
+# Java_coding_factory : 26th Week
 
 ---
- 
-## BackJoon : Problems of class 4 in Backjoon 
 
-| 인덱스 | 문제 번호 | 문제 제목                 | 자료구조/알고리즘 | URL |
-|--------|------------|---------------------------|------------------|------------------------------------------------|
-| 515    | 1167       | 트리의 지름               |                  | [1167](https://www.acmicpc.net/problem/1167)   |
-| 516    | 11444      | 피보나치 수 6             |                  | [11444](https://www.acmicpc.net/problem/11444) |
-| 517    | 15650      | N과 M (2)                 |                  | [15650](https://www.acmicpc.net/problem/15650) |
-| 518    | 15652      | N과 M (4)                 |                  | [15652](https://www.acmicpc.net/problem/15652) |
-| 519    | 15654      | N과 M (5)                 |                  | [15654](https://www.acmicpc.net/problem/15654) |
-| 520    | 11053      | 가장 긴 증가하는 부분 수열 |                 | [11053](https://www.acmicpc.net/problem/11053) |
-| 521    | 11725      | 트리의 부모 찾기         |                  | [11725](https://www.acmicpc.net/problem/11725) |
-| 522    | 15663      | N과 M (9)                 |                  | [15663](https://www.acmicpc.net/problem/15663) |
-| 523    | 15666      | N과 M (12)                |                  | [15666](https://www.acmicpc.net/problem/15666) |
-| 524    | 16953      | A → B                     |                  | [16953](https://www.acmicpc.net/problem/16953) |
-| 525    | 1149       | RGB거리                   |                  | [1149](https://www.acmicpc.net/problem/1149)   |
-| 526    | 1629       | 곱셈                      |                  | [1629](https://www.acmicpc.net/problem/1629)   |
-| 527    | 1932       | 정수 삼각형               |                  | [1932](https://www.acmicpc.net/problem/1932)   |
-| 528    | 1991       | 트리 순회                 |                  | [1991](https://www.acmicpc.net/problem/1991)   |
-| 529    | 9465       | 스티커                    |                  | [9465](https://www.acmicpc.net/problem/9465)   |
+## BackJoon : Problems of class 4 in Backjoon
 
-
-
+| 인덱스 | 문제 번호 | 문제 제목                   | 자료구조/알고리즘 | URL |
+|--------|------------|-----------------------------|------------------|------------------------------------------------|
+| 530    | 9251       | LCS                         |                  | [9251](https://www.acmicpc.net/problem/9251)   |
+| 531    | 13549      | 숨바꼭질 3                  |                  | [13549](https://www.acmicpc.net/problem/13549) |
+| 532    | 15686      | 치킨 배달                   |                  | [15686](https://www.acmicpc.net/problem/15686) |
+| 533    | 1043       | 거짓말                      |                  | [1043](https://www.acmicpc.net/problem/1043)   |
+| 534    | 1504       | 특정한 최단 경로            |                  | [1504](https://www.acmicpc.net/problem/1504)   |
+| 535    | 1753       | 최단경로                    |                  | [1753](https://www.acmicpc.net/problem/1753)   |
+| 536    | 2448       | 별 찍기 - 11                |                  | [2448](https://www.acmicpc.net/problem/2448)   |
+| 537    | 9663       | N-Queen                     |                  | [9663](https://www.acmicpc.net/problem/9663)   |
+| 538    | 12851      | 숨바꼭질 2                  |                  | [12851](https://www.acmicpc.net/problem/12851) |
+| 539    | 14502      | 연구소                      |                  | [14502](https://www.acmicpc.net/problem/14502) |
+| 540    | 1238       | 파티                        |                  | [1238](https://www.acmicpc.net/problem/1238)   |
+| 541    | 1865       | 웜홀                        |                  | [1865](https://www.acmicpc.net/problem/1865)   |
+| 542    | 2206       | 벽 부수고 이동하기          |                  | [2206](https://www.acmicpc.net/problem/2206)   |
+| 543    | 11779      | 최소비용 구하기 2           |                  | [11779](https://www.acmicpc.net/problem/11779) |
+| 544    | 1918       | 후위 표기식                 |                  | [1918](https://www.acmicpc.net/problem/1918)   |
+| 545    | 11660      | 구간 합 구하기 5            |                  | [11660](https://www.acmicpc.net/problem/11660) |
 
 <br>
 
+---
+
 ## 개념 설명 블로그 링크 : <br><br>
 
-## 문제 해설 예시 : 
+---
+
+## 문제 해설 예시 :
+
 - 문제 번호 : (문제 이름?)
-- 문제 해설 : .... 
+- 문제 해설 : ...
 - 문제별 사용 알고리즘과 자료구조: ???
 - 시간복잡도 계산 및 개선 방법.
 
+---
+
 ## 문제 해설
- 
 
-- **Problem 515:** [1167 - 트리의 지름](https://www.acmicpc.net/problem/1167) | ???
+- **Problem 530:** [9251 - LCS](https://www.acmicpc.net/problem/9251) | ???
 <br><br><br>
 
-- **Problem 516:** [11444 - 피보나치 수 6](https://www.acmicpc.net/problem/11444) | ???
+- **Problem 531:** [13549 - 숨바꼭질 3](https://www.acmicpc.net/problem/13549) | ???
 <br><br><br>
 
-- **Problem 517:** [15650 - N과 M (2)](https://www.acmicpc.net/problem/15650) | ???
+- **Problem 532:** [15686 - 치킨 배달](https://www.acmicpc.net/problem/15686) | ???
 <br><br><br>
 
-- **Problem 518:** [15652 - N과 M (4)](https://www.acmicpc.net/problem/15652) | ???
+- **Problem 533:** [1043 - 거짓말](https://www.acmicpc.net/problem/1043) | ???
 <br><br><br>
 
-- **Problem 519:** [15654 - N과 M (5)](https://www.acmicpc.net/problem/15654) | ???
+- **Problem 534:** [1504 - 특정한 최단 경로](https://www.acmicpc.net/problem/1504) | ???
 <br><br><br>
 
-- **Problem 520:** [11053 - 가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) | ???
+- **Problem 535:** [1753 - 최단경로](https://www.acmicpc.net/problem/1753) | ???
 <br><br><br>
 
-- **Problem 521:** [11725 - 트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | ???
+- **Problem 536:** [2448 - 별 찍기 - 11](https://www.acmicpc.net/problem/2448) | ???
 <br><br><br>
 
-- **Problem 522:** [15663 - N과 M (9)](https://www.acmicpc.net/problem/15663) | ???
+- **Problem 537:** [9663 - N-Queen](https://www.acmicpc.net/problem/9663) | ???
 <br><br><br>
 
-- **Problem 523:** [15666 - N과 M (12)](https://www.acmicpc.net/problem/15666) | ???
+- **Problem 538:** [12851 - 숨바꼭질 2](https://www.acmicpc.net/problem/12851) | ???
 <br><br><br>
 
-- **Problem 524:** [16953 - A → B](https://www.acmicpc.net/problem/16953) | ???
+- **Problem 539:** [14502 - 연구소](https://www.acmicpc.net/problem/14502) | ???
 <br><br><br>
 
-- **Problem 525:** [1149 - RGB거리](https://www.acmicpc.net/problem/1149) | ???
+- **Problem 540:** [1238 - 파티](https://www.acmicpc.net/problem/1238) | ???
 <br><br><br>
 
-- **Problem 526:** [1629 - 곱셈](https://www.acmicpc.net/problem/1629) | ???
+- **Problem 541:** [1865 - 웜홀](https://www.acmicpc.net/problem/1865) | ???
 <br><br><br>
 
-- **Problem 527:** [1932 - 정수 삼각형](https://www.acmicpc.net/problem/1932) | ???
+- **Problem 542:** [2206 - 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | ???
 <br><br><br>
 
-- **Problem 528:** [1991 - 트리 순회](https://www.acmicpc.net/problem/1991) | ???
+- **Problem 543:** [11779 - 최소비용 구하기 2](https://www.acmicpc.net/problem/11779) | ???
 <br><br><br>
 
-- **Problem 529:** [9465 - 스티커](https://www.acmicpc.net/problem/9465) | ???
+- **Problem 544:** [1918 - 후위 표기식](https://www.acmicpc.net/problem/1918) | ???
+<br><br><br>
+
+- **Problem 545:** [11660 - 구간 합 구하기 5](https://www.acmicpc.net/problem/11660) | ???
 <br><br><br>
