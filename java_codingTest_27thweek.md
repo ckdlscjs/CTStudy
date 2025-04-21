@@ -5,17 +5,16 @@
 
 | 인덱스 | 문제 번호 | 문제 제목                   | 자료구조/알고리즘 | URL |
 |--------|------------|-----------------------------|------------------|------------------------------------------------|
-| 546    | Gold V2166       | 다각형의 면적 |                  | ??? |
-| 547    | Gold IV2239       | 스도쿠 |                  | ??? |
-| 548    | Gold IV17404       | RGB거리 2 |                  | ??? |
-| 549    | Gold III2342       | Dance Dance Revolution |                  | ??? |
-| 550    | Gold III11049       | 행렬 곱셈 순서 |                  | ??? |
-| 551    | Gold II9527       | 1의 개수 세기 |                  | ??? |
-| 552    | Gold II16946       | 벽 부수고 이동하기 4 |                  | ??? |
-| 553    | Gold II17387       | 선분 교차 2 |                  | ??? |
-| 554    | Gold I9328       | 열쇠 |                  | ??? |
-| 555    | Platinum V2162       | 선분 그룹 |                  | ??? |
-
+| 546    | 9251       | 다각형의 면적               |                  | [9251](https://www.acmicpc.net/problem/9251)   |
+| 547    | 13549      | 스도쿠                       |                  | [13549](https://www.acmicpc.net/problem/13549) |
+| 548    | 17404      | RGB거리 2                    |                  | [17404](https://www.acmicpc.net/problem/17404) |
+| 549    | 2342       | Dance Dance Revolution       |                  | [2342](https://www.acmicpc.net/problem/2342)   |
+| 550    | 11049      | 행렬 곱셈 순서               |                  | [11049](https://www.acmicpc.net/problem/11049) |
+| 551    | 9527       | 1의 개수 세기                |                  | [9527](https://www.acmicpc.net/problem/9527)   |
+| 552    | 16946      | 벽 부수고 이동하기 4         |                  | [16946](https://www.acmicpc.net/problem/16946) |
+| 553    | 17387      | 선분 교차 2                  |                  | [17387](https://www.acmicpc.net/problem/17387) |
+| 554    | 9328       | 열쇠                         |                  | [9328](https://www.acmicpc.net/problem/9328)   |
+| 555    | 2162       | 선분 그룹                    |                  | [2162](https://www.acmicpc.net/problem/2162)   |
 
 ---
 
