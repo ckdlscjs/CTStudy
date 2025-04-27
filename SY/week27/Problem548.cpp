@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
+std::string str;
 int arr[10][10];
 std::vector<std::pair<int, int>> zeros;
+
 bool chk = false;
 int main() 
 {
@@ -9,9 +11,10 @@ int main()
     cin.tie(NULL);
     for(int i = 0; i < 9; i++)
     {
+        std::cin >> str;
         for(int j = 0; j < 9; j++)
         {
-            std::cin >> arr[i][j];
+            arr[i][j] = str[j] - '0';
             if(arr[i][j] == 0)
                 zeros.push_back({i, j});
         }
@@ -26,7 +29,7 @@ int main()
             {
                 for(int j = 0; j < 9; j++)
                 {
-                    std::cout << arr[i][j] << ' ';
+                    std::cout << arr[i][j];
                 }
                 std::cout << '\n';
             }
