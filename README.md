@@ -1,70 +1,68 @@
+## BackJoon : week28th Problems of class 5 in Backjoon
 
----
-
-## BackJoon : Problems of class 5 in Backjoon
-
-| 인덱스 | 문제 번호 | 문제 제목                   | 자료구조/알고리즘 | URL |
+| 인덱스 | 문제 번호 | 문제 제목 | 자료구조/알고리즘 | URL |
 |--------|------------|-----------------------------|------------------|------------------------------------------------|
-| 546    | 2166       | 다각형의 면적               |                  | [2166](https://www.acmicpc.net/problem/2166)   |
-| 547    | 1197       | 최소 스패닝 트리             |                  | [1197](https://www.acmicpc.net/problem/1197)   |
-| 548    | 2239       | 스도쿠                       |                  | [2239](https://www.acmicpc.net/problem/2239)   |
-| 549    | 17404      | RGB거리 2                    |                  | [17404](https://www.acmicpc.net/problem/17404) |
-| 550    | 20040      | 사이클 게임                  |                  | [20040](https://www.acmicpc.net/problem/20040) |
-| 551    | 27172      | 수 나누기 게임               |                  | [27172](https://www.acmicpc.net/problem/27172) |
-| 552    | 2342       | Dance Dance Revolution       |                  | [2342](https://www.acmicpc.net/problem/2342)   |
-| 553    | 7579       | 앱                           |                  | [7579](https://www.acmicpc.net/problem/7579)   |
-| 554    | 11049      | 행렬 곱셈 순서               |                  | [11049](https://www.acmicpc.net/problem/11049) |
-| 555    | 16724      | 피리 부는 사나이            |                  | [16724](https://www.acmicpc.net/problem/16724) |
+| 556    | 2467       | 용액               |                  | [2467](https://www.acmicpc.net/problem/2467)   |
+| 557    | 15681       | 트리와 쿼리               |                  | [15681](https://www.acmicpc.net/problem/15681)   |
+| 558    | 1647       | 도시 분할 계획               |                  | [1647](https://www.acmicpc.net/problem/1647)   |
+| 559    | 1806       | 부분합               |                  | [1806](https://www.acmicpc.net/problem/1806)   |
+| 560    | 9252       | LCS 2               |                  | [9252](https://www.acmicpc.net/problem/9252)   |
+| 561    | 10942       | 팰린드롬?               |                  | [10942](https://www.acmicpc.net/problem/10942)   |
+| 562    | 1005       | ACM Craft               |                  | [1005](https://www.acmicpc.net/problem/1005)   |
+| 563    | 1644       | 소수의 연속합               |                  | [1644](https://www.acmicpc.net/problem/1644)   |
+| 564    | 2143       | 두 배열의 합               |                  | [2143](https://www.acmicpc.net/problem/2143)   |
+| 565    | 2252       | 줄 세우기               |                  | [2252](https://www.acmicpc.net/problem/2252)   |
 
 ---
 
 ## 문제 해설
 
-- **Problem 546:** 다각형의 면적  
+- **Problem 556:** 용액  
 - 풀이 및 해설 :  
 - 시간 복잡도 :  
 <br><br><br>
 
-- **Problem 547:** 최소 스패닝 트리  
+- **Problem 557:** 트리와 쿼리  
 - 풀이 및 해설 :  
 - 시간 복잡도 :  
 <br><br><br>
 
-- **Problem 548:** 스도쿠  
+- **Problem 558:** 도시 분할 계획  
 - 풀이 및 해설 :  
 - 시간 복잡도 :  
 <br><br><br>
 
-- **Problem 549:** RGB거리 2  
+- **Problem 559:** 부분합  
 - 풀이 및 해설 :  
 - 시간 복잡도 :  
 <br><br><br>
 
-- **Problem 550:** 사이클 게임  
+- **Problem 560:** LCS 2  
 - 풀이 및 해설 :  
 - 시간 복잡도 :  
 <br><br><br>
 
-- **Problem 551:** 수 나누기 게임  
+- **Problem 561:** 팰린드롬?  
 - 풀이 및 해설 :  
 - 시간 복잡도 :  
 <br><br><br>
 
-- **Problem 552:** Dance Dance Revolution  
+- **Problem 562:** ACM Craft  
 - 풀이 및 해설 :  
 - 시간 복잡도 :  
 <br><br><br>
 
-- **Problem 553:** 앱  
+- **Problem 563:** 소수의 연속합  
 - 풀이 및 해설 :  
 - 시간 복잡도 :  
 <br><br><br>
 
-- **Problem 554:** 행렬 곱셈 순서  
+- **Problem 564:** 두 배열의 합  
 - 풀이 및 해설 :  
 - 시간 복잡도 :  
 <br><br><br>
 
-- **Problem 555:** 피리 부는 사나이  
+- **Problem 565:** 줄 세우기  
 - 풀이 및 해설 :  
-- 시간 복잡도
+- 시간 복잡도 :  
+<br><br><br>
