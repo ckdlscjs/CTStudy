@@ -1,68 +1,58 @@
-## BackJoon : week28th Problems of class 5 in Backjoon
+## BackJoon : Week29th Problems of class 5 in Backjoon
 
-| 인덱스 | 문제 번호 | 문제 제목 | 자료구조/알고리즘 | URL |
-|--------|------------|-----------------------------|------------------|------------------------------------------------|
-| 556    | 2467       | 용액               |                  | [2467](https://www.acmicpc.net/problem/2467)   |
-| 557    | 15681       | 트리와 쿼리               |                  | [15681](https://www.acmicpc.net/problem/15681)   |
-| 558    | 1647       | 도시 분할 계획               |                  | [1647](https://www.acmicpc.net/problem/1647)   |
-| 559    | 1806       | 부분합               |                  | [1806](https://www.acmicpc.net/problem/1806)   |
-| 560    | 9252       | LCS 2               |                  | [9252](https://www.acmicpc.net/problem/9252)   |
-| 561    | 10942       | 팰린드롬?               |                  | [10942](https://www.acmicpc.net/problem/10942)   |
-| 562    | 1005       | ACM Craft               |                  | [1005](https://www.acmicpc.net/problem/1005)   |
-| 563    | 1644       | 소수의 연속합               |                  | [1644](https://www.acmicpc.net/problem/1644)   |
-| 564    | 2143       | 두 배열의 합               |                  | [2143](https://www.acmicpc.net/problem/2143)   |
-| 565    | 2252       | 줄 세우기               |                  | [2252](https://www.acmicpc.net/problem/2252)   |
+| 인덱스 | 문제 번호 | 문제 제목           | 자료구조/알고리즘 | URL |
+|--------|-----------|---------------------|--------------------|------------------------------------------------|
+| 566    | 9527      | 1의 개수 세기       |                    | [9527](https://www.acmicpc.net/problem/9527)   |
+| 567    | 10775     | 공항                |                    | [10775](https://www.acmicpc.net/problem/10775) |
+| 568    | 16946     | 벽 부수고 이동하기 4 |                    | [16946](https://www.acmicpc.net/problem/16946) |
+| 569    | 17387     | 선분 교차 2         |                    | [17387](https://www.acmicpc.net/problem/17387) |
+| 570    | 20303     | 할로윈의 양아치     |                    | [20303](https://www.acmicpc.net/problem/20303) |
+| 571    | 1509      | 팰린드롬 분할       |                    | [1509](https://www.acmicpc.net/problem/1509)   |
+| 572    | 1562      | 계단 수             |                    | [1562](https://www.acmicpc.net/problem/1562)   |
+| 573    | 2263      | 트리의 순회         |                    | [2263](https://www.acmicpc.net/problem/2263)   |
+| 574    | 9328      | 열쇠                |                    | [9328](https://www.acmicpc.net/problem/9328)   |
+| 575    | 17143     | 낚시왕              |                    | [17143](https://www.acmicpc.net/problem/17143) |
 
 ---
 
 ## 문제 해설
 
-- **Problem 556:** 용액  
-- 풀이 및 해설 :  
-- 시간 복잡도 :  
-<br><br><br>
+- **Problem 566:** 1의 개수 세기  
+  - 풀이 및 해설 :  
+  - 시간 복잡도 :  
 
-- **Problem 557:** 트리와 쿼리  
-- 풀이 및 해설 :  
-- 시간 복잡도 :  
-<br><br><br>
+- **Problem 567:** 공항  
+  - 풀이 및 해설 :  
+  - 시간 복잡도 :  
 
-- **Problem 558:** 도시 분할 계획  
-- 풀이 및 해설 :  
-- 시간 복잡도 :  
-<br><br><br>
+- **Problem 568:** 벽 부수고 이동하기 4  
+  - 풀이 및 해설 :  
+  - 시간 복잡도 :  
 
-- **Problem 559:** 부분합  
-- 풀이 및 해설 :  
-- 시간 복잡도 :  
-<br><br><br>
+- **Problem 569:** 선분 교차 2  
+  - 풀이 및 해설 :  
+  - 시간 복잡도 :  
 
-- **Problem 560:** LCS 2  
-- 풀이 및 해설 :  
-- 시간 복잡도 :  
-<br><br><br>
+- **Problem 570:** 할로윈의 양아치  
+  - 풀이 및 해설 :  
+  - 시간 복잡도 :  
 
-- **Problem 561:** 팰린드롬?  
-- 풀이 및 해설 :  
-- 시간 복잡도 :  
-<br><br><br>
+- **Problem 571:** 팰린드롬 분할  
+  - 풀이 및 해설 :  
+  - 시간 복잡도 :  
 
-- **Problem 562:** ACM Craft  
-- 풀이 및 해설 :  
-- 시간 복잡도 :  
-<br><br><br>
+- **Problem 572:** 계단 수  
+  - 풀이 및 해설 :  
+  - 시간 복잡도 :  
 
-- **Problem 563:** 소수의 연속합  
-- 풀이 및 해설 :  
-- 시간 복잡도 :  
-<br><br><br>
+- **Problem 573:** 트리의 순회  
+  - 풀이 및 해설 :  
+  - 시간 복잡도 :  
 
-- **Problem 564:** 두 배열의 합  
-- 풀이 및 해설 :  
-- 시간 복잡도 :  
-<br><br><br>
+- **Problem 574:** 열쇠  
+  - 풀이 및 해설 :  
+  - 시간 복잡도 :  
 
-- **Problem 565:** 줄 세우기  
-- 풀이 및 해설 :  
-- 시간 복잡도 :  
-<br><br><br>
+- **Problem 575:** 낚시왕  
+  - 풀이 및 해설 :  
+  - 시간 복잡도 :
